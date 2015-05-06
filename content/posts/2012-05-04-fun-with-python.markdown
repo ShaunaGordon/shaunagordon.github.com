@@ -1,0 +1,8 @@
+title: "Fun with Python!"
+date: 2012-05-04 17:00
+category: tech
+tags: community contribution
+slug: fun-with-python
+
+<div class='post'>
+<p>I'm terrible about coming up with projects to do to learn a new language. As such, I generally pick them up as jobs require them. This makes it difficult to find a good reason to pick up a new language for me. So, when I made the decision earlier this week to learn Python, I decided to go a slightly different route - Gedit plugin development!</p> <!-- more --><p>So, I picked a plugin from the Gnome Gedit plugin wishlist and was going to start with it. At the time, I was using Gedit for some development (because it allowed me to edit on the remote server that I need to use for a project), but I felt it was lacking in some things that I thought would be useful (after already loading it up with plugins). That actually lead me to seeing if something was already out there. Then I remembered the <a href="https://github.com/gmate/gmate">Gmate project</a>.</p> <p>Gmate has some great plugins, but Gnome 3 is out now, and with it, Gedit 3, and a new Gedit API. This means that all the old plugins need updated to work with Gedit 3. For some reason, not all of the plugins in the Gmate package have been updated yet, so I decided against writing a new plugin from scratch and work on porting the Gmate stuff.</p> <p>And that's what I did. I've so far successfully ported Gemini, a basic bracket-completion plugin, and am currently working on Find In Files. For those interested, my fork can be found <a href="https://github.com/ShaunaGordon/gmate">here, on Github</a>.</p></div>

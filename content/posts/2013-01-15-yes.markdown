@@ -1,0 +1,19 @@
+title: "Yes, Yes, I Know"
+date: 2013-01-15 21:29
+category: tech
+tags: site, tips
+slug: yes
+
+I know, I need to put a new theme on this thing. It's funny how you start seeing something everywhere once you find out about it for the first time.
+
+I'm not totally sure when, but I fully plan on building a new theme. I'd like to play around with responsive design, so this should be interesting.
+
+I'll also be looking into a sort of "tag cloud" for the sidebar, and a way to list the "tags" (or, as Octopress calls them, "categories"). I find it hard to believe that you can put categories into your posts and not be able to make use of them.
+
+Oh, and your tip for the day - I never remember to use "rake" for doing Octopress tasks. I always want to run "octopress [task]", so I added to my ~/.bashrc the line:
+
+```sh
+alias octopress="rake"
+```
+
+To use it right away, just run `source ~/.bashrc`. :)
