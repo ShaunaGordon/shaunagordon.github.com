@@ -37,7 +37,7 @@ THEME = 'elegant'
 
 # Theme Settings
 DIRECT_TEMPLATES = (('index', 'tags', 'categories','archives', 'search', '404'))
-STATIC_PATHS = ['theme/images', 'images']
+STATIC_PATHS = ['theme/images', 'images', 'images/portfolio', 'images/portfolio/thumbs']
 TAG_SAVE_AS = ''
 CATEGORY_SAVE_AS = ''
 AUTHOR_SAVE_AS = ''
@@ -68,7 +68,7 @@ DISPLAY_PAGES_ON_MENU = True
 # Special theme content
 
 # Landing page content
-LANDING_PAGE_ABOUT = {'title': 'Yep, Another Blog.','details': "<p>My name's Shauna. I'm a web developer based in Columbus, Ohio. I specialize in web application and API development, using open source tools and languages.</p>"}
+LANDING_PAGE_ABOUT = {'title': 'Yep, Another Blog.','details': "<p>My name's Shauna. I'm a web developer based in Columbus, Ohio. I specialize in web application and API development, using open source tools and languages.</p><p>These are my thoughts and ramblings on tech, mental health, and disability.</p>"}
 
 # Site License
 SITE_LICENSE = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a><br />This work by <a xmlns:cc="http://creativecommons.org/ns#" href="http://shaunagordon.com" property="cc:attributionName" rel="cc:attributionURL">Shauna Gordon</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.'

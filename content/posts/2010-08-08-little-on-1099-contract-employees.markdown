@@ -1,4 +1,4 @@
-title: "A Little on 1099 Contract Employees"
+title: A Little on 1099 Contract Employees
 date: 2010-08-08 17:00
 category: business
 slug: little-on-1099-contract-employees

@@ -1,4 +1,4 @@
-title: "(SilverStripe) Syntax Highlighter Not Working? Try This Workaround!"
+title: (SilverStripe) Syntax Highlighter Not Working? Try This Workaround!
 date: 2011-01-11 17:00
 category: tech
 tags: tutorials, silverstripe

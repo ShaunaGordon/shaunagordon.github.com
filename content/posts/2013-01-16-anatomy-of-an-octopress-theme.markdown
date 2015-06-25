@@ -1,8 +1,10 @@
-title: "Anatomy of an Octopress Theme"
+title: Anatomy of an Octopress Theme
 date: 2013-01-16 01:14
 category: site
 tags: themes, html/css
 slug: anatomy-of-an-octopress-theme
+
+[TOC]
 
 As you can probably see, I've updated my theme to something a little less Octopress. I still have a few changes to make, such as getting a background image that fits a larger viewport. It probably also needs some polishing for things that I haven't run across yet, and deal with IE8 and below's lack of support for RGBA and media queries, and I might toy around with how it responds to different sizes (oh yeah, and tweak how lists in the content are laid out), but other than that, it's pretty much done.
 

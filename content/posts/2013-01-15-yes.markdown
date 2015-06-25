@@ -1,4 +1,4 @@
-title: "Yes, Yes, I Know"
+title: Yes, Yes, I Know
 date: 2013-01-15 21:29
 category: tech
 tags: site, tips

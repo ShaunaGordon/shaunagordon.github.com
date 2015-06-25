@@ -1,4 +1,4 @@
-title: "Project: Shaunagordon.com"
+title: Project: Shaunagordon.com
 date: 2010-07-21
 category: projects
 tags: site

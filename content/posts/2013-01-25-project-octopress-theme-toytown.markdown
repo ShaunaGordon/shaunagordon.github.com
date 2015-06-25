@@ -1,8 +1,10 @@
-title: "Project: Octopress Theme Toytown"
+title: Project: Octopress Theme Toytown
 date: 2013-01-25 09:51
 category: project
 tags: community contribution, projects
 slug: project-octopress-theme-toytown
+
+[TOC]
 
 As part of yet another redesign and blog migration, I needed to create a theme that wasn't so stock. I migrated my site to [Octopress](http://octopress.org/), a blogging platform that runs on GitHub's [Jekyll](http://jekyllrb.com/) static site generator. It's a great platform, as anyone who follows my Twitter or Google+ accounts is aware, but the vast majority of sites that run on Octopress use the default theme, or some slight variation thereof. As good and nice as the default theme is, it's become very generic. I needed something different.
 <!-- more -->

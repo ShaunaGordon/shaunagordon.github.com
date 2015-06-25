@@ -1,4 +1,4 @@
-title: "Templates for Munin"
+title: Templates for Munin
 date: 2011-04-18 17:00
 category: tech
 tags: themes, community contribution

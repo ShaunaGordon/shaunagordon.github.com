@@ -1,4 +1,4 @@
-title: "Personal Information and the Internet"
+title: Personal Information and the Internet
 date: 2010-07-20 17:00
 tags: site
 slug: personal-information-and-internet

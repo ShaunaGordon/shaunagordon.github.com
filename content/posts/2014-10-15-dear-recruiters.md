@@ -1,4 +1,4 @@
-title: "An Open Letter To Recruiters"
+title: An Open Letter To Recruiters
 date: 2014-10-15 23:20
 category: tech, business
 tags: tips

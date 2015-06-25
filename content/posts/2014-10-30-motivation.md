@@ -1,8 +1,10 @@
-title: "Ways To Keep Going (When You're Going Through Hell)"
+title: Ways To Keep Going (When You're Going Through Hell)
 date: 2014-10-30 22:00
 category: tech
 tags: community contribution, mental health, HackTheStigma
 slug: motivation
+
+[TOC]
 
 When in the throes of a depressive episode (or on the edge of an anxiety attack or any other such motivation killer), it can be hard to maintain motivation and productivity. This can be detrimental when other people rely on you, or when you have a job to hold down.
 

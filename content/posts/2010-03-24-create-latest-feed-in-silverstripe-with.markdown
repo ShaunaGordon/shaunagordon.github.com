@@ -1,4 +1,4 @@
-Title: "Create a 'Latest' Feed in SilverStripe with SimplePie"
+Title: Create a "Latest" Feed in SilverStripe with SimplePie
 Date: 2010-03-24 17:00
 Comments: true
 Category: tech

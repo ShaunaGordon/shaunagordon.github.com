@@ -1,4 +1,4 @@
-title: "Review: Handcrafted CSS"
+title: Review: Handcrafted CSS
 date: 2010-06-21 17:00
 category: tech
 tags: review, html/css

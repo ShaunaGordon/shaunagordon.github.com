@@ -1,4 +1,4 @@
-title: "Review: Fedora 16"
+title: Review: Fedora 16
 date: 2012-02-05 17:00
 category: tech
 tags: review

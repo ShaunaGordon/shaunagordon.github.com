@@ -1,4 +1,4 @@
-title: "Project: 3 Pillar Homes"
+title: Project: 3 Pillar Homes
 date: 2010-07-23 17:00
 category: projects
 draft: true

@@ -1,4 +1,4 @@
-title: "Vagrant - Initial Thoughts"
+title: Vagrant - Initial Thoughts
 date: 2013-11-17 01:14
 category: tech
 tags: vagrant

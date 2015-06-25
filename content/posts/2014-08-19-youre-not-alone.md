@@ -1,4 +1,4 @@
-title: "You're Not Alone"
+title: You're Not Alone
 date: 2014-08-19 13:15
 category: business
 tags: community contribution, HackTheStigma

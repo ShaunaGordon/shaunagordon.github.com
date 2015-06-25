@@ -4,6 +4,8 @@ category: business
 tags: travel, review
 slug: airbnb-review/
 
+[TOC]
+
 Last week, I had the pleasure of going to New York City for [Laracon US](https://conference.laravel.com/). It was a phenomenal experience, but there was one problem -- New York City is bloody expensive. At $250 a night for the group rate, the hotel was no exception, and the disadvantage of being a female in a male-dominated industry is that finding a roommate to share a room with is damn near impossible. So, I was on my own for finding a way to save a little money on lodging. Unfortunately, the traditional booking agencies didn't really have anything that were much of a savings and near to the conference venue.
 
 ## Enter AirBnb

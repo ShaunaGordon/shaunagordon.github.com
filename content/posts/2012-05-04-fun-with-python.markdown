@@ -1,4 +1,4 @@
-title: "Fun with Python!"
+title: Fun with Python!
 date: 2012-05-04 17:00
 category: tech
 tags: community contribution

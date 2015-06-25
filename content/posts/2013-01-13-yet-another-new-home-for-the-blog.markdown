@@ -1,4 +1,4 @@
-title: "Yet Another New Home for the Blog!"
+title: Yet Another New Home for the Blog!
 date: 2013-01-13 21:22
 category: tech
 tags: site

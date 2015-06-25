@@ -1,4 +1,4 @@
-title: "Making a Difference, Even as a Peon"
+title: Making a Difference, Even as a Peon
 date: 2012-04-02 17:00
 category: business
 slug: making-difference-even-as-peon

@@ -1,4 +1,4 @@
-Title: "Review: Why Work Sucks (And How to Fix It)"
+Title: Review: Why Work Sucks (And How to Fix It)
 Date: 2010-05-16 17:00
 Category: business
 Tags: review

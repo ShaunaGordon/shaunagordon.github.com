@@ -1,4 +1,4 @@
-title: "Project: Rock Short Vine"
+title: Project: Rock Short Vine
 date: 2011-01-22 17:00
 category: projects
 slug: project-rock-short-vine

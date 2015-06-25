@@ -1,8 +1,10 @@
-title: "Project - Raze West Virginia"
+title: Project - Raze West Virginia
 date: 2013-11-17 14:37
 category: projects
 tags: laravel
 slug: project-raze-west-virginia
+
+[TOC]
 
 ## The Client, and a Little History
 
@@ -33,7 +35,7 @@ Instead of going with another off-the-shelf solution, we decided to build a cust
 
 In order to keep the codebase maintainable, we used the MVC framework, [Laravel](http://laravel.com/), as the backbone of the application. Combined with the PHP package management system, [Composer](http://getcomposer.org/), this allows us to swap out certain parts (particularly third-party libraries) nearly at will, without much consequence to the application as a whole.
 
-<a class="right" href="{{ root_url }}/images/portfolio/raze_announcement_tooltip.jpg" title="The Dashboard page" target="_blank"><img src="{{ root_url }}/images/portfolio/thumbs/raze_announcement_tooltip.jpg" alt="Stylized tooltips to add that application feel" /></a>
+[![Stylized tooltips to add that application feel.](/images/portfolio/thumbs/raze_announcement_tooltip.jpg)](/images/portfolio/raze_announcement_tooltip.jpg)
 
 To make development of the interface faster and easier, the dashboard interface was built with the help of [Bootstrap](http://getbootstrap.com/). This allowed us to spend less time on building interface components and making them look good, and more time putting them together into a user-friendly interface. It also allowed us to add small garnishes, such as stylized tooltips, for browsers that support the extra features.
 
@@ -43,7 +45,7 @@ Even with the help of Bootstrap and Laravel, we still found ourselves using quit
 
 While we also redid the public facing site ([razewv.com](https://razewv.com)), the dashboard interface at [razewv.com/manage](https://razewv.com/manage) is where the bulk of the work, and the heavy lifting, are done.
 
-<a class="left" href="{{ root_url }}/images/portfolio/raze_dashboard.jpg" title="The Dashboard page" target="_blank"><img src="{{ root_url }}/images/portfolio/thumbs/raze_dashboard.jpg" alt="The Raze Dashboard" /></a>
+[![The Raze Dashboard](/images/portfolio/thumbs/raze_dashboard.jpg)](/images/portfolio/raze_dashboard.jpg)
 
 At its core, it's a user and event management system. Adults and students sign up and join their crews. Adult advisors and crew leaders can schedule commotions based on pretermined choices, and can register for region and organization-wide events (such as Regional Raze Kickoff Events). When the commotions are completed and logged, the system tallies up the crew's total points, and standing compared to other crews, based on the point values of the commotions they performed.
 

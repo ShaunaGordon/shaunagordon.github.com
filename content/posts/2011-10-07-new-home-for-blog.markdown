@@ -1,4 +1,4 @@
-title: "New home for the blog!"
+title: New home for the blog!
 date: 2011-10-07 17:00
 tags: site
 slug: new-home-for-blog

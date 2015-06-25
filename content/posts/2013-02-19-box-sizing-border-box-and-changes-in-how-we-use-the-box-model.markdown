@@ -1,4 +1,4 @@
-title: "box-sizing: border-box and Changes in How We Use the Box Model"
+title: box-sizing: border-box and Changes in How We Use the Box Model
 date: 2013-02-19 17:00
 category: tech
 tags: standards
@@ -30,57 +30,17 @@ However, `box-sizing: content-box` (the default box-sizing for modern browsers) 
 
 For example, let's say I have a three-column layout, and I want each column to be equal width. Okay, that's easy, we do something like this:
 
-{% codeblock Our 3-Column Layout lang:html http://jsfiddle.net/gordondev/yzfH2/ jsFiddle %}
-<div class="wrapper">
-	<div class="three-column">
-		Some content
-	</div>
-	<div class="three-column">
-		Some content
-	</div>
-	<div class="three-column">
-		Some content
-	</div>
-</div>
-{% endcodeblock %}
+<iframe width="100%" height="300" src="//jsfiddle.net/gordondev/yzfH2/embedded/html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
-{% codeblock Our 3-Column Layout's CSS lang:css http://jsfiddle.net/gordondev/yzfH2/ jsFiddle %}
-.wrapper {
-	width: 960px; /* Some arbitrary bounding. 960px is usually the width of fixed-width layouts. */
-}
-
-.three-column {
-	width: 33%; /* 100%/3 = ~33% */
-	height: 200px; /* Stick in an arbitrary height for display purposes. */
-	float: left;
-	background: #f00; /* Red, again for display purposes */
-}
-
-.three-column:first-child {
-	background: #0f0; /* Green, to show the column differences */
-}
-
-.three-column:last-child {
-	background: #00f; /* Blue, to show the column differences */
-}
-{% endcodeblock %}
+<iframe width="100%" height="300" src="//jsfiddle.net/gordondev/yzfH2/embedded/css" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 This gives us a nice little three-column layout:
 
-{% jsfiddle gordondev/yzfH2 result %}
-
-This is great! But we'd like some breathing room between the ends of the text and the edges of their blocks, like so:
-
-{% codeblock Let's Add Padding lang:css http://jsfiddle.net/gordondev/yzfH2/1 jsFiddle %}
-.three-column {
-	/* Existing code */
-	padding: 0 5px; /* 0 top and bottom padding, 5px left and right padding */
-}
-{% endcodeblock %}
+<iframe width="100%" height="300" src="//jsfiddle.net/gordondev/yzfH2/embedded/result" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 Let's take a look now!
 
-{% jsfiddle gordondev/yzfH2/1 result %}
+<iframe width="100%" height="300" src="//jsfiddle.net/gordondev/yzfH2/1/embedded/result,css/html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 Uh oh! That's not what we want. What happened? The boxes should only be 33% of the width!
 
@@ -90,29 +50,19 @@ For most people (particularly the OOCSS-leaning people we mentioned earlier), th
 
 Now, in the days of fixed-width layouts, this meant recalculating the width of the internal boxes, so that they fit within their parent. This is one of the core reasons why 960px was used as the go-to content width of fixed layouts - 960 divides into both 2 and 3 evenly (1, 2, and 3 columns being the most common layouts). So, in the days of the fixed-width layout, we'd simply change the width of our boxes to accommodate things like margins, padding, and borders:
 
-{% codeblock Now, Fix the Damn Layout lang:css http://jsfiddle.net/gordondev/yzfH2/4 jsFiddle %}
-.three-column {
-	/* width: 33%; */
-	width: 310px; /* 960px/3 = 320px, 320px-15px (5px left padding + 5px right padding) = 310px */
-}
-{% endcodeblock %}
+<iframe width="100%" height="300" src="//jsfiddle.net/gordondev/yzfH2/4/embedded/css" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 And look! Our layout works again!
 
-{% jsfiddle gordondev/yzfH2/4 result %}
+<iframe width="100%" height="300" src="//jsfiddle.net/gordondev/yzfH2/4/embedded/result" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 But what happens when the width of the container is proportional, and scales based on the browser size, as with fluid layouts? Well, our layout breaks again, because it's dependent on a parent width of 960px. Once that parent width drops below 960px, our columns wrap again. Now, in some instances, this may be what we want (when a viewport gets too narrow, having columns drop underneath one another can help keep them wide enough to be readable), but we generally want some kind of give before that happens.
 
 Okay, so we want the columns to scale with their parent (at least to certain breakpoints, but that's a discussion for a different time), *and* we want the fixed-sized padding, is there a way to do that? Well, before `box-sizing: border-box` gained support, there actually was, but it wasn't all that pretty, especially when dealing with pixel-perfectionists. You just used percentages for everything:
 
-{% codeblock Back to fluid? lang:css http://jsfiddle.net/gordondev/yzfH2/3 jsFiddle %}
-.three-column {
-	width: 32%;
-	padding: 0 .5%;
-}
-{% endcodeblock %}
+<iframe width="100%" height="300" src="//jsfiddle.net/gordondev/yzfH2/3/embedded/css" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
-{% jsfiddle gordondev/yzfH2/3 result %}
+<iframe width="100%" height="300" src="//jsfiddle.net/gordondev/yzfH2/3/embedded/result" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 This works great...except for the fact that the padding also expands or contracts. If that's what you want, then great! If you're like me, and have to deal with people who expect those padding to stay the same, then you're <abbr title="Shit out of Luck">SoL</abbr> (or, at least, you used to be).
 
@@ -122,19 +72,9 @@ It's also possible to put the margins or padding on the child elements, but that
 
 With `box-sizing: border-box`, you can now use the percentage widths, with fixed-sized padding, to get this:
 
-{% codeblock Box-sizing to the rescue! lang:css http://jsfiddle.net/gordondev/yzfH2/5 jsFiddle %}
-* {
-	-moz-box-sizing: border-box; /* Firefox still uses the prefixed version */
-	box-sizing: border-box;
-}
+<iframe width="100%" height="300" src="//jsfiddle.net/gordondev/yzfH2/5/embedded/css" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
-.three-column {
-	width: 33%;
-	padding: 0 5px;
-}
-{% endcodeblock %}
-
-{% jsfiddle gordondev/yzfH2/5 result %}
+<iframe width="100%" height="300" src="//jsfiddle.net/gordondev/yzfH2/5/embedded/result" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 Yay! And look, this actually makes sense (to most people)! If I tell the element that I want it to be 33% of its parent, that means I want the *everything* within the element's borders to be 33% of its parent.
 

@@ -1,4 +1,4 @@
-title: "Use Pidgin and Google Apps to Chat"
+title: Use Pidgin and Google Apps to Chat
 date: 2012-11-01 17:00
 category: tech
 tags: tutorials
