@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Shauna Gordon'
-SITENAME = 'Yep, A Blog'
+SITENAME = 'I Make Things'
 SITEURL = 'http://shaunagordon.com'
 
 PATH = 'content'
@@ -41,9 +41,10 @@ STATIC_PATHS = ['theme/images', 'images', 'images/portfolio', 'images/portfolio/
 TAG_SAVE_AS = ''
 CATEGORY_SAVE_AS = ''
 AUTHOR_SAVE_AS = ''
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
 
 # Blogroll
-LINKS = (('Resume', 'http://goo.gl/JAjeZ'),
+LINKS = (('Resume', 'http://goo.gl/JAjeZ'), ('Soap Shop', 'http://herbncountrysoaps.com'),
         )
 
 # Social widgets
@@ -68,7 +69,7 @@ DISPLAY_PAGES_ON_MENU = True
 # Special theme content
 
 # Landing page content
-LANDING_PAGE_ABOUT = {'title': 'Yep, Another Blog.','details': "<p>My name's Shauna. I'm a web developer based in Columbus, Ohio. I specialize in web application and API development, using open source tools and languages.</p><p>These are my thoughts and ramblings on tech, mental health, and disability.</p>"}
+LANDING_PAGE_ABOUT = {'title': 'I Make Things.','details': "<p>What kinds of things? All kinds of things.</p><p>I'm a software developer by trade and a crafter by passion. In the digital world, I generally build web applications, while in the real world, I've been known to bake, make soap, crochet, and more.</p><p>While I used to confine this blog to tech and tech business, I've decided to open it up to include my crafting and the business(es) I'm creating with that. So, now this blog will have all manner of topics, from mental health and disability to entrepreneurship and business management to tech, gaming, and other nerdy endeavors.</p>"}
 
 # Site License
 SITE_LICENSE = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a><br />This work by <a xmlns:cc="http://creativecommons.org/ns#" href="http://shaunagordon.com" property="cc:attributionName" rel="cc:attributionURL">Shauna Gordon</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.'
