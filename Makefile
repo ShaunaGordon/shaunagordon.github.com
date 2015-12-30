@@ -106,6 +106,8 @@ cf_upload: publish
 
 github: publish
 	ghp-import -n $(OUTPUTDIR)
-	@git push -fq https://${GH_TOKEN}@github.com/$(TRAVIS_REPO_SLUG).git $(GITHUB_PAGES_BRANCH) > /dev/null
+	@git remote rm origin
+	@git remote add origin https://$(GITHUB_USER):${GH_TOKEN}@github.com/$(TRAVIS_REPO_SLUG).git
+	@git push -fq origin $(GITHUB_PAGES_BRANCH) > /dev/null
 
 .PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload cf_upload github
