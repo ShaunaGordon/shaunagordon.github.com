@@ -7,6 +7,7 @@ install:
 before_script:
 - wget https://github.com/talha131/pelican-elegant/archive/V1.3.zip -O ./elegant.zip
 - unzip elegant.zip -d ./elegant
+- mv elegant/pelican-elegant-1.3/* elegant/
 - pelican-themes -i ./elegant
 - pelican-themes -l
 script:
