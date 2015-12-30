@@ -26,7 +26,6 @@ CLOUDFILES_CONTAINER=my_cloudfiles_container
 DROPBOX_DIR=~/Dropbox/Public/
 
 GITHUB_PAGES_BRANCH=master
-GITHUB_USER=ShaunaGordon
 
 DEBUG ?= 0
 ifeq ($(DEBUG), 1)
