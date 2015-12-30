@@ -11,7 +11,7 @@ I also hate when content is stuck behind a paywall for no good reason. The prima
 
 # ...But Running Blogs Cost Resources
 
-It does, however, take time, money, brainpower, equipment, etc. (ie - resources) to write my posts and maintain this and my other sites. The holy grail of arguably any hobby is for it to pay for itself. Now, obviously, brainpower (mental energy) aren't a currency society can deal in (how cool would that be, though? And I'm still waiting for the tech that would allow me to just download my stream of consciousness to my computer), but hosting and keeping my domain name do require monetary resources. As a result, I offer (and may, in the future offer) various ways to help defray these costs.
+It does, however, take time, money, brainpower, equipment, etc. (ie - resources) to write my posts and maintain this and my other sites. The holy grail of arguably any hobby is for it to pay for itself. Now, obviously, brainpower (mental energy) isn't a currency society can deal in (how cool would that be, though? And I'm still waiting for the tech that would allow me to just download my stream of consciousness to my computer), but hosting and keeping my domain name do require monetary resources. As a result, I offer (and may, in the future offer more) various ways to help defray these costs.
 
 # How I Make Money
 
