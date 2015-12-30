@@ -6,8 +6,8 @@ install:
 - pip install pelican ghp-import
 before_script:
 - wget https://github.com/talha131/pelican-elegant/archive/V1.3.zip -O ./elegant.zip
-- unzip elegant.zip
-- pelican-themes -i ./pelican-elegant
+- unzip elegant.zip ./elegant
+- pelican-themes -i ./elegant
 script:
 - make publish github
 env:
