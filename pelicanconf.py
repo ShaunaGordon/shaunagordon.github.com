@@ -36,7 +36,7 @@ MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', 'headerid', 'toc']
 THEME = 'elegant'
 
 # Theme Settings
-DIRECT_TEMPLATES = (('index', 'tags', 'categories','archives', '404'))
+DIRECT_TEMPLATES = (('index', 'tags', 'categories','archives', 'search', '404'))
 STATIC_PATHS = ['theme/images', 'images', 'images/portfolio', 'images/portfolio/thumbs']
 TAG_SAVE_AS = ''
 CATEGORY_SAVE_AS = ''
