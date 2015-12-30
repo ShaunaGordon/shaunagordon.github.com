@@ -25,7 +25,7 @@ CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 DELETE_OUTPUT_DIRECTORY = False
 
 # ...but save the git stuff
-OUTPUT_RETENTION = ('.git', '.gitignore', 'CNAME')
+OUTPUT_RETENTION = ('.git', '.gitignore')
 
 # Plugins
 PLUGIN_PATHS = ['plugins']
