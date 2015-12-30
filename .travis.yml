@@ -1,7 +1,7 @@
 language: python
 branches:
   only:
-  - master
+  - src
 install:
 - pip install pelican ghp-import html5lib BeautifulSoup4 disqus-python markdown
 before_script:
