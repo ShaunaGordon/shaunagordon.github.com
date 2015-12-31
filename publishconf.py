@@ -39,7 +39,7 @@ CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 DELETE_OUTPUT_DIRECTORY = False
 
 # ...but save the git stuff
-OUTPUT_RETENTION = ('.git', '.gitignore')
+OUTPUT_RETENTION = ('.git', '.gitignore', 'CNAME')
 
 # Plugins
 PLUGIN_PATHS = ['plugins']
@@ -55,7 +55,6 @@ STATIC_PATHS = ['theme/images', 'images', 'images/portfolio', 'images/portfolio/
 TAG_SAVE_AS = ''
 CATEGORY_SAVE_AS = ''
 AUTHOR_SAVE_AS = ''
-EXTRA_PATH_METADATA = {'content/extra/CNAME': {'path': 'CNAME'},}
 
 # Blogroll
 LINKS = (('Resume', 'http://goo.gl/JAjeZ'), ('Soap Shop', 'http://herbncountrysoaps.com'),
