@@ -55,7 +55,7 @@ STATIC_PATHS = ['theme/images', 'images', 'images/portfolio', 'images/portfolio/
 TAG_SAVE_AS = ''
 CATEGORY_SAVE_AS = ''
 AUTHOR_SAVE_AS = ''
-EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
+EXTRA_PATH_METADATA = {'content/extra/CNAME': {'path': 'CNAME'},}
 
 # Blogroll
 LINKS = (('Resume', 'http://goo.gl/JAjeZ'), ('Soap Shop', 'http://herbncountrysoaps.com'),
