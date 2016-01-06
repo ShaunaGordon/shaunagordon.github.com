@@ -1,7 +1,7 @@
 title: Project: Octopress Theme Toytown
 date: 2013-01-25 09:51
-category: project
-tags: community contribution, projects
+category: projects
+tags: community contribution
 slug: project-octopress-theme-toytown
 
 [TOC]

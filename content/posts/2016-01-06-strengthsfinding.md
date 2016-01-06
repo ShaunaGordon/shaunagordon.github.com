@@ -2,7 +2,7 @@ title: Finding One's Strengths
 subtitle: A Different Way To Build Teams
 date: 2016-01-06 09:00
 category: business
-tags: personal growth
+tags: personal growth, diversity, culture
 slug: strengthsfinding
 
 [TOC]
