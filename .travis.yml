@@ -5,7 +5,7 @@ branches:
 install:
 - pip install pelican ghp-import html5lib BeautifulSoup4 disqus-python markdown markdown-tweetable
 before_script:
-- pelican-themes -i ./theme/pelican-elegant
+- pelican-themes -i ./theme/elegant
 script:
 - make publish github
 env:
