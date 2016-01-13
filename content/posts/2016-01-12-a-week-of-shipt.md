@@ -8,7 +8,10 @@ tags: something different
 
 ![The grocery deliverator from Cloudy With A Chance Of Meatballs 2. A young man throws produce into a portal and the produce comes out another portal onto his father's head.](http://i.imgur.com/JzuCGI5.gif)
 
-<small>Yes, this is basically what I do, minus the mess. ([gif credit goes to MisterNistal on imgur](http://imgur.com/gallery/5NKDd))</small>
+<small>Yes, this is basically what I do, minus the mess.
+
+([gif credit goes to MisterNistal on imgur](http://imgur.com/gallery/5NKDd))
+</small>
 
 Last night, I hit deliverly number 9 with Shipt. One more, and I open up the ability to shop multiple orders at once (this is huge, because it increases the per-hour rate that I can make). Woot!
 
