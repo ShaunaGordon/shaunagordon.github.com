@@ -43,7 +43,7 @@ For the purpose of this post, we'll assume you've set up your Pelican blog at le
 
 Once your repo is set up, the most basic level of setting up Travis is as simple as adding a *.travis.yml* file and logging in to Travis with your Github account and telling it to watch your repo. We need to tell it what to actually do, though. Pelican makes this pretty easy, since its Makefile handles the actual compilation and deployment. This boils the .travis.yml file down to this:
 
-[gist:id=ShaunaGordon/0cbf0b8f2d667c5ec794, file=travis.yml]
+<script src="https://gist.github.com/ShaunaGordon/0cbf0b8f2d667c5ec794.js?file=travis.yml"></script>
 
 Nifty, right?
 
@@ -53,7 +53,7 @@ In order to be able to push to your repo once it's built, Travis needs an access
 
 The guys at Travis CI were kind enough to provide a command line tool to address this, though. It can easily be installed and the "encrypt" command run with the following:
 
-[gist:id=ShaunaGordon/0cbf0b8f2d667c5ec794, file=travis_install]
+<script src="https://gist.github.com/ShaunaGordon/0cbf0b8f2d667c5ec794.js?file=travis_install"></script>
 
 You'll see there are two options on the encrypt command. `--add` automatically puts it into your .travis.yml file. The `--override` command is optional, but useful if you already have a secure key in your .travis.yml file that you want to replace (such as if you didn't generate the key right the first time).
 
@@ -61,7 +61,7 @@ You'll see there are two options on the encrypt command. `--add` automatically p
 
 This could probably be refined, but this should get you started. I simply ran `pip freeze > requirements.txt`, which gave me a list like this:
 
-[gist:id=ShaunaGordon/0cbf0b8f2d667c5ec794, file=requirements.txt]
+<script src="https://gist.github.com/ShaunaGordon/0cbf0b8f2d667c5ec794.js?file=requirements.txt"></script>
 
 My Vagrant box did have a few things in it that failed in Travis, so I had to remove them. Just remove any lines that appear distribution-specific, and tweak from there based on Travis errors. Alternatively, if you know exactly what packages you installed, then you can include just those. I kind of like it a little more verbose, though.
 
@@ -69,7 +69,7 @@ My Vagrant box did have a few things in it that failed in Travis, so I had to re
 
 Pelican includes a nice little Github command within the Makefile, but it's designed more for running it locally, with credentials for the Github account. That's not really a good idea for a Travis deploy. So, we adjust the Makefile command so that Travis can push to the repo:
 
-[gist:id=ShaunaGordon/0cbf0b8f2d667c5ec794, file=Makefile]
+<script src="https://gist.github.com/ShaunaGordon/0cbf0b8f2d667c5ec794.js?file=Makefile"></script>
 
 What this does is use the ghp-import tool to deploy the compiled site to Github, to the branch specified by `GITHUB_PAGES_BRANCH`. This allows us to use any branch we choose to be our deploy branch.
 
@@ -77,7 +77,7 @@ Then, we want to tweak Pelican's config files. The publishconf.yml file is most 
 
 So, what we do is add an "extras" folder if the project doesn't yet have one, and drop in a travis.yml file and a CNAME file, then let Pelican know to copy them into the compiled site, like so:
 
-[gist:id=ShaunaGordon/0cbf0b8f2d667c5ec794, file=publishconf.py]
+<script src="https://gist.github.com/ShaunaGordon/0cbf0b8f2d667c5ec794.js?file=publishconf.py"></script>
 
 Now, you should be ready to go!
 
