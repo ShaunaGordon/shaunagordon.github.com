@@ -10,7 +10,6 @@ argparse>=1.2.1
 beautifulsoup4>=4.4.1
 blinker>=1.4
 chardet>=2.0.1
-cloud-init>=0.7.5
 colorama>=0.2.5
 configobj>=4.7.2
 disqus-python>=0.4.2
