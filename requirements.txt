@@ -27,7 +27,6 @@ prettytable>=0.7.2
 pyOpenSSL>=0.13
 pycrypto>=2.6.1
 pycurl>=7.19.3
-pygobject>=3.12.0
 pyserial>=2.6
 python-dateutil>=2.4.2
 pytz>=2015.7
