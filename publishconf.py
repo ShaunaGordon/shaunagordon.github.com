@@ -2,11 +2,6 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-import os
-import sys
-sys.path.append(os.curdir)
-from pelicanconf import *
-
 # This file is only used if you use `make publish` or
 # explicitly specify it as your config file.
 
@@ -20,7 +15,7 @@ RELATIVE_URLS = False
 
 PATH = 'content'
 
-ARTICLE_PATHS = ['content/posts']
+ARTICLE_PATHS = ['posts']
 ARTICLE_URL = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
