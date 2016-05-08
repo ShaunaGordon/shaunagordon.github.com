@@ -15,7 +15,7 @@ It does, however, take time, money, brainpower, equipment, etc. (ie - resources)
 
 # How I Make Money
 
-Since I don't do ads, and I don't do paywalls, I need to implement other avenues from which  to bring in money. Those methods are detailed below.
+Since I don't do ads, and I don't do paywalls, I need to implement other avenues from which to bring in money. Those methods are detailed below.
 
 All methods are completely optional and you are under no obligation to use any of them or give me anything. The hope, though, is that the content of my site (or maybe some other interaction you've had with me) has provided you with such value that you *want* to give back somehow, and in those situations, I want to make it easy for you to do so.
 
@@ -23,9 +23,7 @@ Oh, and **10% of my income goes to a charity or project each month.** More about
 
 ## Donations
 
-An easy way to give back is simply donating money. You're free to donate whatever amount you wish. I've set up a running "keep the lights on" campaign at [GoFundMe](http://www.gofundme.com/) as an easy avenue of donation.
-
-<a target="_blank" style="border:none;" href="http://www.gofundme.com/vyt3kk4?utm_medium=wdgt" title="Visit this page now."><img style="border:none;" src="https://funds.gofundme.com/css/3.0_donate/navy/widget.png"></a>
+An easy way to give back is simply donating money. You're free to donate whatever amount you wish. The wonderful [Lee Tengum](Lee Tengum) created [Creator Love](https://www.creatorlove.com/worldtreefarms/buy-me-coffee) for exactly that.
 
 ## Affiliate Program
 
@@ -46,7 +44,7 @@ I like Amazon's affiliate store, since it keeps most of the things in one place,
 I sell some of my own things, as well, since I have a couple other hobbies. The funds from those things help pay for my sites, as well (as well as meatspace supplies as needed).
 
 * [Leanpub](https://leanpub.com/u/ShaunaGordon)
-* [Soap Store](http://herbncountrysoaps.com)
+* [Soap Store](http://worldtreefarms.com)
 
 # Giving Back
 
