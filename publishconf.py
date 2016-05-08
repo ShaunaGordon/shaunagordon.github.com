@@ -15,11 +15,11 @@ RELATIVE_URLS = False
 
 PATH = 'content'
 
-ARTICLE_PATHS = ['content/posts']
+# ARTICLE_PATHS = ['posts']
 ARTICLE_URL = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
-PAGE_PATHS = ['content/pages']
+# PAGE_PATHS = ['pages']
 
 TIMEZONE = 'America/New_York'
 
