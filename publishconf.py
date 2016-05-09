@@ -53,7 +53,7 @@ AUTHOR_SAVE_AS = ''
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'}, 'extra/travis.yml': {'path': '.travis.yml'}}
 
 # Blogroll
-LINKS = (('Resume', 'http://goo.gl/JAjeZ'), ('Soap Shop', 'http://herbncountrysoaps.com'),
+LINKS = (('Resume', 'http://goo.gl/JAjeZ'), ('Soap Shop', 'http://worldtreefarms.com'),
         )
 
 # Social widgets
