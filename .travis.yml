@@ -8,7 +8,7 @@ before_script:
 - pelican-themes -i ./theme/elegant
 - pelican-themes -l
 script:
-- make publish github
+- make publish --debug
 env:
   global:
   - secure: TgDoskiGyMRjWhJLhGMfRrqVk7OzBb3JpU/8btukfBlHP358sPOgFHnEDLbMCG83+ZiAjaejKN+VawM1iHOHnhDEwFb/x4Rt7/AIskgnbhE3F6hgK0KYHKZ1qebR0gcfhdcCuq99B84uNZWQvtvuYlEsS2l1Q/YTqdh43QC8sS8=
