@@ -8,6 +8,7 @@ install:
 before_script:
 - pelican-themes -i ./theme/elegant
 - pelican-themes -l
+- cd plugins/extract_toc && git checkout https://github.com/bnice5000/pelican-plugins/commit/a1fbd885d37f9cf6877af68bdfb1a2680ae48215
 script:
 - make publish github
 env:
