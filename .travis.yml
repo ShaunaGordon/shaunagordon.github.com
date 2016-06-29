@@ -8,7 +8,7 @@ install:
 before_script:
 - pelican-themes -i ./theme/elegant
 - pelican-themes -l
-- cd plugins/extract_toc && wget https://raw.githubusercontent.com/getpelican/pelican-plugins/a1fbd885d37f9cf6877af68bdfb1a2680ae48215/extract_toc/extract_toc.py
+- cd plugins/extract_toc && wget https://raw.githubusercontent.com/getpelican/pelican-plugins/a1fbd885d37f9cf6877af68bdfb1a2680ae48215/extract_toc/extract_toc.py && cd -
 script:
 - make publish github
 env:
