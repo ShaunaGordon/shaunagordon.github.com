@@ -23,7 +23,7 @@ This is where things get a bit tricky, because now we have to deal with the bill
 
 ## Push Me, Pull You
 
-Personally, I'd prefer it if all of the commands to pay bills were originating from my bank. A "push" system, as opposed to a "pull" system, if you will. Unfortunately, reality doesn't allow for that. Some require autopay via the biller, while for others, if I want autopay, I have to do it through the bank, and still others don't really have a sane way to handle autopay at all. Likewise, some things can do e-billing into my bank, while others won't, and in one case, it says it does, but doesn't actually work.
+Personally, I'd prefer it if all of the commands to pay bills were originating from my bank. A "push" system, as opposed to a "pull" system, if you will. Unfortunately, reality doesn't allow for that. Some require autopay via the biller, while for others, if I want autopay, I have to do it through the bank, and still others don't really have a sane way to handle autopay at all. Likewise, some things can do e-billing into my bank, while others won't, and in one case, it says it does, but doesn't actually work (which I wouldn't care so much about, except for the fact that it's a variable amount bill).
 
 The result is that some originate from the bank, while others originate from the billing company, and a couple need paid manually. Far from perfect, but a step in the right direction.
 
@@ -33,4 +33,4 @@ I already had some of this in place before, but with the synchronized and salary
 
 # Meeting (And Exceeding) Goals With The Power Of Automation
 
-I'm now up to 10% allocation for *both* my Giving and my Savings bucket. 
+I'm now up to 10% allocation for *both* my Giving and my Savings bucket (yay!). 
