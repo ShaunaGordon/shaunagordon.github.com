@@ -79,7 +79,7 @@ You're right, that's not a lot per order, especially when you factor taxes in (i
 
 ## And You Have To Do Your Own Taxes?
 
-It's a 1099 contract, so yeah. However, you can write so much off, it's not even funny. Anytime you eat while out on a paid shopping trip, your mileage, anything you buy to support it (like market carts, foldable wagons, or any kind of marketing materials), it can all be written off on your taxes as business expenses. I highly recommend learning about how business expense type stuff work and consider getting an accountant to help you out, and whether or you get an accountant or not, be sure to sign up on something like Expensify to keep track of your expenses, so you don't have to hoard paper receipts all year.
+It's a 1099 contract, so yeah. However, you can write so much off, it's not even funny. Your mileage, anything you buy to support it (like market carts, foldable wagons, or any kind of marketing materials), it can all be written off on your taxes as business expenses. I highly recommend learning about how business expense type stuff work and consider getting an accountant to help you out, and whether or you get an accountant or not, be sure to sign up on something like Expensify to keep track of your expenses, so you don't have to hoard paper receipts all year.
 
 # Okay, I've Been Long-Winded Enough
 
