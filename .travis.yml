@@ -11,6 +11,3 @@ before_script:
 - cd plugins/extract_toc && wget https://raw.githubusercontent.com/getpelican/pelican-plugins/a1fbd885d37f9cf6877af68bdfb1a2680ae48215/extract_toc/extract_toc.py && mv extract_toc.py.1 extract_toc.py && cd -
 script:
 - make publish github
-env:
-  global:
-  - secure: TgDoskiGyMRjWhJLhGMfRrqVk7OzBb3JpU/8btukfBlHP358sPOgFHnEDLbMCG83+ZiAjaejKN+VawM1iHOHnhDEwFb/x4Rt7/AIskgnbhE3F6hgK0KYHKZ1qebR0gcfhdcCuq99B84uNZWQvtvuYlEsS2l1Q/YTqdh43QC8sS8=

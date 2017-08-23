@@ -39,7 +39,11 @@ If done properly, the generate string should match the HMAC field Shopify sent.
 
 Now, what's that look like in PHP? Pretty simple, thankfully:
 
-<script src="https://gist.github.com/ShaunaGordon/24da74ac66d0d2d8259fe52df0f57ef3.js"></script>
+[gist:id=24da74ac66d0d2d8259fe52df0f57ef3,file=hmac_vanilla.php,filetype=php]
+
+If you happen to be running Laravel, you can clean it up a little, like this:
+
+[gist:id=24da74ac66d0d2d8259fe52df0f57ef3,file=hmac_laravel.php,filetype=php]
 
 How does this differ from the other ways? For the most part, the fatal error in the available examples is that they do step 1 (of all things) *backwards*. Instead of taking the request and *removing* the keys that need removed, they all *built* an array from the keys in the example code in the documentation. This was all well and good while the response from Shopify matched the documentation, but as soon as they changed that response, well...everything broke.
 
