@@ -13,8 +13,9 @@ script:
 - make publish
 deploy:
   provider: pages
+  local_dir: ./output
   skip_cleanup: true
   github_token: $GH_TOKEN # Set in travis-ci.org dashboard
+  target_branch: master
   on:
     branch: source
-  target_branch: master
