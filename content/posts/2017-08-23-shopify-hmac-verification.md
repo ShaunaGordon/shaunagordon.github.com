@@ -3,7 +3,6 @@ subtitle: The Right Way
 date: 2017-08-23 20:30
 category: tech
 tags: shopify, oauth, php
-status: draft
 
 [TOC]
 
