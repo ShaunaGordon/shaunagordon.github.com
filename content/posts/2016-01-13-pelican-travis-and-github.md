@@ -57,10 +57,6 @@ The guys at Travis CI were kind enough to provide a command line tool to address
 
 You'll see there are two options on the encrypt command. `--add` automatically puts it into your .travis.yml file. The `--override` command is optional, but useful if you already have a secure key in your .travis.yml file that you want to replace (such as if you didn't generate the key right the first time).
 
-## Update: The Above "Encrypted Travis Key" Is No Longer Required
-
-Well, sort of. You still need the personal access token, but you no longer need to put it into your .travis.yml file. Now, you can put it into your project settings on Travis, in the Environment Variables section. Simply copy the generated code from GitHub into the value field, set the name to `GH_TOKEN` and happy days!
-
 ## And What About That Requirements File?
 
 This could probably be refined, but this should get you started. I simply ran `pip freeze > requirements.txt`, which gave me a list like this:

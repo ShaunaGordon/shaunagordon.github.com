@@ -39,7 +39,7 @@ OUTPUT_RETENTION = ('.git', '.gitignore', 'CNAME')
 # Plugins
 PLUGIN_PATHS = ['plugins']
 PLUGINS = ['clean_summary', 'collate_content', 'feed_summary', 'footer_insert', 'extract_toc', 'related_posts', 'simple_footnotes', 'share_post', 'summary', 'disqus_static', 'liquid_tags.img','liquid_tags.include_code', 'pelican_gist']
-MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', 'headerid', 'toc']
+MARKDOWN = ['codehilite(css_class=highlight)', 'extra', 'headerid', 'toc']
 
 # Theme
 THEME = 'elegant'

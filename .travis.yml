@@ -9,5 +9,9 @@ before_script:
 - pelican-themes -i ./theme/elegant
 - pelican-themes -l
 - cd plugins/extract_toc && wget https://raw.githubusercontent.com/getpelican/pelican-plugins/a1fbd885d37f9cf6877af68bdfb1a2680ae48215/extract_toc/extract_toc.py && mv extract_toc.py.1 extract_toc.py && cd -
-script:
-- make publish github
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GH_TOKEN # Set in travis-ci.org dashboard
+  on:
+    branch: master
