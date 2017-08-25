@@ -61,7 +61,14 @@ And...I found it and more, though not in a way I entirely expected. I happened a
 
 Unlike most of the other personal finance software out there, Personal Capital is designed to show you your net worth. You link up all your accounts (and ideally, I do mean *all*), and it assesses them all and gives you your net worth, then provides you with tools to increase that number. It's all really cool.
 
-The catch, though, is that it doesn't really do everyday budgeting (you can do long-term stuff, like retirement savings or saving for a big purchase, though). It *does* provide that high-level view of categorized spending that I was looking for, though, which is exactly what I was looking for. And it does a damn good job at properly categorizing things (well, except for Turkey Hill purchases, but I blame that on bad data; Turkey Hill's transaction label is so off the wall that it even took me a minute to figure out what it was). *And* it displays pretty circle and line charts to boot ([seriously, look at these beauties](https://www.personalcapital.com/blog/wp-content/uploads/2014/03/cashflow.jpg), and the categories on both the list and the circle chart are clickable and will filter the transactions by that category; major props to the UI/UX team).
+The catch, though, is that it doesn't really do everyday budgeting (you can do long-term stuff, like retirement savings or saving for a big purchase, though). It *does* provide that high-level view of categorized spending that I was looking for, though, which is exactly what I was looking for. And it does a damn good job at properly categorizing things (well, except for Turkey Hill purchases, but I blame that on bad data; Turkey Hill's transaction label is so off the wall that it even took me a minute to figure out what it was). *And* it displays pretty circle and line charts to boot, and the categories on both the list and the circle chart are clickable and will filter the transactions by that category; major props to the UI/UX team).
+
+<figure>
+<img src="https://www.personalcapital.com/blog/wp-content/uploads/2014/03/cashflow.jpg" alt="Financial dashboard with circle and line charts of cash flow and list of transactions" />
+<figcaption>
+Seriously, look at these beauties!
+</figcaption>
+</figure>
 
 Best of all, this part is free. They make their money doing personalized financial planning and asset management for people with $100k+ net worth.
 
