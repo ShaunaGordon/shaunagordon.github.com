@@ -6,6 +6,8 @@ tags: site, tips, automation, continuous integration
 
 [TOC]
 
+**Hey-o! There have been some changes made to this process. [Be sure to check out the updates.](http://shaunagordon.com/blog/2017/09/01/pelican-travis-and-github)**
+
 This is actually the second time I've leveraged [Travis CI](https://travis-ci.org/) for managing my static-site blog, but apparently I didn't write about it. I had done it shortly after [setting up the Octopress version of my blog](http://shaunagordon.com/blog/2013/01/13/yet-another-new-home-for-the-blog/). It was nice and convenient, and dramatically lowered the barrier to writing more blog entries, though I didn't realize that until I lost that capability when I switched to Pelican (probably because the Octopress version was a bit finicky, due to breaking changes in the upstream Octopress repo, so the barrier was still pretty high).
 
 But then I switched to [Pelican](http://blog.getpelican.com/), which was infinitely less finicky...once I got it initially set up.
@@ -39,6 +41,8 @@ If you want to use a custom domain, you'll also want to be sure to include a CNA
 
 # Step 2: Set Up Travis
 
+**Some of the settings in this section have changed, be sure to read the update!**
+
 For the purpose of this post, we'll assume you've set up your Pelican blog at least once, to ensure it works and displays as expected. I just fired up a Vagrant box to handle this, that way I didn't have to clutter up my host system with a bunch of Python dependencies that I only use for generating my blogs (which I'll no longer be doing locally). We'll tweak it later, but if you don't have a basic set up done yet, go do that now.
 
 Once your repo is set up, the most basic level of setting up Travis is as simple as adding a *.travis.yml* file and logging in to Travis with your Github account and telling it to watch your repo. We need to tell it what to actually do, though. Pelican makes this pretty easy, since its Makefile handles the actual compilation and deployment. This boils the .travis.yml file down to this:
@@ -48,6 +52,8 @@ Once your repo is set up, the most basic level of setting up Travis is as simple
 Nifty, right?
 
 ## But Wait, What's That "Encrypted Travis Key" And How Do I Get It?
+
+**This is something that's been updated. This technique is now outdated.**
 
 In order to be able to push to your repo once it's built, Travis needs an access token. You get the access token by going to Settings -> Personal Access Tokens and creating a new one with the [permissions required by Travis](https://docs.travis-ci.com/user/github-oauth-scopes/). Storing that access token value in the config file in plain text is insecure, though, because it allows anyone to obtain those rights to your repositories. Not good.
 
@@ -66,6 +72,8 @@ This could probably be refined, but this should get you started. I simply ran `p
 My Vagrant box did have a few things in it that failed in Travis, so I had to remove them. Just remove any lines that appear distribution-specific, and tweak from there based on Travis errors. Alternatively, if you know exactly what packages you installed, then you can include just those. I kind of like it a little more verbose, though.
 
 # Step 3: Tweak Pelican
+
+**This is something that's been updated. This technique is now outdated. Travis was kind enough to build this in!**
 
 Pelican includes a nice little Github command within the Makefile, but it's designed more for running it locally, with credentials for the Github account. That's not really a good idea for a Travis deploy. So, we adjust the Makefile command so that Travis can push to the repo:
 
