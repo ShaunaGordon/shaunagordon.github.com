@@ -52,7 +52,7 @@ THEME = 'elegant'
 
 # Theme Settings
 DIRECT_TEMPLATES = (('index', 'tags', 'categories','archives', 'search', '404'))
-STATIC_PATHS = ['theme/images', 'images', 'images/portfolio', 'images/portfolio/thumbs', 'extra', 'content/resume/*']
+STATIC_PATHS = ['theme/images', 'images', 'images/portfolio', 'images/portfolio/thumbs', 'extra', 'resume/*']
 TAG_SAVE_AS = ''
 CATEGORY_SAVE_AS = ''
 AUTHOR_SAVE_AS = ''
