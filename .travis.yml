@@ -13,13 +13,12 @@ script:
 - make publish
 deploy:
   provider: pages
-  local_dir: ./output
-  skip_cleanup: true
-  github_token: $GH_TOKEN # Set in travis-ci.org dashboard
-  target_branch: master
+  local-dir: ./output
+  skip-cleanup: true
+  github-token: $GH_TOKEN # Set in travis-ci.org dashboard
+  target-branch: master
   fqdn: shaunagordon.com
   committer-from-gh: true
-  keep-history: true
   verbose: true
   on:
     branch: source
