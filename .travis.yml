@@ -14,6 +14,8 @@ before_script:
 script:
 - make publish
 deploy:
+  edge:
+    branch: v1.8.47
   provider: pages
   local-dir: output
   skip-cleanup: true
