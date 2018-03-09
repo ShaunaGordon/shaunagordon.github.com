@@ -19,6 +19,7 @@ deploy:
   target_branch: master
   fqdn: shaunagordon.com
   committer-from-gh: true
+  keep-history: true
   verbose: true
   on:
     branch: source
