@@ -1,6 +1,8 @@
 title: Personal Core Values
 subtitle: Exploring and Codifying Guiding Principles
 date: 2018-03-08 14:00
+url: 2018/03/08/personal-core-values
+save_as: 2018/03/08/personal-core-values/index.html
 category: personal development
 tags: culture, personal growth
 
