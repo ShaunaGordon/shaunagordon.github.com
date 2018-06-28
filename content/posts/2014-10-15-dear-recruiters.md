@@ -4,6 +4,8 @@ category: tech, business
 tags: tips
 slug: dear-recruiters
 
+[TOC]
+
 Dear Third Party Recruiters,
 
 Due to the high volume of contact requests I’ve received, I have decided to write this open letter in order to improve the quality of my network.
