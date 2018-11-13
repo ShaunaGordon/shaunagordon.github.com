@@ -31,7 +31,7 @@ OUTPUT_RETENTION = ('.git', '.gitignore')
 PLUGIN_PATHS = ['plugins']
 PLUGINS = ['clean_summary', 'collate_content', 'feed_summary', 'footer_insert', 'extract_toc', 'related_posts', 'simple_footnotes', 'share_post', 'summary', 'disqus_static', 'liquid_tags.img','liquid_tags.include_code']
 MARKDOWN = {
-    'extensions': ['codehilite(css_class=highlight)', 'extra', 'headerid', 'toc'],
+    'extensions': ['codehilite', 'extra', 'headerid', 'toc'],
     'extension_configs': {
         'markdown.extensions.codehilite': {'css_class': 'highlight'}
     },
@@ -55,7 +55,7 @@ LINKS = (('Resume', 'https://goo.gl/PXLSWi'), ('Soap Shop', 'http://worldtreefar
 
 # Social widgets
 SOCIAL = (('Github', 'https://github.com/ShaunaGordon'),
-          ('Twitter', 'https://twitter.com/gordondev')
+          ('Gitlab', 'http://gitlab.com/shauna')
           )
 
 TWITTER_USERNAME = 'gordondev'
