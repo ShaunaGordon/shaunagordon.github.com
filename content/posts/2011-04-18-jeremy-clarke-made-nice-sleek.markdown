@@ -1,8 +1,0 @@
-title: Templates for Munin
-date: 2011-04-18 17:00
-category: tech
-tags: themes, community contribution
-slug: jeremy-clarke-made-nice-sleek
-
-<div class='post'>
-<p>Jeremy Clarke made a nice, sleek theme/template set for Munin (see his <a href="http://simianuprising.com/2011/02/19/raven-my-custom-theme-templates-for-munin/" target="_blank">original post</a> about it). Since, like him, I hate the default theme (it's ugly, and done in 90s style table layout), I wanted to change it, but I currently don't have the time to write my own theme (not that there's much documentation on the topic, despite how awesome Munin actually is). Jeremy's seems to be the only one on the entire Internet aside from the default and default-alt themes, and he did a great job with what he had. However, I had some issues getting it working on the version I'm running (1.4.4). It was mainly just missing files (kinda-sorta-not really his fault, Munin should probably just ignore things like missing images and allow the page to break, instead of halting copying the files to the html directory).</p><p>Anywho, so I grabbed the copy by Kim (in the comments), who was kind enough to update the theme for 1.4.* (it was originally for 1.3.*), but her copy didn't have the required files, either. So, I got it working in my test environment and then updated the template folder with the necessary files. I'm posting it here for easy downloading.</p><p><a title="Raven theme GitHub project" href="https://github.com/ShaunaGordon/raven-munin-theme">Download Raven Munin theme.</a></p></div>
