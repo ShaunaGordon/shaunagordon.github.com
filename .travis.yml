@@ -9,17 +9,13 @@ branches:
   - source
 git:
   depth: false
-# install:
-# - sudo apt-get install -y hugo
-# before_script:
-# - pelican-themes -i ./theme/elegant
+install:
+- pip install Pygments
 script:
 - hugo
 after_success:
 - cp content/extra/CNAME public/CNAME
 deploy:
-#  edge:
-#   branch: v1.8.47
   provider: pages
   local-dir: public
   skip-cleanup: true

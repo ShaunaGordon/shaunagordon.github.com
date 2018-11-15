@@ -1,66 +1,44 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "I Make Things"
-theme = "whiteplain"
+theme = "dream-plus"
 
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 
 disqusShortname = "gordondev"
 
+disableKinds = [
+  "taxonomy",
+  "taxonomyTerm"
+]
+
+enableEmoji=true
+
+paginate = 10
+
 [permalinks]
   posts = "blog/:year/:month/:day/:title/"
 
 [params]
-  # whether to use CDN or local file for fontawesome
-  #useCDN = false
-  # whether to include external sharing scripts and icons for twitter, facebook and co.
-  #showShareIcons = false
-  # Date format
-  #dateFormat = "January 2, 2006"
+  author = "Shauna Gordon"
+  description = "I Make Things"
+  motto = "I Make Things"
+  avatar = "/images/avatar.png"
 
-# This is displayer in About page.
-[params.author]
-  name = "Shauna Gordon"
-  # Gravatar or Abatar image
-#   gravatar = "Gravatar email or MD5 Hash"
-  #avatar = "/path/to/avatar"
-
+  contentType = "posts"
+  itemsPerPage = 10
+  enableColorBG = true
+  enableToc = true
+  enableTags = true
+	enableCategories = true
+  
   linkedin = "gordondev"
   github = "ShaunaGordon"
   gitlab = "shauna"
   email = "shauna@shaunagordon.com"
 
-[taxonomies]
-  category = "categories"
-  tag = "tags"
-  series = "series"
-
-# Header Menu
-[[menu.main]]
-  name = "Categories"
-  identifier = "categories"
-  url = "/categories/"
-  weight = 1
-[[menu.main]]
-  name = "Tags"
-  identifier = "tags"
-  url = "/tags/"
-  weight = 2
-[[menu.main]]
-  name = "Archives"
-  identifier = "archives"
-  url = "/archives/"
-  weight = 3
-[[menu.main]]
-  name = "About"
-  identifier = "about"
-  url = "/about/"
-  weight = 4
-
-# Footer Menu
-[[menu.footer]]
-  name = "About"
-  weight = 1
-  identifier = "about"
-  url = "/about/"
+# [taxonomies]
+#   category = "categories"
+#   tag = "tags"
+#   series = "series"
