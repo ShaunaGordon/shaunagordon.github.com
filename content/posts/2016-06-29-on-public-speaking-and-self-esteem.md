@@ -2,7 +2,7 @@
 title: "On Public Speaking And Self Esteem"
 description: "On the importance of psychological safety when it comes to stage fright."
 date: 2016-06-29
-category: [personal development]
+categories: [personal development]
 tags: [public speaking]
 ---
 

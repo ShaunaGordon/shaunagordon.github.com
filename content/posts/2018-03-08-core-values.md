@@ -5,6 +5,8 @@ description: "I see core values communicated most often at the organization leve
 date: 2018-03-08T19:00:00-05:00
 categories: [personal development]
 tags: [culture, personal growth]
+aliases:
+- "/blog/2018/03/08/personal-core-values"
 ---
 
 As I've more actively sought out leadership positions, one of the things I've been thinking about is the concept of core values. I see them actually communicated most often at the organization level, but I believe we have them at a personal level, too. We just don't codify them. I like documenting things (because I like understanding), and since these are things I'd like to instill in the people I mentor and lead, I figured it'd be good to write them out and start documenting and exploring, and ultimately refining them.

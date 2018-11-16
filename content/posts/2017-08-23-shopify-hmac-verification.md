@@ -8,6 +8,8 @@ tags:
 - shopify
 - oauth
 - php
+aliases:
+- "/blog/2017/08/24/shopify-hmac-verification"
 ---
 
 I get the pleasure of writing integration after integration to Shopify at my day job. As a result, I have become quite familiar with their documentation and its gaps. The HMAC verification piece of the OAuth/embedded app installation process is a particularly glaring gap. So let's close it.

@@ -1,6 +1,5 @@
 ---
-title: "Pelican, Travis, and Github"
-subtitle: "Part 2"
+title: "Pelican, Travis, and Github, Part 2"
 description: "Updating Pelican and the Travis config to account for changes in both. Yay for simpler configs!"
 date: 2017-09-01T23:00:00-05:00
 categories: [tech]

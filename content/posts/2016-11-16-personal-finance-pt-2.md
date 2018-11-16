@@ -2,8 +2,9 @@
 title: "Personal Finance, Part 2"
 subtitle: "The System After A Year"
 description: "What I kept, what I scrapped, and how the whole thing saved my hide."
+series: "financial independence"
 date: 2016-12-16
-category: [finance]
+categories: [finance]
 tags: [tips, debt]
 ---
 

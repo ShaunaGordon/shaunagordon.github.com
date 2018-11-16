@@ -2,6 +2,7 @@
 title: "Personal Finance, Part 3"
 subtitle: "Unlocking the Power of Automation"
 description: "Automate ALL THE THINGS!"
+series: "financial independence"
 date: 2017-08-23
 categories: [finance]
 tags: [tips, debt]

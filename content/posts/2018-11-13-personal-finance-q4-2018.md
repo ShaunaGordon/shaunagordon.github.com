@@ -2,6 +2,7 @@
 title: "Personal Finance, Q4 2018 Update"
 subtitle: "When Life Hands You Lemons..."
 description: "That moment when everything seems to go wrong (and how I'm weathering it)."
+series: "financial independence"
 date: 2018-11-13T22:00:00-05:00
 categories: [finance]
 tags: [debt]
@@ -9,7 +10,7 @@ tags: [debt]
 
 I actually had another installment of this series written back in February or so. I ended up scrapping it when life rendered it completely wrong almost as soon as I'd finished writing it. :facepalm:
 
-Remember in [part 3](http://shaunagordon.com/blog/2017/08/23/personal-finance-part-3/), where I mentioned that I got my windows replaced? 
+Remember in [part 3](http://shaunagordon.com/2017/08/23/personal-finance-part-3/), where I mentioned that I got my windows replaced? 
 
 Apparently such investments have side-effects...
 
