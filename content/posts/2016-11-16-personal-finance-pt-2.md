@@ -8,7 +8,7 @@ categories: [finance]
 tags: [tips, debt]
 ---
 
-Back in [part 1](http://shaunagordon.com/blog/2016/04/04/getting-started-with-personal-finance/) I described the system that I used to work on getting my family out of debt and make ends meet. We're now coming up on a year, so how did I do? Does this system actually work?
+Back in [part 1](http://shaunagordon.com/2016/04/04/getting-started-with-personal-finance/) I described the system that I used to work on getting my family out of debt and make ends meet. We're now coming up on a year, so how did I do? Does this system actually work?
 
 # Putting The System To Work
 

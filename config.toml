@@ -36,7 +36,7 @@ paginate = 10
   gitlab = "shauna"
   email = "shauna@shaunagordon.com"
 
-# [taxonomies]
-#   category = "categories"
-#   tag = "tags"
-#   series = "series"
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"

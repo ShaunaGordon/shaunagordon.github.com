@@ -8,7 +8,7 @@ categories: [finance]
 tags: [tips, debt]
 ---
 
-In [part 2](http://shaunagordon.com/blog/2016/12/16/personal-finance-part-2/), I mentioned that I'm "productively lazy," and prefer to automate what I can. Well, I've managed to do that with my finances.
+In [part 2](http://shaunagordon.com/2016/12/16/personal-finance-part-2/), I mentioned that I'm "productively lazy," and prefer to automate what I can. Well, I've managed to do that with my finances.
 
 # Hello, Automation!
 
@@ -28,7 +28,7 @@ Personally, I'd prefer it if all of the commands to pay bills were originating f
 
 Unfortunately, reality doesn't allow for that. Some require autopay via the biller, while for others, if I want autopay, I have to do it through the bank, and still others don't really have a sane way to handle autopay at all (variable amount bill + no digital billing system). Likewise, some things can do e-billing into my bank, while others won't, and in one case, it says it does, but doesn't actually work (which I wouldn't care so much about, except for the fact that it's a variable amount bill).
 
-The result is that some originate from the bank, while others originate from the billing company, and a couple need paid manually. Far from perfect, but a step in the right direction. This is where [the spreadsheet I created when I first started](http://shaunagordon.com/blog/2016/04/04/getting-started-with-personal-finance/) comes in handy. I set it up with some creative conditional formatting to color differently depending on if the note has "autopay via bank" or "autopay via merchant." Bank ones have their due dates changed to a pale green, merchant ones to completely gray, and the couple of remaining oddballs retain the old rotating color highlight.
+The result is that some originate from the bank, while others originate from the billing company, and a couple need paid manually. Far from perfect, but a step in the right direction. This is where [the spreadsheet I created when I first started](http://shaunagordon.com/2016/04/04/getting-started-with-personal-finance/) comes in handy. I set it up with some creative conditional formatting to color differently depending on if the note has "autopay via bank" or "autopay via merchant." Bank ones have their due dates changed to a pale green, merchant ones to completely gray, and the couple of remaining oddballs retain the old rotating color highlight.
 
 ## Fully Automating The Bucket-Filling
 

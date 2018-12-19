@@ -4,11 +4,13 @@ subtitle: "Setting Up Autmated Blog Updates"
 date: 2016-01-13
 categories: [tech]
 tags: [site, tips, automation, continuous integration]
+aliases:
+- "/blog/2016/01/13/pelican-travis-and-github"
 ---
 
-**Hey-o! There have been some changes made to this process. [Be sure to check out the updates.](http://shaunagordon.com/blog/2017/09/01/pelican-travis-and-github)**
+**Hey-o! There have been some changes made to this process. [Be sure to check out the updates.](http://shaunagordon.com/2017/09/01/pelican-travis-and-github)**
 
-This is actually the second time I've leveraged [Travis CI](https://travis-ci.org/) for managing my static-site blog, but apparently I didn't write about it. I had done it shortly after [setting up the Octopress version of my blog](http://shaunagordon.com/blog/2013/01/13/yet-another-new-home-for-the-blog/). It was nice and convenient, and dramatically lowered the barrier to writing more blog entries, though I didn't realize that until I lost that capability when I switched to Pelican (probably because the Octopress version was a bit finicky, due to breaking changes in the upstream Octopress repo, so the barrier was still pretty high).
+This is actually the second time I've leveraged [Travis CI](https://travis-ci.org/) for managing my static-site blog, but apparently I didn't write about it. I had done it shortly after setting up the Octopress version of my blog. It was nice and convenient, and dramatically lowered the barrier to writing more blog entries, though I didn't realize that until I lost that capability when I switched to Pelican (probably because the Octopress version was a bit finicky, due to breaking changes in the upstream Octopress repo, so the barrier was still pretty high).
 
 But then I switched to [Pelican](http://blog.getpelican.com/), which was infinitely less finicky...once I got it initially set up.
 
@@ -26,7 +28,7 @@ So, first things first, we need a place from which to host our blog. Since the o
 
 There are two ways to do this:
 
-* Have a *gh-pages* branch in your project repo. This is known as a "project site" and is most commonly used for little landing pages for open source projects. My [health-oriented blog](http://health.shaunagordon.com) uses this method.
+* Have a *gh-pages* branch in your project repo. This is known as a "project site" and is most commonly used for little landing pages for open source projects.
 * Have a dedicated *[username].github.io* repository (or the legacy *[username].github.com*). This is known as a "user" or "organization" page and is common for user blogs and aggregate showcases of a user's or organization's repo. This blog uses this method.
 
 The cool thing about Github Pages is that you can also use custom domains, and like the rest of the hosting, it's completely free. That's how my blogs use my domain, instead of the Github one. It's easy to set up, too.

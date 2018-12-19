@@ -4,9 +4,11 @@ description: "Updating Pelican and the Travis config to account for changes in b
 date: 2017-09-01T23:00:00-05:00
 categories: [tech]
 tags: [site, tips, automation, continuous integration]
+aliases:
+- "/blog/2016/01/13/pelican-travis-and-github-pt-2"
 ---
 
-Last year, I wrote a post on [automating the generation of my static-site blog](http://shaunagordon.com/blog/2016/01/13/pelican-travis-and-github/). As they do, things have since changed, and I figured I'd update accordingly.
+Last year, I wrote a post on [automating the generation of my static-site blog](http://shaunagordon.com/2016/01/13/pelican-travis-and-github/). As they do, things have since changed, and I figured I'd update accordingly.
 
 # Changes To Travis And .travis.yml
 
@@ -22,11 +24,11 @@ There's also the ability to auto-cancel queued builds that haven't yet started a
 
 Okay, that sounds bad out of context, but it's actually a good thing. Before, the key needed for Travis to push the built content to production had to be in the .travis.yml file. While it was encrypted, it still wasn't really good practice. That's no longer an issue, because Travis now has an "Environment Variables" section.
 
-So, [where you would have set up that key,](http://shaunagordon.com/blog/2016/01/13/pelican-travis-and-github/#but-wait-whats-that-encrypted-travis-key-and-how-do-i-get-it) you now just take the key and set it in the Travis dashboard, using the same variable name. Yay! No more keys in the repo!
+So, [where you would have set up that key,](http://shaunagordon.com/2016/01/13/pelican-travis-and-github/#but-wait-whats-that-encrypted-travis-key-and-how-do-i-get-it) you now just take the key and set it in the Travis dashboard, using the same variable name. Yay! No more keys in the repo!
 
 ## Built In Deploy To Github
 
-Another update precludes the need for the `ghp-import` script in the Makefile, and renders [this entire section](http://shaunagordon.com/blog/2016/01/13/pelican-travis-and-github/#step-3-tweak-pelican) moot.
+Another update precludes the need for the `ghp-import` script in the Makefile, and renders [this entire section](http://shaunagordon.com/2016/01/13/pelican-travis-and-github/#step-3-tweak-pelican) moot.
 
 Instead, our `script` section simplifies slightly and we add a `deploy` section:
 

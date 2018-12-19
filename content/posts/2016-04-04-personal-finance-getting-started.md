@@ -16,7 +16,7 @@ Okay, admittedly, I haven't been at the "zero knowledge" point for quite some ti
 
 ## Rewind, Back To The Beginning Of Q4, 2015
 
-In the fall of 2015, my husband and I both found ourselves burnt out at our jobs. For him, he'd finally had it working at what many in his industry call "a meatgrinder," because of the disconnect between the main corporation and its values and the IT "branch" of things. For me, [as I've written about already](http://shaunagordon.com/blog/2016/01/06/from-developer-to-shipt-shopper/), I just got burnt out in general. The end result was that neither of us could continue working in our respective positions.
+In the fall of 2015, my husband and I both found ourselves burnt out at our jobs. For him, he'd finally had it working at what many in his industry call "a meatgrinder," because of the disconnect between the main corporation and its values and the IT "branch" of things. For me, [as I've written about already](http://shaunagordon.com/2016/01/06/from-developer-to-shipt-shopper/), I just got burnt out in general. The end result was that neither of us could continue working in our respective positions.
 
 Part of the agreement for me opting out of the conventional workforce, was that I took over the household finances. Prior to this, my husband managed it. Unfortunately, due to the level of stress he was enduring at work, he had allowed the finances to fall by the wayside. Additionally, because his new job was through a contracting company, and I wasn't working at all, we had to find our own health insurance coverage.
 
