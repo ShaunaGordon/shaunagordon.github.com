@@ -35,7 +35,7 @@ So, I responded like so:
 
 > One of the big talking points in...well...just about everything tech and work related, is "why are women leaving the tech industry?" or a similar variation, "why are developer teams so primarily young, white men?" The answer is a lot simpler than people seem to think, in my opinion, though changing it is admittedly not so simple.
 
-> The the leading tech companies breed a culture that only appeals to the bachelor demographic, and the followers try to emulate the leaders.
+> The leading tech companies breed a culture that only appeals to the bachelor demographic, and the followers try to emulate the leaders.
 
 > When I first got your email, I was excited, but I was also hesitant. So, I asked my developer network what it's like working at Amazon, since I knew a few current or former employees were in it.
 
