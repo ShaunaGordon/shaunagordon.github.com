@@ -1,5 +1,5 @@
 ---
-title: "The pandemic work from home survival guide"
+title: "The Pandemic Work From Home Survival Guide"
 description: "How to swim when tossed into the deep end of the remote work swimming pool."
 date: 2020-03-16
 categories: [business, remote work]

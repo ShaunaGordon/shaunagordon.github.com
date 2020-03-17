@@ -6,11 +6,6 @@ theme = "dream-plus"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 
-disableKinds = [
-  # "taxonomy",
-  # "taxonomyTerm"
-]
-
 enableEmoji=true
 
 paginate = 10
@@ -19,24 +14,34 @@ paginate = 10
   posts = ":year/:month/:day/:slug/"
 
 [params]
-  author = "Shauna Gordon"
-  description = "I Make Things"
-  motto = "I Make Things"
-  avatar = "/images/avatar.png"
-
   contentType = "posts"
   itemsPerPage = 10
   enableColorBG = true
   enableToc = true
   enableTags = true
 	enableCategories = true
-  
+
+  [params.author]
+    name = "Shauna Gordon"
+    description = "I Make Things"
+    motto = "I Make Things"
+    avatar = "/images/avatar.png"
+
+  [params.features]
+    twitterEmoji = true
+    toc = true
+
+  [params.tags]
+    enabled = true
+
+  [params.categories]
+    enabled = true
+
+  [params.series]
+    enabled = true
+
+[social]
   linkedin = "gordondev"
   github = "ShaunaGordon"
   gitlab = "shauna"
   email = "shauna@shaunagordon.com"
-
-[taxonomies]
-  category = "categories"
-  tag = "tags"
-  series = "series"
