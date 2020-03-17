@@ -183,3 +183,4 @@ This is just the beginning, though. So to close out, I'll leave you with a list 
 * [Remote: Office Not Required](https://basecamp.com/books/remote) - Basecamp's book on remote working, and how and why it can work in the long run
 * [Miro, Digital Whiteboarding](https://miro.com/)
 * [David Walsh's tips for working remotely](https://davidwalsh.name/tips-on-working-remotely)
+* [Operation Storytime](https://coolprogeny.com/2020/03/operation-storytime/) - Childrens' stories read by their authors
