@@ -6,6 +6,8 @@ categories: [business, remote work]
 tags: [remote]
 ---
 
+(Note: Contrary to most of my other posts, I plan to update this one periodically as things change and this is still current. Check back periodically for updates.)
+
 Well...now that half the world is in quarantine of some level, a great many people are suddenly finding themselves tossed head first in the deep end of remote working. Odds are pretty good neither them nor their employers are really prepared for this.
 
 While I can't help the employer's preparation (or lack thereof), I do know a thing or two about being a remote worker and figured I would share my experience. Since for a lot of people, this is a temporary situation, I'll discuss both more permanent setups and temporary improvised setups when they diverge. You never know, you may like this whole "working from home" thing, even if not full time. :)
@@ -135,6 +137,14 @@ As of yesterday, my state has even shut down bars and the dine-in portion of res
 If there's anything we learned from past pandemics, it's that some sun and ample amounts of fresh air help. And really, those things help keep us healthy even when we're not sick.
 
 If you can, take your work outside for an hour or three. If you can't go outside, try opening the windows to get some fresh air. Weather permitting, of course.
+
+### If Your Area Permits, Go For A Walk Or Bike Ride
+
+I originally had a section in here about this, but I ended up removing it for the initial release, because I didn't want to propagate irresponsible behavior and I didn't have enough confirmation of the safety of doing this. It was tough, because walking and bike riding, as well as being outside (even in cooler weather), can help support the body both in preventing getting sick and in mitigating the risk of complications if you do get sick with COVID-19.
+
+Then I found [this article on safe cycling during coronavirus concerns](https://www.bicycling.com/news/a31469228/cycling-during-coronavirus/), which goes into more detail about how to ride safely and where the hidden risks are. In short, rides and walks are good as long as you stay 6+ feet away from others, generally avoid touching stuff (or use gloves), and wash up as soon as you can. If you use bike shares, it wouldn't hurt to bring sanitizing wipes with you to use on them.
+
+If you can't leave your property, but have even a tiny yard, consider some outdoor yoga or training of some sort. Anything to get you outside and keeping your body healthy will help.
 
 ## Take Some "Me" Time
 
