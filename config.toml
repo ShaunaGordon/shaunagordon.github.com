@@ -51,3 +51,7 @@ paginate = 10
     endLevel = 4
     ordered = false
     startLevel = 2
+
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
