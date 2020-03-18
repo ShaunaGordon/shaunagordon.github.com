@@ -20,7 +20,7 @@ While I can't help the employer's preparation (or lack thereof), I do know a thi
 
 ## Environment
 
-## Your Office Spot
+### Your Office Spot
 
 A lot of people think that "working from home" equates to working in bed, on the couch, at the breakfast bar, or whatever. While these aren't bad places for a change of pace, it's still good to have a "home base" for yourself. This does a few things:
 
@@ -182,7 +182,7 @@ There's a learning curve to remote working even in the best of times, and this c
 
 This is just the beginning, though. So to close out, I'll leave you with a list of other resources for specific remote and pandemic-driven-remote related topics.
 
-#### Also, Even Us Pros Are Struggling Right Now
+### Also, Even Us Pros Are Struggling Right Now
 
 This tweet says it really succinctly:
 
