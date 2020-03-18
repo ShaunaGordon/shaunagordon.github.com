@@ -45,3 +45,9 @@ paginate = 10
   github = "ShaunaGordon"
   gitlab = "shauna"
   email = "shauna@shaunagordon.com"
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 2
