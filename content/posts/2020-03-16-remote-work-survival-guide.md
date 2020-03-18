@@ -176,6 +176,8 @@ There's a learning curve to remote working even in the best of times, and this c
 
 This is just the beginning, though. So to close out, I'll leave you with a list of other resources for specific remote and pandemic-driven-remote related topics.
 
+P.S. - Are you a business owner or manager? Have a look at [Remotewave.io's guide,](https://remotewave.io/blog/the-emergency-remote-work-guide/) which approaches it from your side. :)
+
 * [Remote Communication](https://www.gun.io/blog/effective-communication-while-freelancing) - An article I wrote for [Gun.io](https://www.gun.io/) that focuses on communicating while remote.
 * [EdTech Crisis Response & Recovery Virtual Team](https://edtechcrt.github.io/) - For academia and academia-adjacent people as they get thrown head-first into this whole "remote classrooms" thing.
 * [List of Free Software and Services During The Coronavirus Outbreak](https://www.bleepingcomputer.com/news/software/list-of-free-software-and-services-during-coronavirus-outbreak/)
