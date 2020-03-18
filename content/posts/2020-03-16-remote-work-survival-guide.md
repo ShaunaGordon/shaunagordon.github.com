@@ -6,13 +6,13 @@ categories: [business, remote work]
 tags: [remote]
 ---
 
-<hr/>
+***
 *Some Notes:*
 
 Contrary to most of my other posts, I plan to update this one periodically as things change and this is still current. Check back periodically for updates.
 
 Are you a business owner or manager? Have a look at [Remotewave.io's guide,](https://remotewave.io/blog/the-emergency-remote-work-guide/) which approaches it from your side. :)
-<hr/>
+***
 
 Well...now that half the world is in quarantine of some level, a great many people are suddenly finding themselves tossed head first in the deep end of remote working. Odds are pretty good neither them nor their employers are really prepared for this.
 
