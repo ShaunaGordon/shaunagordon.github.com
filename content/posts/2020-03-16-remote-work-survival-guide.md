@@ -6,7 +6,13 @@ categories: [business, remote work]
 tags: [remote]
 ---
 
-(Note: Contrary to most of my other posts, I plan to update this one periodically as things change and this is still current. Check back periodically for updates.)
+<hr/>
+*Some Notes:*
+
+Contrary to most of my other posts, I plan to update this one periodically as things change and this is still current. Check back periodically for updates.
+
+Are you a business owner or manager? Have a look at [Remotewave.io's guide,](https://remotewave.io/blog/the-emergency-remote-work-guide/) which approaches it from your side. :)
+<hr/>
 
 Well...now that half the world is in quarantine of some level, a great many people are suddenly finding themselves tossed head first in the deep end of remote working. Odds are pretty good neither them nor their employers are really prepared for this.
 
@@ -176,7 +182,17 @@ There's a learning curve to remote working even in the best of times, and this c
 
 This is just the beginning, though. So to close out, I'll leave you with a list of other resources for specific remote and pandemic-driven-remote related topics.
 
-P.S. - Are you a business owner or manager? Have a look at [Remotewave.io's guide,](https://remotewave.io/blog/the-emergency-remote-work-guide/) which approaches it from your side. :)
+### Also, Even Us Pros Are Struggling Right Now
+
+This tweet says it really succinctly:
+
+{{< tweet 1240103967134060545 >}}
+
+Take things in stride and as things start settling out into whatever "normal" is for us over the next few months, the remote working will also come easier. You're dealing with the remote working learning curve *and* a global pandemic with little information *and* (if you have kids) remote schooling *and* have to limit the amount of "getting away" you can do. Even 25% productivity at work right now is pretty good.
+
+# Additional Resources
+
+## General Remote Resources
 
 * [Remote Communication](https://www.gun.io/blog/effective-communication-while-freelancing) - An article I wrote for [Gun.io](https://www.gun.io/) that focuses on communicating while remote.
 * [EdTech Crisis Response & Recovery Virtual Team](https://edtechcrt.github.io/) - For academia and academia-adjacent people as they get thrown head-first into this whole "remote classrooms" thing.
@@ -186,3 +202,25 @@ P.S. - Are you a business owner or manager? Have a look at [Remotewave.io's guid
 * [Miro, Digital Whiteboarding](https://miro.com/)
 * [David Walsh's tips for working remotely](https://davidwalsh.name/tips-on-working-remotely)
 * [Operation Storytime](https://coolprogeny.com/2020/03/operation-storytime/) - Childrens' stories read by their authors
+
+## Resources Linked In Article
+
+**Tools**
+* [Slack](https://slack.com/)
+* [Discord](https://discordapp.com/)
+* [Microsoft Teams](https://products.office.com/en-US/microsoft-teams/group-chat-software) * [Basecamp](https://basecamp.com/)
+* [Notion](https://www.notion.so/)
+* [Zoom](https://zoom.us/)
+* [Google Meet](https://gsuite.google.com/products/meet/)
+* [Webex](https://www.webex.com/)
+* [ClickUp](https://clickup.com/?fp_ref=gz9y9)
+* [Trello](https://trello.com/)
+* [Asana](https://asana.com/)
+* [Any.do](https://www.any.do/)
+* [Krisp](https://krisp.ai/)
+
+**Health/Safety**
+* [Safe Cycling](https://www.bicycling.com/news/a31469228/cycling-during-coronavirus/)
+
+**Misc**
+* [Remotewave.io's guide for businesses](https://remotewave.io/blog/the-emergency-remote-work-guide/)
