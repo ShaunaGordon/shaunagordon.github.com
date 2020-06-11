@@ -1,6 +1,6 @@
 ---
 title: "A Riot Is the Language of the Unheard"
-subtitle: "I hear you, and I won't keep my voice down any longer."
+description: "I hear you, and I won't keep my voice down any longer."
 date: 2020-06-11
 categories: [community]
 tags: [diversity, civil rights]
