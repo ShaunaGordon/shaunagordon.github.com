@@ -40,6 +40,9 @@ paginate = 10
   [params.series]
     enabled = true
 
+  [params.background]
+    gradients = [["#3e5151", "#decba4"],["#333333","#dddddd"]]
+
 [social]
   linkedin = "gordondev"
   github = "ShaunaGordon"
