@@ -4,6 +4,7 @@ description: "I hear you, and I won't keep my voice down any longer."
 date: 2020-06-11
 categories: [community]
 tags: [diversity, civil rights]
+series: ["Black Lives Matter"]
 ---
 
 So I attended a protest the other day. It was the first time I'd been downtown since it started and I had walked there (and back) from one of the suburbs. A nearly 5 mile walk each way, with the inner-most mile or two containing a lot of plywood covering up a lot of damage.
