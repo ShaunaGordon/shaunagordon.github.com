@@ -23,7 +23,7 @@ Oh, and **10% of my income goes to a charity or project each month.** More about
 
 ### Donations
 
-An easy way to give back is simply donating money. You're free to donate whatever amount you wish. The wonderful [Lee Tengum](Lee Tengum) created [Creator Love](https://www.creatorlove.com/worldtreefarms/buy-me-coffee) for exactly that.
+An easy way to give back is simply giving money. You're free to donate whatever amount you wish. You can do that via [my Ko-fi page](https://ko-fi.com/shaunagordon) for one-time payments, or via [my Liberapay](https://liberapay.com/Dreamwalker-Collective/) page for recurring payments.
 
 ### Affiliate Program
 
@@ -37,6 +37,10 @@ I sell some of my own things, as well, since I have a couple other hobbies. The 
 
 * [Leanpub](https://leanpub.com/u/ShaunaGordon)
 * [Soap Store](http://worldtreefarms.com)
+
+**(And Indirectly)**
+
+I'm also a gamer and like to tinker with _World of Warcraft_ addons, in particular, but I technically can't make money from them directly (ie - I can't sell them), hence the name on the Liberapay account. [You can find those projects here.](https://dreamwalker-collective.github.io/)
 
 ## Giving Back
 
