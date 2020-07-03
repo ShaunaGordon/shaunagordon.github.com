@@ -1,6 +1,7 @@
 ---
 title: "What We Owe To Each Other"
-description: "Contractualism and Social Justice in the Tech Industry, Explained With Plastic Spiders"
+subtitle: "Contractualism and Social Justice in the Tech Industry, Explained With Plastic Spiders"
+description: "Little changes really can have a big impact, and we really don't have an excuse not to make them if it means creating a better environment for everyone."
 date: 2020-07-02
 categories: [community, tech]
 tags: [diversity, culture, civil rights]
