@@ -3,7 +3,7 @@ title: "An Open Letter To Recruiters"
 description: "How not to fail at getting on my short list."
 date: 2014-10-15
 categories: [tech, business]
-tags: [tips]
+tags: [tips, culture]
 slug: dear-recruiters
 aliases:
 - "/blog/2014/10/15/dear-recruiters"

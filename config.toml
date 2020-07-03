@@ -48,6 +48,7 @@ paginate = 10
   github = "ShaunaGordon"
   gitlab = "shauna"
   email = "shauna@shaunagordon.com"
+  resume = "//resume.shaunagordon.com"
 
 [markup]
   [markup.tableOfContents]

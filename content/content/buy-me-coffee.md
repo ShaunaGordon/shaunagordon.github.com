@@ -54,7 +54,6 @@ What projects/organizations do I donate to? Here are a few:
 * Apache Foundation
 * Ansible
 * Vagrant
-* Antergos
 * American Foundation for Suicide Prevention
 * Trevor Project
 * Autism Self Advocacy Network
@@ -64,8 +63,9 @@ What projects/organizations do I donate to? Here are a few:
 * Kickstarter projects, including:
   * [True North PHP](https://www.kickstarter.com/projects/1035100786/truenorth-php-woolly-mammoth-plush-toy)
   * [The community of Bula Batiki, Fiji](https://www.kickstarter.com/projects/2022042435/bula-batiki-coconut-oil-non-profit-from-the-fiji-i), who are building sustainable income through the export of coconut oil
-  * [Blessed Designs](https://www.kickstarter.com/projects/1593368264/blessed-designs-ethically-made-t-shirts), a trio of women of color starting a sustainably- and ethically-made shirt company
+  * [Blessed Designs](https://www.kickstarter.com/projects/1593368264/blessed-designs-ethically-made-t-shirts), a trio of women of color starting a sustainably- and ethically-made (and comfy!) clothing company
   * [Anka Cooperative](https://www.kickstarter.com/projects/ankacoop/empowering-syrian-refugees-with-handcrafted-heirlo), empowering Syrian refugees by employing and training them to make hand-woven rugs
+  * [Radian Jeans](https://www.kickstarter.com/projects/radian/the-perfect-everyday-jeans), because pockets!
 * ...and many others
 
 So, by helping me fund my projects, you'll also be helping me fund many other projects. :)

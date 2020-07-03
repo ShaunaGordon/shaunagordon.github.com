@@ -16,6 +16,6 @@ Maybe that makes me ["unemployable"](https://unemployable.com/podcast/intro/)?
 
 Or perhaps it's a criticism of conventional workplaces and I've just been [ahead of the curve](https://www.gorowe.com/)?
 
-:shrug:
+:woman_shrugging:
 
 Regardless, it gives my mind the never-ending puzzle of finding better ways of supporting my family.
