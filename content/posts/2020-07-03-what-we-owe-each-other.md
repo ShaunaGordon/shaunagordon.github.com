@@ -15,7 +15,7 @@ It's certainly not new (some discussions on the matter date back a decade or mor
 
 In this latest iteration, a young man voiced his concerns regarding the issue -- while he was okay with making the verbiage change, particularly when it came to git branches (which is a _super_ easy change to make), he didn't really understand the offense in the context (most people do assume git's "master" branch is in the "master copy" sense, which is a reasonable assumption) and felt that the context didn't leave much -- if any -- room for offense. "If feels to me very much like manufacturing outrage," he ended his response with.
 
-He's a good guy, but... :grimace: it was very much a "your privilege is showing" moment. (For the record, he took my feedback, where the analogy below comes from, with grace and appreciation. It was very much a case of a privilege blind spot.) I needed a way to describe the situation in a way that he could relate to, and I came up with the following scenario:
+He's a good guy, but... :grimacing: it was very much a "your privilege is showing" moment. (For the record, he took my feedback, where the analogy below comes from, with grace and appreciation. It was very much a case of a privilege blind spot.) I needed a way to describe the situation in a way that he could relate to, and I came up with the following scenario:
 
 ## The Analogy
 
