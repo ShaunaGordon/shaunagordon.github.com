@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tips on I Make Things</title>
+    <link>http://shaunagordon.com/tags/tips/</link>
+    <description>Recent content in tips on I Make Things</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 21 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://shaunagordon.com/tags/tips/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>On Problem Solving</title>
+      <link>http://shaunagordon.com/2020/10/21/on-problem-solving/</link>
+      <pubDate>Wed, 21 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://shaunagordon.com/2020/10/21/on-problem-solving/</guid>
+      <description>The most important skill in tech isn&amp;rsquo;t the technology. It&amp;rsquo;s problem-solving. Whether you get into cyber security, system administration, or programming, the heart of all of it is really the ability to take a problem, break it apart, and work out a solution &amp;ndash; very often coming up with solutions that didn&amp;rsquo;t previously exist at all. Even on the more everyday scale, you&amp;rsquo;ll be constantly faced with error messages, odd software behavior, broken tests, and more that you&amp;rsquo;ll be expected to triage and if not fix yourself, hand off detailed information about the problem to those who can fix it.</description>
+    </item>
+    
+    <item>
+      <title>Pelican, Travis, and Github, Part 2</title>
+      <link>http://shaunagordon.com/2017/09/01/pelican-travis-and-github-part-2/</link>
+      <pubDate>Fri, 01 Sep 2017 23:00:00 -0500</pubDate>
+      
+      <guid>http://shaunagordon.com/2017/09/01/pelican-travis-and-github-part-2/</guid>
+      <description>Last year, I wrote a post on automating the generation of my static-site blog. As they do, things have since changed, and I figured I&amp;rsquo;d update accordingly.
+Changes To Travis And .travis.yml Travis recently made several updates, many of which make our job easier.
+Build Settings Travis now has the option to build only if a .travis.yml file is present. Before, you needed a .travis.yml file in both your source and your display branch.</description>
+    </item>
+    
+    <item>
+      <title>Personal Finance, Part 3</title>
+      <link>http://shaunagordon.com/2017/08/23/personal-finance-part-3/</link>
+      <pubDate>Wed, 23 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://shaunagordon.com/2017/08/23/personal-finance-part-3/</guid>
+      <description>In part 2, I mentioned that I&amp;rsquo;m &amp;ldquo;productively lazy,&amp;rdquo; and prefer to automate what I can. Well, I&amp;rsquo;ve managed to do that with my finances.
+Hello, Automation! My husband finally got officially hired by his work, which converted him to salary. This gave us two benefits &amp;ndash; 1. his income is no longer locked to his hours, so the paychecks are the same, and 2. he and I are now on the same pay schedule (which makes for a really pretty number on payday).</description>
+    </item>
+    
+    <item>
+      <title>Personal Finance, Part 2</title>
+      <link>http://shaunagordon.com/2016/12/16/personal-finance-part-2/</link>
+      <pubDate>Fri, 16 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://shaunagordon.com/2016/12/16/personal-finance-part-2/</guid>
+      <description>Back in part 1 I described the system that I used to work on getting my family out of debt and make ends meet. We&amp;rsquo;re now coming up on a year, so how did I do? Does this system actually work?
+Putting The System To Work So, did it work? Well, as an acquaintance put it, there was &amp;ldquo;no budge in the budget,&amp;rdquo; but&amp;hellip;yeah, it has been working. In fact, it saved our hides when things fell apart a few months ago.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started With Personal Finance</title>
+      <link>http://shaunagordon.com/2016/04/04/getting-started-with-personal-finance/</link>
+      <pubDate>Mon, 04 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://shaunagordon.com/2016/04/04/getting-started-with-personal-finance/</guid>
+      <description>I could have sworn I wrote earlier about how one of the things I was planning on doing was personal finance and money-making outside of a typical 9-5. Oh well, if I haven&amp;rsquo;t said it before, I&amp;rsquo;ll say it now &amp;ndash; I find it annoying that there seems to be a gap between &amp;ldquo;flat broke with zero personal finance knowledge&amp;rdquo; and &amp;ldquo;personal finance guru,&amp;rdquo; and I&amp;rsquo;d like to bridge that gap, while I&amp;rsquo;m crossing it.</description>
+    </item>
+    
+    <item>
+      <title>Pelican, Travis, and Github</title>
+      <link>http://shaunagordon.com/2016/01/13/pelican-travis-and-github/</link>
+      <pubDate>Wed, 13 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://shaunagordon.com/2016/01/13/pelican-travis-and-github/</guid>
+      <description>Hey-o! There have been some changes made to this process. Be sure to check out the updates.
+This is actually the second time I&amp;rsquo;ve leveraged Travis CI for managing my static-site blog, but apparently I didn&amp;rsquo;t write about it. I had done it shortly after setting up the Octopress version of my blog. It was nice and convenient, and dramatically lowered the barrier to writing more blog entries, though I didn&amp;rsquo;t realize that until I lost that capability when I switched to Pelican (probably because the Octopress version was a bit finicky, due to breaking changes in the upstream Octopress repo, so the barrier was still pretty high).</description>
+    </item>
+    
+    <item>
+      <title>An Open Letter To Recruiters</title>
+      <link>http://shaunagordon.com/2014/10/15/dear-recruiters/</link>
+      <pubDate>Wed, 15 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://shaunagordon.com/2014/10/15/dear-recruiters/</guid>
+      <description>Dear Third Party Recruiters,
+Due to the high volume of contact requests I’ve received, I have decided to write this open letter in order to improve the quality of my network.
+The Greater Columbus Area is home to a very large number of third party recruiting companies. This means you have a lot of competition. Competition should mean improved quality. Unfortunately, what I generally see is rather disappointing.
+We tech folks are generally a merit-based people.</description>
+    </item>
+    
+  </channel>
+</rss>

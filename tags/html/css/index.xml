@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>html/css on I Make Things</title>
+    <link>http://shaunagordon.com/tags/html/css/</link>
+    <description>Recent content in html/css on I Make Things</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://shaunagordon.com/tags/html/css/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Review: Handcrafted CSS</title>
+      <link>http://shaunagordon.com/2010/06/21/review-handcrafted-css/</link>
+      <pubDate>Mon, 21 Jun 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://shaunagordon.com/2010/06/21/review-handcrafted-css/</guid>
+      <description>Handcrafted CSS: More Bulletproof Web Design, Video EditionWhile at one of my previous clients, a coworker ordered this book as a resource at the office. I was the first to read it and simply couldn&#39;t put it down. Handcrafted CSS: More Bulletproof Web Design highlights modern CSS techniques that help build robust, attractive, designs.
+Unlike most technical books, which often provide too much tech and not enough explanation, or too much theory and not enough tech, this book provides a fantastic balance, and even uses a running case study that it builds and enhances as the reader progresses through the book.</description>
+    </item>
+    
+  </channel>
+</rss>

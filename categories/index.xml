@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on I Make Things</title>
+    <link>http://shaunagordon.com/categories/</link>
+    <description>Recent content in Categories on I Make Things</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 21 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://shaunagordon.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>teaching</title>
+      <link>http://shaunagordon.com/categories/teaching/</link>
+      <pubDate>Wed, 21 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://shaunagordon.com/categories/teaching/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tech</title>
+      <link>http://shaunagordon.com/categories/tech/</link>
+      <pubDate>Wed, 21 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://shaunagordon.com/categories/tech/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>community</title>
+      <link>http://shaunagordon.com/categories/community/</link>
+      <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://shaunagordon.com/categories/community/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>business</title>
+      <link>http://shaunagordon.com/categories/business/</link>
+      <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://shaunagordon.com/categories/business/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>remote work</title>
+      <link>http://shaunagordon.com/categories/remote-work/</link>
+      <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://shaunagordon.com/categories/remote-work/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>finance</title>
+      <link>http://shaunagordon.com/categories/finance/</link>
+      <pubDate>Tue, 13 Nov 2018 22:00:00 -0500</pubDate>
+      
+      <guid>http://shaunagordon.com/categories/finance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>personal development</title>
+      <link>http://shaunagordon.com/categories/personal-development/</link>
+      <pubDate>Thu, 08 Mar 2018 19:00:00 -0500</pubDate>
+      
+      <guid>http://shaunagordon.com/categories/personal-development/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

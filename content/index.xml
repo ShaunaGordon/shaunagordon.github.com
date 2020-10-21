@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contents on I Make Things</title>
+    <link>http://shaunagordon.com/content/</link>
+    <description>Recent content in Contents on I Make Things</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://shaunagordon.com/content/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://shaunagordon.com/content/404/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://shaunagordon.com/content/404/</guid>
+      <description>Ooops! Not found!</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://shaunagordon.com/content/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://shaunagordon.com/content/about/</guid>
+      <description>About Me I make stuff.
+My profession is problem solving. My chosen tool by which to do that has been developing software. I&amp;rsquo;ve written shell scripts, maintained systems in .Net, built APIs in PHP, and implemented interfaces with HTML, CSS, and JavaScript. I&amp;rsquo;ve maintained legacy systems and built cutting-edge, life-changing applications, as well as created little tools to support other people in getting their work done.
+Writing software isn&amp;rsquo;t all I do, though.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://shaunagordon.com/content/buy-me-coffee/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://shaunagordon.com/content/buy-me-coffee/</guid>
+      <description>Buy Me Coffee (Ways I Make Money From This Site)
+I Hate Ads&amp;hellip; I do, with a passion. The first extension I install on any browser is AdBlock. That&amp;rsquo;s how much I hate them. I also hate when blogs write a &amp;ldquo;review&amp;rdquo; or other article for the sole purpose of selling that product. You know the kind I&amp;rsquo;m talking about. They read like a commercial and are full of keywords and buzzwords about the product.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://shaunagordon.com/content/hire-me/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://shaunagordon.com/content/hire-me/</guid>
+      <description>Hiring Me Looking to work with me? Cool! Let&amp;rsquo;s start with the type of relationship.
+What Type? Conventional Employment So you read through that ☝️ and still want to hire me as a conventional employee? Well&amp;hellip;it didn&amp;rsquo;t scare you away, so that&amp;rsquo;s a start.
+For my sake and yours, I have a high bar for conventional employment in particular. Let&amp;rsquo;s put it this way: I&amp;rsquo;ve turned down Amazon roughly half a dozen times at this point.</description>
+    </item>
+    
+  </channel>
+</rss>
