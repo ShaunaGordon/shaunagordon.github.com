@@ -60,7 +60,9 @@ paginate = 10
     [markup.goldmark.renderer]
       unsafe = true
 
+  goatcounter = "gordondev"
+
 [taxonomies]
   category = "categories"
-  series = "series"
   tag = "tags"
+  series = "series"
