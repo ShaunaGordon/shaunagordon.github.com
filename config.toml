@@ -20,6 +20,7 @@ paginate = 10
   enableToc = true
   enableTags = true
 	enableCategories = true
+  goatcounter = "gordondev"
 
   [params.author]
     name = "Shauna Gordon"
@@ -59,8 +60,6 @@ paginate = 10
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-
-  goatcounter = "gordondev"
 
 [taxonomies]
   category = "categories"
