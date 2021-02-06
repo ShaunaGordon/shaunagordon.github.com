@@ -10,6 +10,9 @@ enableEmoji=true
 
 paginate = 10
 
+goatcounter = "gordondev"
+
+
 [permalinks]
   posts = ":year/:month/:day/:slug/"
 
@@ -20,7 +23,6 @@ paginate = 10
   enableToc = true
   enableTags = true
 	enableCategories = true
-  goatcounter = "gordondev"
 
   [params.author]
     name = "Shauna Gordon"
