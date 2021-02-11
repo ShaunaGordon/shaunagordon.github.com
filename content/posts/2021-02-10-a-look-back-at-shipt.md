@@ -4,7 +4,7 @@ subtitle: "And The Gig Economy More Generally"
 description: "It's a sad, downhill path, IMO."
 date: 2021-02-10
 categories: [business]
-tags: ["something different", shipt]
+tags: [something different, shipt]
 ---
 
 So I happened to notice the other day that my site gets a _lot_ more traffic than I realized (thanks, PointHQ!), so I tossed a little, lightweight analytics thing onto it so I can see where people are going and maybe we're they're coming from. (Hi, people! :wave:)
