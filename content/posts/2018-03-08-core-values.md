@@ -43,7 +43,7 @@ Note: this is not a free pass to be a jerk in the name of "directness" or "hones
 
 # Be Transparent
 
-In the vast majority of cases, it's better to give too much information than too little. [Joel Gascoigne of Buffer put it quite well](https://open.buffer.com/why-transparency/): *Transparency breeds trust, and trust is the foundation of great teamwork.* Transparency also keeps us honest, not just with others, but with ourselves. 
+In the vast majority of cases, it's better to give too much information than too little. [Joel Gascoigne of Buffer put it quite well](https://open.buffer.com/why-transparency/): *Transparency breeds trust, and trust is the foundation of great teamwork.* Transparency also keeps us honest, not just with others, but with ourselves.
 
 When we're in leadership positions, this may take some practice to balance tranparency and expectation management, but it can be done. This extra balancing reinforces that we need to be mindful of what we say and how we say it in order to get our intended meaning across (this goes hand in hand with the previous value).
 
@@ -53,9 +53,9 @@ What's "right" in a given situation? Well, that depends on the situation and is 
 
 # Take Ownership
 
-Or, as the entrepreneur circles say, "own yo' shit." In this case, "yo' shit" is not just the negative things (such as owning up to mistakes), but also positive things (such as taking credit for your achievements). 
+Or, as the entrepreneur circles say, "own yo' shit." In this case, "yo' shit" is not just the negative things (such as owning up to mistakes), but also positive things (such as taking credit for your achievements).
 
-Apologize and take ownership of when you've actually done wrong, hurt someone, makde a mistake, etc., and only when you've done those things. Don't apologize for things like speaking up about something, raising red flags, protecting others, taking care of yourself, etc. Needlessly apologizing cheapens your apologies and conveys that Doing The Right Thing is somehow wrong. It's not. You have a right to speak up and be heard. You have a right to raise concerns and offer suggestions. You have a right to take up space. You have the right to set boundaries.
+Apologize and take ownership of when you've actually done wrong, hurt someone, made a mistake, etc., and only when you've done those things. Don't apologize for things like speaking up about something, raising red flags, protecting others, taking care of yourself, etc. Needlessly apologizing cheapens your apologies and conveys that Doing The Right Thing is somehow wrong. It's not. You have a right to speak up and be heard. You have a right to raise concerns and offer suggestions. You have a right to take up space. You have the right to set boundaries.
 
 Likewise, make your accomplishments and contributions known. You put in the work, you did the learning, you had the experience. You deserve to own and be recognized for that. Many people don't like to do this for fear of being branded a braggart. It's a legitimate concern and requires some practice to balance, but it is possible to make your contributions known and visible without being a braggart (and following the other values mentioned here goes a long way toward doing that), such as not pawning off (all of the) credit for something you did to other people and not minimizing your contribution. You're part of the team, too. Making your contributions invisible renders you invisible and devalues your worth to the organization.
 

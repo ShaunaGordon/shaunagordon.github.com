@@ -6,7 +6,7 @@ categories: [personal development]
 tags: [public speaking]
 ---
 
-I got an invite from Cal Evans to watch this week's episode of his weekly show, with this week's topic being a public speaking Q&A with Adam Culp (as this is the *third* time Cal has pinged me regarding public speaking, I think he *really* wants me to start <span class="fa fa-smile-o" aria-hidden="true"></span>). It got me thinking again about my feelings toward the prospect of public speaking for me.
+I got an invite from Cal Evans to watch this week's episode of his weekly show, with this week's topic being a public speaking Q&A with Adam Culp (as this is the *third* time Cal has pinged me regarding public speaking, I think he *really* wants me to start :open_mouth:). It got me thinking again about my feelings toward the prospect of public speaking for me.
 
 Espeically when it's for larger audiences, my knee-jerk response to "you should give a talk," has historically been "hell no." For the longest time, I chalked it up to glossophobia (aka - stage fright/fear of public speaking). Recently, though, things in my life have changed such that the idea is no longer so panic-inducing.
 
