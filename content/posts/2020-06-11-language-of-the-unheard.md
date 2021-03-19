@@ -30,7 +30,7 @@ Likewise, plywood covers random windows of equally random buildings -- obvious s
 
 The Ohio Theatre is the one standout exception. Its entire frontage destroyed (and the answer to "who did it" remains unknown). In its place stands (for now) a large mural
 
-![A variety of Black Lives Matter mural cover the plywood facade of the Ohio Theatre in Columbus](https://en.wikipedia.org/wiki/George_Floyd_protests_in_Columbus,_Ohio#/media/File:Columbus_protests_04.jpg).
+![A variety of Black Lives Matter mural cover the plywood facade of the Ohio Theatre in Columbus](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Columbus_protests_04.jpg/1920px-Columbus_protests_04.jpg).
 
 It's among the largest displays of the same theme - the buildings of supportive organizations get breath-taking murals if they were damaged, while those that represent or perpetuate the racism or racist system being protested get graffiti.
 
