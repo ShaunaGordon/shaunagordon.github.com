@@ -28,9 +28,9 @@ The Law School and the Art Museum sit unscathed in a moat of plywood. The iconic
 
 Likewise, plywood covers random windows of equally random buildings -- obvious signs of crossfire damage from rubber and wooden bullets and other projectiles used by police the first few nights. (This is pretty evident in the difference in damage to the different windows when you find footage of everything before it got boarded up. Hands and random items of convenience break glass differently than rubber-coated metal.)
 
-The Ohio Theatre is the one standout exception. Its entire frontage destroyed (and the answer to "who did it" remains unknown). In its place stands (for now) a large mural
+The Ohio Theatre is the one standout exception. Its entire frontage destroyed (and the answer to "who did it" remains unknown). In its place stands (for now) a large mural.
 
-![A variety of Black Lives Matter mural cover the plywood facade of the Ohio Theatre in Columbus](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Columbus_protests_04.jpg/1920px-Columbus_protests_04.jpg).
+![A variety of Black Lives Matter mural cover the plywood facade of the Ohio Theatre in Columbus](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Columbus_protests_04.jpg/1920px-Columbus_protests_04.jpg)
 
 It's among the largest displays of the same theme - the buildings of supportive organizations get breath-taking murals if they were damaged, while those that represent or perpetuate the racism or racist system being protested get graffiti.
 
