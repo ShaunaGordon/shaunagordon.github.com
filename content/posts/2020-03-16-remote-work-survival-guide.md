@@ -184,10 +184,6 @@ This is just the beginning, though. So to close out, I'll leave you with a list 
 
 ### Also, Even Us Pros Are Struggling Right Now
 
-This tweet says it really succinctly:
-
-{{< tweet 1240103967134060545 >}}
-
 Take things in stride and as things start settling out into whatever "normal" is for us over the next few months, the remote working will also come easier. You're dealing with the remote working learning curve *and* a global pandemic with little information *and* (if you have kids) remote schooling *and* have to limit the amount of "getting away" you can do. Even 25% productivity at work right now is pretty good.
 
 ## Additional Resources
