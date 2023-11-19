@@ -6,27 +6,24 @@
     <description>Recent content in continuous integration on I Make Things</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Sep 2017 23:00:00 -0500</lastBuildDate><atom:link href="http://shaunagordon.com/tags/continuous-integration/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Sep 2017 23:00:00 -0500</lastBuildDate>
+    <atom:link href="http://shaunagordon.com/tags/continuous-integration/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pelican, Travis, and Github, Part 2</title>
       <link>http://shaunagordon.com/2017/09/01/pelican-travis-and-github-part-2/</link>
       <pubDate>Fri, 01 Sep 2017 23:00:00 -0500</pubDate>
-      
       <guid>http://shaunagordon.com/2017/09/01/pelican-travis-and-github-part-2/</guid>
       <description>Last year, I wrote a post on automating the generation of my static-site blog. As they do, things have since changed, and I figured I&amp;rsquo;d update accordingly.
 Changes To Travis And .travis.yml Travis recently made several updates, many of which make our job easier.
 Build Settings Travis now has the option to build only if a .travis.yml file is present. Before, you needed a .travis.yml file in both your source and your display branch.</description>
     </item>
-    
     <item>
       <title>Pelican, Travis, and Github</title>
       <link>http://shaunagordon.com/2016/01/13/pelican-travis-and-github/</link>
       <pubDate>Wed, 13 Jan 2016 00:00:00 +0000</pubDate>
-      
       <guid>http://shaunagordon.com/2016/01/13/pelican-travis-and-github/</guid>
       <description>Hey-o! There have been some changes made to this process. Be sure to check out the updates.
 This is actually the second time I&amp;rsquo;ve leveraged Travis CI for managing my static-site blog, but apparently I didn&amp;rsquo;t write about it. I had done it shortly after setting up the Octopress version of my blog. It was nice and convenient, and dramatically lowered the barrier to writing more blog entries, though I didn&amp;rsquo;t realize that until I lost that capability when I switched to Pelican (probably because the Octopress version was a bit finicky, due to breaking changes in the upstream Octopress repo, so the barrier was still pretty high).</description>
     </item>
-    
   </channel>
 </rss>

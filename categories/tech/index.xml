@@ -6,79 +6,74 @@
     <description>Recent content in tech on I Make Things</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://shaunagordon.com/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://shaunagordon.com/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fixing The Google Sheets View Only Bug</title>
+      <link>http://shaunagordon.com/2023/11/17/fixing-the-google-sheets-view-only-bug/</link>
+      <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://shaunagordon.com/2023/11/17/fixing-the-google-sheets-view-only-bug/</guid>
+      <description>Have you ever been using Google Sheets on your Android or iPhone, then suddenly find a sheet that you own stuck in read only mode? Or maybe you opened it to find a message that says &amp;ldquo;this document has changed significantly. Reload to sync,&amp;rdquo; and then it goes read only?
+I have. It&amp;rsquo;s annoying as hell, and made yet more annoying by the fact that not a single help forum seems to acknowledge this is even an issue!</description>
+    </item>
     <item>
       <title>That One Where I Talk For An Hour</title>
       <link>http://shaunagordon.com/2021/02/11/that-one-where-i-talk-for-an-hour/</link>
       <pubDate>Thu, 11 Feb 2021 00:00:00 +0000</pubDate>
-      
       <guid>http://shaunagordon.com/2021/02/11/that-one-where-i-talk-for-an-hour/</guid>
-      <description>Holy shit, I actually just did a talk&amp;hellip;&amp;ldquo;in front of&amp;rdquo; a few hundred people&amp;hellip;for over an hour&amp;hellip; 😱
+      <description>Holy shit, I actually just did a talk&amp;hellip;&amp;ldquo;in front of&amp;rdquo; a few hundred people&amp;hellip;for over an hour&amp;hellip; &amp;#x1f631;
 I&amp;rsquo;m not sure you, dear reader, fully grasp the gravity of that.
 See, fear of public speaking/stage fright (aka &amp;ldquo;glossophobia&amp;rdquo;) has been a thing that&amp;rsquo;s haunted me for&amp;hellip;basically my entire life. Incessant school bullying and an emotionally abusive head-of-household with a particular enjoyment of telling a 7 year old child everything they did wrong during the school performance, plus dealing with the fallout from a spouse&amp;rsquo;s undiagnosed mental illness will kind of do that to a person.</description>
     </item>
-    
     <item>
       <title>On Problem Solving</title>
       <link>http://shaunagordon.com/2020/10/21/on-problem-solving/</link>
       <pubDate>Wed, 21 Oct 2020 00:00:00 +0000</pubDate>
-      
       <guid>http://shaunagordon.com/2020/10/21/on-problem-solving/</guid>
       <description>The most important skill in tech isn&amp;rsquo;t the technology. It&amp;rsquo;s problem-solving. Whether you get into cyber security, system administration, or programming, the heart of all of it is really the ability to take a problem, break it apart, and work out a solution &amp;ndash; very often coming up with solutions that didn&amp;rsquo;t previously exist at all. Even on the more everyday scale, you&amp;rsquo;ll be constantly faced with error messages, odd software behavior, broken tests, and more that you&amp;rsquo;ll be expected to triage and if not fix yourself, hand off detailed information about the problem to those who can fix it.</description>
     </item>
-    
     <item>
       <title>What We Owe To Each Other</title>
       <link>http://shaunagordon.com/2020/07/02/what-we-owe-to-each-other/</link>
       <pubDate>Thu, 02 Jul 2020 00:00:00 +0000</pubDate>
-      
       <guid>http://shaunagordon.com/2020/07/02/what-we-owe-to-each-other/</guid>
       <description>The topic of changing verbiage within the tech industry, particularly as it relates to references to &amp;ldquo;master,&amp;rdquo; particularly in the &amp;ldquo;master/slave&amp;rdquo; contexts, but also in places like &amp;ldquo;master&amp;rdquo; branch in git (which does, in fact, have its roots in the &amp;ldquo;master/slave&amp;rdquo; paradigm), came up in a couple of Slack groups in which I participate.
 It&amp;rsquo;s certainly not new (some discussions on the matter date back a decade or more), but it&amp;rsquo;s always kind of a contentious topic when it comes up, despite the terminology getting phased out over time.</description>
     </item>
-    
     <item>
       <title>Pelican, Travis, and Github, Part 2</title>
       <link>http://shaunagordon.com/2017/09/01/pelican-travis-and-github-part-2/</link>
       <pubDate>Fri, 01 Sep 2017 23:00:00 -0500</pubDate>
-      
       <guid>http://shaunagordon.com/2017/09/01/pelican-travis-and-github-part-2/</guid>
       <description>Last year, I wrote a post on automating the generation of my static-site blog. As they do, things have since changed, and I figured I&amp;rsquo;d update accordingly.
 Changes To Travis And .travis.yml Travis recently made several updates, many of which make our job easier.
 Build Settings Travis now has the option to build only if a .travis.yml file is present. Before, you needed a .travis.yml file in both your source and your display branch.</description>
     </item>
-    
     <item>
       <title>Shopify HMAC Verification</title>
       <link>http://shaunagordon.com/2017/08/24/shopify-hmac-verification/</link>
       <pubDate>Thu, 24 Aug 2017 01:30:00 -0500</pubDate>
-      
       <guid>http://shaunagordon.com/2017/08/24/shopify-hmac-verification/</guid>
       <description>I get the pleasure of writing integration after integration to Shopify at my day job. As a result, I have become quite familiar with their documentation and its gaps. The HMAC verification piece of the OAuth/embedded app installation process is a particularly glaring gap. So let&amp;rsquo;s close it.
 What&amp;rsquo;s Wrong With The Docs? If you&amp;rsquo;re a Ruby developer, probably not much. Shopify&amp;rsquo;s got a nice little Ruby gem that does a great deal of the work for you.</description>
     </item>
-    
     <item>
       <title>Pelican, Travis, and Github</title>
       <link>http://shaunagordon.com/2016/01/13/pelican-travis-and-github/</link>
       <pubDate>Wed, 13 Jan 2016 00:00:00 +0000</pubDate>
-      
       <guid>http://shaunagordon.com/2016/01/13/pelican-travis-and-github/</guid>
       <description>Hey-o! There have been some changes made to this process. Be sure to check out the updates.
 This is actually the second time I&amp;rsquo;ve leveraged Travis CI for managing my static-site blog, but apparently I didn&amp;rsquo;t write about it. I had done it shortly after setting up the Octopress version of my blog. It was nice and convenient, and dramatically lowered the barrier to writing more blog entries, though I didn&amp;rsquo;t realize that until I lost that capability when I switched to Pelican (probably because the Octopress version was a bit finicky, due to breaking changes in the upstream Octopress repo, so the barrier was still pretty high).</description>
     </item>
-    
     <item>
       <title>An Open Letter To Recruiters</title>
       <link>http://shaunagordon.com/2014/10/15/dear-recruiters/</link>
       <pubDate>Wed, 15 Oct 2014 00:00:00 +0000</pubDate>
-      
       <guid>http://shaunagordon.com/2014/10/15/dear-recruiters/</guid>
       <description>Dear Third Party Recruiters,
 Due to the high volume of contact requests I’ve received, I have decided to write this open letter in order to improve the quality of my network.
 The Greater Columbus Area is home to a very large number of third party recruiting companies. This means you have a lot of competition. Competition should mean improved quality. Unfortunately, what I generally see is rather disappointing.
 We tech folks are generally a merit-based people.</description>
     </item>
-    
   </channel>
 </rss>

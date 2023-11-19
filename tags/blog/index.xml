@@ -6,16 +6,15 @@
     <description>Recent content in blog on I Make Things</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 15 Nov 2018 00:02:55 -0500</lastBuildDate><atom:link href="http://shaunagordon.com/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Nov 2018 00:02:55 -0500</lastBuildDate>
+    <atom:link href="http://shaunagordon.com/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>New Blog Platform</title>
       <link>http://shaunagordon.com/2018/11/15/new-blog-platform/</link>
       <pubDate>Thu, 15 Nov 2018 00:02:55 -0500</pubDate>
-      
       <guid>http://shaunagordon.com/2018/11/15/new-blog-platform/</guid>
-      <description>So&amp;hellip;Pelican (my previous static site generator) took a dump on me when I went to upload my latest blog post&amp;hellip; I attempted multiple paths to resurrect it, but they&amp;rsquo;ve all ultimately failed. 😢
+      <description>So&amp;hellip;Pelican (my previous static site generator) took a dump on me when I went to upload my latest blog post&amp;hellip; I attempted multiple paths to resurrect it, but they&amp;rsquo;ve all ultimately failed. &amp;#x1f622;
 As a result, I&amp;rsquo;m moving my site to Hugo, but that requires some conversion (and probably clean-up). It&amp;rsquo;s been a bit tedious, but it does mean I&amp;rsquo;ve cleaned up my ancient posts that are no longer relevant, which is a plus.</description>
     </item>
-    
   </channel>
 </rss>
