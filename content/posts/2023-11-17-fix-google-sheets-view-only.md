@@ -12,7 +12,7 @@ I have. It's annoying as hell, and made yet more annoying by the fact that not a
 
 It's infuriating!
 
-[![Obligatory xkcd - Wisdom of the Ancients](https://imgs.xkcd.com/comics/wisdom_of_the_ancients.png)](https://xkcd.com/979/)
+[![Obligatory xkcd - Wisdom of the Ancients](https://imgs.xkcd.com/comics/wisdom_of_the_ancients.png "All long help threads should have a sticky globally-editable post at the top saying 'DEAR PEOPLE FROM THE FUTURE: Here's what we've figured out so far...'")](https://xkcd.com/979/)
 
 All the responses are the same (if there are responses and it's not just locked without any), I shit you not.
 
