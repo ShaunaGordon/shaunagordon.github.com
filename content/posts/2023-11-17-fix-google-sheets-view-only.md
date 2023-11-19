@@ -12,8 +12,7 @@ I have. It's annoying as hell, and made yet more annoying by the fact that not a
 
 It's infuriating!
 
-![Obligatory xkcd - Wisdom of the Ancients] (https://imgs.xkcd.com/comics/wisdom_of_the_ancients.png)
-![Alt text](../images/avatar.png)
+![Obligatory xkcd - Wisdom of the Ancients](https://imgs.xkcd.com/comics/wisdom_of_the_ancients.png)
 
 All the responses are the same (if there are responses and it's not just locked without any), I shit you not.
 
