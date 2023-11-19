@@ -14,6 +14,7 @@ It's infuriating!
 
 ![Obligatory xkcd - Wisdom of the Ancients] (https://imgs.xkcd.com/comics/wisdom_of_the_ancients.png)
 
+
 All the responses are the same (if there are responses and it's not just locked without any), I shit you not.
 
 - You must be logged into the wrong account (...except when I know for a fact that I'm using the right account and can open other sheets on that same account)
