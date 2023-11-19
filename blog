@@ -19,7 +19,7 @@ indent_mode=2
 
 [project]
 name=blog
-base_path=/run/media/dragonwolf/6eb30b05-f281-4778-af91-ba3a7f67192d/Projects/shaunagordon.github.com
+base_path=/mnt/data/Projects/shaunagordon.github.com
 description=
 file_patterns=
 
