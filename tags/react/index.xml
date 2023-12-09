@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>react on I Make Things</title>
+    <link>http://shaunagordon.com/tags/react/</link>
+    <description>Recent content in react on I Make Things</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 08 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://shaunagordon.com/tags/react/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adventures in Modernizing React</title>
+      <link>http://shaunagordon.com/2023/12/08/adventures-in-modernizing-react/</link>
+      <pubDate>Fri, 08 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://shaunagordon.com/2023/12/08/adventures-in-modernizing-react/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
