@@ -1,7 +1,7 @@
 ---
 title: "Adventures in Modernizing React"
-description: "Changing Paradigms"
-date: 2023-11-17
+description: "Something, something, new paradigms"
+date: 2023-12-08
 categories: [tech]
-tags: [bugs]
+tags: [react, legacy-code]
 ---
