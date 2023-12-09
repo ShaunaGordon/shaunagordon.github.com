@@ -1,7 +1,7 @@
 ---
 title: "Review: Handcrafted CSS"
 date: 2010-06-21
-tags: [review, html/css]
+tags: [review, html, css]
 ---
 
 <div class='post'>
