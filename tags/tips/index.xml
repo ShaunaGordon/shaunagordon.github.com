@@ -20,25 +20,21 @@
       <link>http://shaunagordon.com/2017/09/01/pelican-travis-and-github-part-2/</link>
       <pubDate>Fri, 01 Sep 2017 23:00:00 -0500</pubDate>
       <guid>http://shaunagordon.com/2017/09/01/pelican-travis-and-github-part-2/</guid>
-      <description>Last year, I wrote a post on automating the generation of my static-site blog. As they do, things have since changed, and I figured I&amp;rsquo;d update accordingly.
-Changes To Travis And .travis.yml Travis recently made several updates, many of which make our job easier.
-Build Settings Travis now has the option to build only if a .travis.yml file is present. Before, you needed a .travis.yml file in both your source and your display branch.</description>
+      <description>Last year, I wrote a post on automating the generation of my static-site blog. As they do, things have since changed, and I figured I&amp;rsquo;d update accordingly.&#xA;Changes To Travis And .travis.yml Travis recently made several updates, many of which make our job easier.&#xA;Build Settings Travis now has the option to build only if a .travis.yml file is present. Before, you needed a .travis.yml file in both your source and your display branch.</description>
     </item>
     <item>
       <title>Personal Finance, Part 3</title>
       <link>http://shaunagordon.com/2017/08/23/personal-finance-part-3/</link>
       <pubDate>Wed, 23 Aug 2017 00:00:00 +0000</pubDate>
       <guid>http://shaunagordon.com/2017/08/23/personal-finance-part-3/</guid>
-      <description>In part 2, I mentioned that I&amp;rsquo;m &amp;ldquo;productively lazy,&amp;rdquo; and prefer to automate what I can. Well, I&amp;rsquo;ve managed to do that with my finances.
-Hello, Automation! My husband finally got officially hired by his work, which converted him to salary. This gave us two benefits &amp;ndash; 1. his income is no longer locked to his hours, so the paychecks are the same, and 2. he and I are now on the same pay schedule (which makes for a really pretty number on payday).</description>
+      <description>In part 2, I mentioned that I&amp;rsquo;m &amp;ldquo;productively lazy,&amp;rdquo; and prefer to automate what I can. Well, I&amp;rsquo;ve managed to do that with my finances.&#xA;Hello, Automation! My husband finally got officially hired by his work, which converted him to salary. This gave us two benefits &amp;ndash; 1. his income is no longer locked to his hours, so the paychecks are the same, and 2. he and I are now on the same pay schedule (which makes for a really pretty number on payday).</description>
     </item>
     <item>
       <title>Personal Finance, Part 2</title>
       <link>http://shaunagordon.com/2016/12/16/personal-finance-part-2/</link>
       <pubDate>Fri, 16 Dec 2016 00:00:00 +0000</pubDate>
       <guid>http://shaunagordon.com/2016/12/16/personal-finance-part-2/</guid>
-      <description>Back in part 1 I described the system that I used to work on getting my family out of debt and make ends meet. We&amp;rsquo;re now coming up on a year, so how did I do? Does this system actually work?
-Putting The System To Work So, did it work? Well, as an acquaintance put it, there was &amp;ldquo;no budge in the budget,&amp;rdquo; but&amp;hellip;yeah, it has been working. In fact, it saved our hides when things fell apart a few months ago.</description>
+      <description>Back in part 1 I described the system that I used to work on getting my family out of debt and make ends meet. We&amp;rsquo;re now coming up on a year, so how did I do? Does this system actually work?&#xA;Putting The System To Work So, did it work? Well, as an acquaintance put it, there was &amp;ldquo;no budge in the budget,&amp;rdquo; but&amp;hellip;yeah, it has been working. In fact, it saved our hides when things fell apart a few months ago.</description>
     </item>
     <item>
       <title>Getting Started With Personal Finance</title>
@@ -52,18 +48,14 @@ Putting The System To Work So, did it work? Well, as an acquaintance put it, the
       <link>http://shaunagordon.com/2016/01/13/pelican-travis-and-github/</link>
       <pubDate>Wed, 13 Jan 2016 00:00:00 +0000</pubDate>
       <guid>http://shaunagordon.com/2016/01/13/pelican-travis-and-github/</guid>
-      <description>Hey-o! There have been some changes made to this process. Be sure to check out the updates.
-This is actually the second time I&amp;rsquo;ve leveraged Travis CI for managing my static-site blog, but apparently I didn&amp;rsquo;t write about it. I had done it shortly after setting up the Octopress version of my blog. It was nice and convenient, and dramatically lowered the barrier to writing more blog entries, though I didn&amp;rsquo;t realize that until I lost that capability when I switched to Pelican (probably because the Octopress version was a bit finicky, due to breaking changes in the upstream Octopress repo, so the barrier was still pretty high).</description>
+      <description>Hey-o! There have been some changes made to this process. Be sure to check out the updates.&#xA;This is actually the second time I&amp;rsquo;ve leveraged Travis CI for managing my static-site blog, but apparently I didn&amp;rsquo;t write about it. I had done it shortly after setting up the Octopress version of my blog. It was nice and convenient, and dramatically lowered the barrier to writing more blog entries, though I didn&amp;rsquo;t realize that until I lost that capability when I switched to Pelican (probably because the Octopress version was a bit finicky, due to breaking changes in the upstream Octopress repo, so the barrier was still pretty high).</description>
     </item>
     <item>
       <title>An Open Letter To Recruiters</title>
       <link>http://shaunagordon.com/2014/10/15/dear-recruiters/</link>
       <pubDate>Wed, 15 Oct 2014 00:00:00 +0000</pubDate>
       <guid>http://shaunagordon.com/2014/10/15/dear-recruiters/</guid>
-      <description>Dear Third Party Recruiters,
-Due to the high volume of contact requests I’ve received, I have decided to write this open letter in order to improve the quality of my network.
-The Greater Columbus Area is home to a very large number of third party recruiting companies. This means you have a lot of competition. Competition should mean improved quality. Unfortunately, what I generally see is rather disappointing.
-We tech folks are generally a merit-based people.</description>
+      <description>Dear Third Party Recruiters,&#xA;Due to the high volume of contact requests I’ve received, I have decided to write this open letter in order to improve the quality of my network.&#xA;The Greater Columbus Area is home to a very large number of third party recruiting companies. This means you have a lot of competition. Competition should mean improved quality. Unfortunately, what I generally see is rather disappointing.&#xA;We tech folks are generally a merit-based people.</description>
     </item>
   </channel>
 </rss>
