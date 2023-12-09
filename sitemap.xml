@@ -212,6 +212,12 @@
     <loc>http://shaunagordon.com/2014/08/19/youre-not-alone/</loc>
     <lastmod>2014-08-19T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://shaunagordon.com/tags/css/</loc>
+    <lastmod>2010-06-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://shaunagordon.com/tags/html/</loc>
+    <lastmod>2010-06-21T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://shaunagordon.com/tags/review/</loc>
     <lastmod>2010-06-21T00:00:00+00:00</lastmod>
   </url><url>
@@ -230,7 +236,5 @@
     <loc>http://shaunagordon.com/content/hire-me/</loc>
   </url><url>
     <loc>http://shaunagordon.com/content/</loc>
-  </url><url>
-    <loc>http://shaunagordon.com/tags/html/css/</loc>
   </url>
 </urlset>
