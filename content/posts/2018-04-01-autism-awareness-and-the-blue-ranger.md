@@ -3,7 +3,7 @@ title: "Autism Awareness And The Blue Ranger"
 description: "Musings on the protrayal of neurodivergence in entertainment."
 date: 2018-04-01T06:00:00-05:00
 categories: [community]
-tags: [commuity contribution, HackTheStigma]
+tags: [community contribution, HackTheStigma]
 ---
 
 It's the start of "Autism Awareness Month," which, for those of us *with* Autism, tends to be "the month to run and hide and wish I didn't like blue, because we get inundated with neurotypical people who think they know our experience better than we do." I don't often write about the effect of Autism on my life (either my son's or my own's), because to be honest, 99% of the time, it's boring and uneventful.
