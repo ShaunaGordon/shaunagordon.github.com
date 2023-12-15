@@ -3,7 +3,7 @@ title: "Pelican, Travis, and Github, Part 2"
 description: "Updating Pelican and the Travis config to account for changes in both. Yay for simpler configs!"
 date: 2017-09-01T23:00:00-05:00
 categories: [tech]
-tags: [site, tips, automation, continuous integration]
+tags: [blog, tips, automation, continuous integration]
 aliases:
 - "/blog/2016/01/13/pelican-travis-and-github-pt-2"
 ---

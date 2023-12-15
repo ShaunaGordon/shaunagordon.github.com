@@ -3,7 +3,7 @@ title: "Pelican, Travis, and Github"
 subtitle: "Setting Up Autmated Blog Updates"
 date: 2016-01-13
 categories: [tech]
-tags: [site, tips, automation, continuous integration]
+tags: [blog, tips, automation, continuous integration]
 aliases:
 - "/blog/2016/01/13/pelican-travis-and-github"
 ---
