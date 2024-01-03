@@ -6,8 +6,15 @@
     <description>Recent content on I Make Things</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://shaunagordon.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2023 Year In Review</title>
+      <link>http://shaunagordon.com/2024/01/02/2023-year-in-review/</link>
+      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://shaunagordon.com/2024/01/02/2023-year-in-review/</guid>
+      <description>Looks at dates on blog posts. Oh&amp;hellip;other than my Google Sheets thing, it&amp;rsquo;s been&amp;hellip;almost three years since I last posted&amp;hellip;&#xA;Oops. 😅&#xA;What have I been doing in that time? Well&amp;hellip;&#xA;Got A Job&amp;hellip;And Got Laid Off From Said Job In late 2021, I had a full time job opportunity fall into my lap. I&amp;rsquo;ve been a member of Gun.io since like&amp;hellip;2019 or something like that, back when I first started doing serious freelancing.</description>
+    </item>
     <item>
       <title>Fixing The Google Sheets View Only Bug</title>
       <link>http://shaunagordon.com/2023/11/17/fixing-the-google-sheets-view-only-bug/</link>

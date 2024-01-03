@@ -6,8 +6,15 @@
     <description>Recent content in Categories on I Make Things</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://shaunagordon.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>finance</title>
+      <link>http://shaunagordon.com/categories/finance/</link>
+      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://shaunagordon.com/categories/finance/</guid>
+      <description></description>
+    </item>
     <item>
       <title>tech</title>
       <link>http://shaunagordon.com/categories/tech/</link>
@@ -41,13 +48,6 @@
       <link>http://shaunagordon.com/categories/remote-work/</link>
       <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>
       <guid>http://shaunagordon.com/categories/remote-work/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>finance</title>
-      <link>http://shaunagordon.com/categories/finance/</link>
-      <pubDate>Tue, 13 Nov 2018 22:00:00 -0500</pubDate>
-      <guid>http://shaunagordon.com/categories/finance/</guid>
       <description></description>
     </item>
     <item>

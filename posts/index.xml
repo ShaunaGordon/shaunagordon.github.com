@@ -5,10 +5,19 @@
     <description>Recent content in Posts on I Make Things</description>
     <meta name="generator" content="Hugo 0.121.1">
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jan 2024 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="http://shaunagordon.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2023 Year In Review</title>
+      <link>http://shaunagordon.com/2024/01/02/2023-year-in-review/</link>
+      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://shaunagordon.com/2024/01/02/2023-year-in-review/</guid>
+      <description>Or...two years, I guess</description>
+    </item>
     
     <item>
       <title>Fixing The Google Sheets View Only Bug</title>

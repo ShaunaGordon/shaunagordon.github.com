@@ -2,31 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://shaunagordon.com/2024/01/02/2023-year-in-review/</loc>
+    <lastmod>2024-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://shaunagordon.com/categories/</loc>
+    <lastmod>2024-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://shaunagordon.com/tags/community-contribution/</loc>
+    <lastmod>2024-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://shaunagordon.com/tags/debt/</loc>
+    <lastmod>2024-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://shaunagordon.com/categories/finance/</loc>
+    <lastmod>2024-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://shaunagordon.com/series/financial-independence/</loc>
+    <lastmod>2024-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://shaunagordon.com/tags/hackthestigma/</loc>
+    <lastmod>2024-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://shaunagordon.com/</loc>
+    <lastmod>2024-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://shaunagordon.com/tags/mental-health/</loc>
+    <lastmod>2024-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://shaunagordon.com/tags/personal-growth/</loc>
+    <lastmod>2024-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://shaunagordon.com/posts/</loc>
+    <lastmod>2024-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://shaunagordon.com/series/</loc>
+    <lastmod>2024-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://shaunagordon.com/tags/</loc>
+    <lastmod>2024-01-02T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://shaunagordon.com/tags/bugs/</loc>
     <lastmod>2023-11-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://shaunagordon.com/categories/</loc>
-    <lastmod>2023-11-17T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://shaunagordon.com/2023/11/17/fixing-the-google-sheets-view-only-bug/</loc>
-    <lastmod>2023-11-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://shaunagordon.com/</loc>
-    <lastmod>2023-11-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://shaunagordon.com/posts/</loc>
-    <lastmod>2023-11-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://shaunagordon.com/tags/</loc>
     <lastmod>2023-11-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://shaunagordon.com/categories/tech/</loc>
     <lastmod>2023-11-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://shaunagordon.com/categories/community/</loc>
-    <lastmod>2021-02-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://shaunagordon.com/tags/community-contribution/</loc>
     <lastmod>2021-02-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://shaunagordon.com/tags/events/</loc>
@@ -50,20 +74,11 @@
     <loc>http://shaunagordon.com/2020/10/21/on-problem-solving/</loc>
     <lastmod>2020-10-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://shaunagordon.com/tags/personal-growth/</loc>
-    <lastmod>2020-10-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://shaunagordon.com/categories/teaching/</loc>
     <lastmod>2020-10-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://shaunagordon.com/tags/tips/</loc>
     <lastmod>2020-10-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://shaunagordon.com/tags/hackthestigma/</loc>
-    <lastmod>2020-09-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://shaunagordon.com/tags/mental-health/</loc>
-    <lastmod>2020-09-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://shaunagordon.com/2020/09/04/on-rejection-and-mental-health/</loc>
     <lastmod>2020-09-04T00:00:00+00:00</lastmod>
@@ -78,9 +93,6 @@
     <lastmod>2020-07-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://shaunagordon.com/tags/diversity/</loc>
-    <lastmod>2020-07-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://shaunagordon.com/series/</loc>
     <lastmod>2020-07-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://shaunagordon.com/2020/07/02/what-we-owe-to-each-other/</loc>
@@ -109,15 +121,6 @@
   </url><url>
     <loc>http://shaunagordon.com/2018/11/15/new-blog-platform/</loc>
     <lastmod>2018-11-15T00:02:55-05:00</lastmod>
-  </url><url>
-    <loc>http://shaunagordon.com/tags/debt/</loc>
-    <lastmod>2018-11-13T22:00:00-05:00</lastmod>
-  </url><url>
-    <loc>http://shaunagordon.com/categories/finance/</loc>
-    <lastmod>2018-11-13T22:00:00-05:00</lastmod>
-  </url><url>
-    <loc>http://shaunagordon.com/series/financial-independence/</loc>
-    <lastmod>2018-11-13T22:00:00-05:00</lastmod>
   </url><url>
     <loc>http://shaunagordon.com/2018/11/13/personal-finance-q4-2018-update/</loc>
     <lastmod>2018-11-13T22:00:00-05:00</lastmod>
