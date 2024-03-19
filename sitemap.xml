@@ -2,10 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://shaunagordon.com/2024/01/02/2023-year-in-review/</loc>
-    <lastmod>2024-01-02T00:00:00+00:00</lastmod>
+    <loc>http://shaunagordon.com/</loc>
+    <lastmod>2024-03-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://shaunagordon.com/posts/</loc>
+    <lastmod>2024-03-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://shaunagordon.com/categories/business/</loc>
+    <lastmod>2024-01-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://shaunagordon.com/categories/</loc>
+    <lastmod>2024-01-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://shaunagordon.com/tags/civil-rights/</loc>
+    <lastmod>2024-01-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://shaunagordon.com/2024/01/27/companies-are-not-family/</loc>
+    <lastmod>2024-01-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://shaunagordon.com/tags/culture/</loc>
+    <lastmod>2024-01-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://shaunagordon.com/tags/</loc>
+    <lastmod>2024-01-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://shaunagordon.com/2024/01/02/2023-year-in-review/</loc>
     <lastmod>2024-01-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://shaunagordon.com/tags/community-contribution/</loc>
@@ -23,22 +44,13 @@
     <loc>http://shaunagordon.com/tags/hackthestigma/</loc>
     <lastmod>2024-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://shaunagordon.com/</loc>
-    <lastmod>2024-01-02T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://shaunagordon.com/tags/mental-health/</loc>
     <lastmod>2024-01-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://shaunagordon.com/tags/personal-growth/</loc>
     <lastmod>2024-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://shaunagordon.com/posts/</loc>
-    <lastmod>2024-01-02T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://shaunagordon.com/series/</loc>
-    <lastmod>2024-01-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://shaunagordon.com/tags/</loc>
     <lastmod>2024-01-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://shaunagordon.com/tags/bugs/</loc>
@@ -62,9 +74,6 @@
     <loc>http://shaunagordon.com/2021/02/10/a-look-back-at-shipt/</loc>
     <lastmod>2021-02-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://shaunagordon.com/categories/business/</loc>
-    <lastmod>2021-02-10T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://shaunagordon.com/tags/shipt/</loc>
     <lastmod>2021-02-10T00:00:00+00:00</lastmod>
   </url><url>
@@ -84,12 +93,6 @@
     <lastmod>2020-09-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://shaunagordon.com/series/black-lives-matter/</loc>
-    <lastmod>2020-07-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://shaunagordon.com/tags/civil-rights/</loc>
-    <lastmod>2020-07-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://shaunagordon.com/tags/culture/</loc>
     <lastmod>2020-07-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://shaunagordon.com/tags/diversity/</loc>
