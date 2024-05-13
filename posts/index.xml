@@ -3,12 +3,21 @@
     <title>Posts on I Make Things</title>
     <link>http://shaunagordon.com/posts/</link>
     <description>Recent content in Posts on I Make Things</description>
-    <meta name="generator" content="Hugo 0.124.1">
+    <meta name="generator" content="Hugo 0.125.7">
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 May 2024 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="http://shaunagordon.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Open 3D Engine</title>
+      <link>http://shaunagordon.com/2024/05/13/open-3d-engine/</link>
+      <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://shaunagordon.com/2024/05/13/open-3d-engine/</guid>
+      <description>First Impressions, Thoughts, and Diving Into The Deep End</description>
+    </item>
     
     <item>
       <title>Companies are not family</title>

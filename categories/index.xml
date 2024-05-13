@@ -4,56 +4,56 @@
     <title>Categories on I Make Things</title>
     <link>http://shaunagordon.com/categories/</link>
     <description>Recent content in Categories on I Make Things</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 27 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 May 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://shaunagordon.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tech</title>
+      <link>http://shaunagordon.com/categories/tech/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://shaunagordon.com/categories/tech/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Business</title>
       <link>http://shaunagordon.com/categories/business/</link>
-      <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://shaunagordon.com/categories/business/</guid>
       <description></description>
     </item>
     <item>
       <title>Finance</title>
       <link>http://shaunagordon.com/categories/finance/</link>
-      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://shaunagordon.com/categories/finance/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tech</title>
-      <link>http://shaunagordon.com/categories/tech/</link>
-      <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://shaunagordon.com/categories/tech/</guid>
       <description></description>
     </item>
     <item>
       <title>Community</title>
       <link>http://shaunagordon.com/categories/community/</link>
-      <pubDate>Thu, 11 Feb 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://shaunagordon.com/categories/community/</guid>
       <description></description>
     </item>
     <item>
       <title>Teaching</title>
       <link>http://shaunagordon.com/categories/teaching/</link>
-      <pubDate>Wed, 21 Oct 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://shaunagordon.com/categories/teaching/</guid>
       <description></description>
     </item>
     <item>
       <title>Remote Work</title>
       <link>http://shaunagordon.com/categories/remote-work/</link>
-      <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://shaunagordon.com/categories/remote-work/</guid>
       <description></description>
     </item>
     <item>
       <title>Personal Development</title>
       <link>http://shaunagordon.com/categories/personal-development/</link>
-      <pubDate>Thu, 08 Mar 2018 19:00:00 -0500</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://shaunagordon.com/categories/personal-development/</guid>
       <description></description>
     </item>
