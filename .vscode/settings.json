@@ -1,4 +1,5 @@
 {
     "workbench.colorTheme": "Ilk Theme",
-    "gitdoc.enabled": true
+    "gitdoc.enabled": true,
+    "pieces.cloudCapabilities": "Local"
 }
