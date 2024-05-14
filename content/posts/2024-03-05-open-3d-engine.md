@@ -4,6 +4,7 @@ description: "First Impressions, Thoughts, and Diving Into The Deep End"
 date: 2024-05-13
 categories: [tech]
 tags: [o3de, dev dive, gaming, game dev]
+series: "Open 3D Engine"
 ---
 
 Starting a new gig is very often described as "drinking from the fire hose," and for good reason -- the primary job for a new person for the first few months is simply taking in everything about the job, the work, the people, etc.
