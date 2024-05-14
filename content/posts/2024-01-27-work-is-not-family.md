@@ -12,7 +12,7 @@ How many times have you heard that from your boss? Or perhaps even the CEO of yo
 
 ## It's A Trap
 
-![Tom Hardy in Mad Max shaking his head no, "that's bait"](https://tenor.com/view/bait-thats-bait-tom-hardy-mad-max-gif-5055384)
+![Tom Hardy in Mad Max shaking his head no, "that's bait"](/images/bait-thats-bait.gif)
 
 (I considered the *Star Wars* meme, but I like this one better.)
 
