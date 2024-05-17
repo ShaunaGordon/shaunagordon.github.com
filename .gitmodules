@@ -1,4 +1,0 @@
-[submodule "themes/dream-plus"]
-	path = themes/dream-plus
-	url = https://github.com/ShaunaGordon/hugo-dream-plus.git
-	branch = master
