@@ -25,18 +25,13 @@ Oh, and **10% of my income goes to a charity or project each month.** More about
 
 An easy way to give back is simply giving money. You're free to donate whatever amount you wish. You can do that via [my Ko-fi page](https://ko-fi.com/shaunagordon) for one-time payments, or via [my Liberapay](https://liberapay.com/Dreamwalker-Collective/) page for recurring payments.
 
-### Affiliate Program
-
-Another way to give back is to purchase things through my affiliate program. If I have something available that you are looking to buy, simply buy it through me, and I get a cut of the purchase at no extra cost to you.
-
-This differs from ads in that the items and brands available via the affiliate program are ones that I've used myself and would recommend. Additionally, they will only be linked to when I'm actually talking about them. I figure that if I'm going to review things and recommend them to my audience, anyway, I might as well provide them via an affiliate program.
+Alternatively, you can [sponsor me through Github](https://github.com/sponsors/ShaunaGordon), either one-time or on a recurring basis.
 
 ### Selling My Own Things, Directly
 
 I sell some of my own things, as well, since I have a couple other hobbies. The funds from those things help pay for my sites, as well (as well as meatspace supplies as needed).
 
 * [Leanpub](https://leanpub.com/u/ShaunaGordon)
-* [Soap Store](http://worldtreefarms.com)
 
 **(And Indirectly)**
 
@@ -44,7 +39,7 @@ I'm also a gamer and like to tinker with _World of Warcraft_ addons, in particul
 
 ## Giving Back
 
-As I mentioned previously, **10% of my income is donated each month.** This is 10% off the top of my after-tax income, before other expenses.
+As I mentioned previously, 10% of my income is donated each month.
 
 To whom I choose to donate in a given month is somewhat random (it's who I decide to donate to that month), and whether it's an official non-profit organization isn't of particular concern, because I'm not doing it for the tax write-off. Instead, I do it for the sake of giving back. I work with a lot of open source software, and am part of a number of communities that would benefit from a little financial backing. So, I do what I can to show my thanks and help support them.
 
@@ -56,10 +51,12 @@ What projects/organizations do I donate to? Here are a few:
 * Vagrant
 * American Foundation for Suicide Prevention
 * Trevor Project
+* SAGE
 * Autism Self Advocacy Network
 * GoFundMe campaigns (usually for someone facing a hardship)
 * PCOS Foundation
 * Do Yoga With Me
+* Octoprint
 * Kickstarter projects, including:
   * [True North PHP](https://www.kickstarter.com/projects/1035100786/truenorth-php-woolly-mammoth-plush-toy)
   * [The community of Bula Batiki, Fiji](https://www.kickstarter.com/projects/2022042435/bula-batiki-coconut-oil-non-profit-from-the-fiji-i), who are building sustainable income through the export of coconut oil
