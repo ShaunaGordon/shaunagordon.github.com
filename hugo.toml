@@ -2,16 +2,16 @@ baseURL = "http://shaunagordon.com/"
 languageCode = "en-us"
 title = "I Make Things"
 
-[module]
-  [[module.imports]]
-    path = "github.com/ShaunaGordon/hugo-dream-plus"
-
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 
 enableEmoji=true
 
 paginate = 10
+
+[module]
+  [[module.imports]]
+    path = "github.com/ShaunaGordon/hugo-dream-plus"
 
 [permalinks]
   posts = ":year/:month/:day/:slug/"
@@ -45,7 +45,7 @@ paginate = 10
     enabled = true
 
   [params.background]
-    gradients = [["#3e5151", "#decba4"],["#333333","#dddddd"]]
+    gradients = [["#3e5151", "#decba4"],["#333333","#dddddd"],["#555B6E","#326F85","#D5BBB1","#440D0F"],["#1C3E4A","#B0B5B3","#F15855","#2F0A28"]]
 
 [social]
   linkedin = "gordondev"
