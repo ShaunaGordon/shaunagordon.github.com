@@ -53,6 +53,7 @@ paginate = 10
   gitlab = "shauna"
   email = "shauna@gordons.me"
   resume = "//resume.shaunagordon.com"
+  buymecoffee = "#buy-me-coffee"
 
 [markup]
   [markup.tableOfContents]
@@ -68,3 +69,6 @@ paginate = 10
   category = "categories"
   tag = "tags"
   series = "series"
+
+[outputs]
+  home = ["html", "rss", "json"]
