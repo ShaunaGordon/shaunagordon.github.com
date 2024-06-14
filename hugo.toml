@@ -34,6 +34,8 @@ paginate = 10
   [params.features]
     twitterEmoji = true
     toc = true
+    search = true
+    coverDir = "/images/covers/"
 
   [params.tags]
     enabled = true
