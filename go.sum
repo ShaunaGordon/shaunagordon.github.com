@@ -1,14 +1,2 @@
-github.com/ShaunaGordon/hugo-dream-plus v0.0.0-20240612064220-01f6f9bf1b25 h1:2kIXtw4MpMRBDhAkkCHeIGj84PB6Lg9Q7xm8GCaLP8U=
-github.com/ShaunaGordon/hugo-dream-plus v0.0.0-20240612064220-01f6f9bf1b25/go.mod h1:8Q4c/TF3eaHQc31V9hQmhlXchlL236xv0TYBJYoezUY=
-github.com/ShaunaGordon/hugo-dream-plus v0.0.0-20240612070529-312881f46126 h1:pZvlWbGXzTzokC/XN7EhIUWxxdEfQNEzJypxD4WlLIU=
-github.com/ShaunaGordon/hugo-dream-plus v0.0.0-20240612070529-312881f46126/go.mod h1:8Q4c/TF3eaHQc31V9hQmhlXchlL236xv0TYBJYoezUY=
-github.com/ShaunaGordon/hugo-dream-plus v0.0.0-20240612071446-fa8df93ed80d h1:NNu/i9Tu7XBmfn/utngl6tXIxx8D2hpmjWNPNw4XRlE=
-github.com/ShaunaGordon/hugo-dream-plus v0.0.0-20240612071446-fa8df93ed80d/go.mod h1:8Q4c/TF3eaHQc31V9hQmhlXchlL236xv0TYBJYoezUY=
-github.com/ShaunaGordon/hugo-dream-plus v0.0.0-20240612072017-cf41437c2e36 h1:upUBBDrbwi+Zk1d/xYwIwizSjVmK6NUfrGPK9vyv2bA=
-github.com/ShaunaGordon/hugo-dream-plus v0.0.0-20240612072017-cf41437c2e36/go.mod h1:8Q4c/TF3eaHQc31V9hQmhlXchlL236xv0TYBJYoezUY=
-github.com/ShaunaGordon/hugo-dream-plus v0.0.0-20240612151843-7a5a99444051 h1:9SG0dv3NHu8F8omGic0gto8IJPCG3KyMwru0WA4xLNY=
-github.com/ShaunaGordon/hugo-dream-plus v0.0.0-20240612151843-7a5a99444051/go.mod h1:8Q4c/TF3eaHQc31V9hQmhlXchlL236xv0TYBJYoezUY=
-github.com/ShaunaGordon/hugo-dream-plus v0.0.0-20240614201944-1309c27cac1b h1:lvxVQD9M6ePp9II31au+EZLAKDDzoBgMoJ9mGHD1+6I=
-github.com/ShaunaGordon/hugo-dream-plus v0.0.0-20240614201944-1309c27cac1b/go.mod h1:8Q4c/TF3eaHQc31V9hQmhlXchlL236xv0TYBJYoezUY=
-github.com/ShaunaGordon/hugo-dream-plus v0.0.0-20240614202700-565fdd5d1632 h1:WGJrPP3dBTnvhmzNRNeiSYkjpHThMLiHofGu6om9nNM=
-github.com/ShaunaGordon/hugo-dream-plus v0.0.0-20240614202700-565fdd5d1632/go.mod h1:8Q4c/TF3eaHQc31V9hQmhlXchlL236xv0TYBJYoezUY=
+github.com/ShaunaGordon/hugo-lucid-dream v0.0.0-20240614203552-82b29a665913 h1:chQDNZQnxnMq+lWeGHiSNgL1Dr4QFE6XABv4VNdC/eM=
+github.com/ShaunaGordon/hugo-lucid-dream v0.0.0-20240614203552-82b29a665913/go.mod h1:kjLsDcUnZyC7bQddvbpNkPgUZybBaP8eJFzE1+4+HrA=
