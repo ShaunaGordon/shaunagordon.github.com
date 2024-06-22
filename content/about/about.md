@@ -1,3 +1,7 @@
+---
+weight: 1
+---
+
 # About Me
 
 I make stuff.

@@ -1,3 +1,7 @@
+---
+weight: 2
+---
+
 # Buy Me Coffee
 (Ways I Make Money From This Site)
 

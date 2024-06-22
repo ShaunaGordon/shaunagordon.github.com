@@ -1,3 +1,7 @@
+---
+weight: 3
+---
+
 # Hiring Me
 
 Looking to work with me? Cool! Let's start with the type of relationship.
