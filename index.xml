@@ -9,6 +9,27 @@
     <lastBuildDate>Mon, 13 May 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://shaunagordon.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title></title>
+      <link>http://shaunagordon.com/about/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://shaunagordon.com/about/about/</guid>
+      <description>About Me I make stuff.&#xA;My profession is problem solving. My chosen tool by which to do that has been developing software. I&amp;rsquo;ve written shell scripts, maintained systems in .Net, built APIs in PHP, and implemented interfaces with HTML, CSS, and JavaScript. I&amp;rsquo;ve maintained legacy systems and built cutting-edge, life-changing applications, as well as created little tools to support other people in getting their work done.&#xA;Writing software isn&amp;rsquo;t all I do, though.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://shaunagordon.com/about/buy-me-coffee/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://shaunagordon.com/about/buy-me-coffee/</guid>
+      <description>Buy Me Coffee (Ways I Make Money From This Site)&#xA;I Hate Ads&amp;hellip; I do, with a passion. The first extension I install on any browser is AdBlock. That&amp;rsquo;s how much I hate them. I also hate when blogs write a &amp;ldquo;review&amp;rdquo; or other article for the sole purpose of selling that product. You know the kind I&amp;rsquo;m talking about. They read like a commercial and are full of keywords and buzzwords about the product.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://shaunagordon.com/about/hire-me/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://shaunagordon.com/about/hire-me/</guid>
+      <description>Hiring Me Looking to work with me? Cool! Let&amp;rsquo;s start with the type of relationship.&#xA;What Type? Conventional Employment So you read through that &amp;#x261d;&amp;#xfe0f; and still want to hire me as a conventional employee? Well&amp;hellip;it didn&amp;rsquo;t scare you away, so that&amp;rsquo;s a start.&#xA;For my sake and yours, I have a high bar for conventional employment in particular. Let&amp;rsquo;s put it this way: I&amp;rsquo;ve turned down Amazon roughly half a dozen times at this point.</description>
+    </item>
+    <item>
       <title>Open 3D Engine</title>
       <link>http://shaunagordon.com/2024/05/13/open-3d-engine/</link>
       <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
@@ -252,27 +273,6 @@
       <pubDate>Sun, 16 May 2010 00:00:00 +0000</pubDate>
       <guid>http://shaunagordon.com/2010/05/16/review-why-work-sucks-and-how-to-fix-it/</guid>
       <description>Why Work Sucks and How to Fix It: No Schedules, No Meetings, No Joke--the Simple Change That Can Make Your Job Terrific&#xA;You anxiously look at your watch as the traffic creeps forward - 8:55am. There&#39;s no way you&#39;ll get to the office by 9, you still have 10 miles to go. When you finally do arrive at 9:15, you try to sneak to your desk unnoticed, but your boss is already there.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://shaunagordon.com/content/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://shaunagordon.com/content/about/</guid>
-      <description>About Me I make stuff.&#xA;My profession is problem solving. My chosen tool by which to do that has been developing software. I&amp;rsquo;ve written shell scripts, maintained systems in .Net, built APIs in PHP, and implemented interfaces with HTML, CSS, and JavaScript. I&amp;rsquo;ve maintained legacy systems and built cutting-edge, life-changing applications, as well as created little tools to support other people in getting their work done.&#xA;Writing software isn&amp;rsquo;t all I do, though.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://shaunagordon.com/content/buy-me-coffee/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://shaunagordon.com/content/buy-me-coffee/</guid>
-      <description>Buy Me Coffee (Ways I Make Money From This Site)&#xA;I Hate Ads&amp;hellip; I do, with a passion. The first extension I install on any browser is AdBlock. That&amp;rsquo;s how much I hate them. I also hate when blogs write a &amp;ldquo;review&amp;rdquo; or other article for the sole purpose of selling that product. You know the kind I&amp;rsquo;m talking about. They read like a commercial and are full of keywords and buzzwords about the product.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://shaunagordon.com/content/hire-me/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://shaunagordon.com/content/hire-me/</guid>
-      <description>Hiring Me Looking to work with me? Cool! Let&amp;rsquo;s start with the type of relationship.&#xA;What Type? Conventional Employment So you read through that &amp;#x261d;&amp;#xfe0f; and still want to hire me as a conventional employee? Well&amp;hellip;it didn&amp;rsquo;t scare you away, so that&amp;rsquo;s a start.&#xA;For my sake and yours, I have a high bar for conventional employment in particular. Let&amp;rsquo;s put it this way: I&amp;rsquo;ve turned down Amazon roughly half a dozen times at this point.</description>
     </item>
   </channel>
 </rss>

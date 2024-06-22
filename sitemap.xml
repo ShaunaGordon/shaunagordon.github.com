@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://shaunagordon.com/about/about/</loc>
+  </url><url>
+    <loc>http://shaunagordon.com/about/buy-me-coffee/</loc>
+  </url><url>
+    <loc>http://shaunagordon.com/about/hire-me/</loc>
+  </url><url>
     <loc>http://shaunagordon.com/categories/</loc>
     <lastmod>2024-05-13T00:00:00+00:00</lastmod>
   </url><url>
@@ -236,12 +242,6 @@
     <loc>http://shaunagordon.com/2010/05/16/review-why-work-sucks-and-how-to-fix-it/</loc>
     <lastmod>2010-05-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://shaunagordon.com/content/about/</loc>
-  </url><url>
-    <loc>http://shaunagordon.com/content/buy-me-coffee/</loc>
-  </url><url>
-    <loc>http://shaunagordon.com/content/hire-me/</loc>
-  </url><url>
-    <loc>http://shaunagordon.com/content/</loc>
+    <loc>http://shaunagordon.com/about/</loc>
   </url>
 </urlset>
