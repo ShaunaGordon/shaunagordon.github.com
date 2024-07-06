@@ -15,16 +15,16 @@ I got really good at converting class-based React components to functional ones.
 
 It sounds a bit like a tautology, but the first step in converting a class based component to a functional one is, indeed, to make the conversion.
 
-Where you have
+Where we have
 
 ```js
 class Foo {
 ```
 
-you need to make it
+we need to make it
 
 ```js
-const Foo = () {
+const Foo = () => {
 ```
 
 This, of course, will promptly throw a bunch of IDE error syntax errors. That's okay, we'll fix those in the following steps. Just make sure the function is wrapping properly.
