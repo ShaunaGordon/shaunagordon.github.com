@@ -28,3 +28,7 @@ const Foo = () => {
 ```
 
 This, of course, will promptly throw a bunch of IDE error syntax errors. That's okay, we'll fix those in the following steps. Just make sure the function is wrapping properly.
+
+## Convert The Inner Functions 
+
+Now that we've done the easy part, the next step is to convert all the functions to either hooks or constants. This is where it gets a bit time consuming, because it requires more understanding of the code the than simply a syntax conversion.
