@@ -20,7 +20,12 @@ I make no claims to expertise on the broader scale, however. Appalachian culture
 
 ## Vance ain't from here
 
-One thing about this whole hoopla bugs me -- Vance isn't from Appalachia. From what I can tell, he only ever spent a year living anywhere that's considered part of the region (when he was a law clerk for the Eastern district of Kentucky).
+(...In the what should be immortal words of [Gov Beshear](https://www.msn.com/en-us/news/politics/kentucky-s-beshear-follows-up-on-he-ain-t-from-here-comment-jd-vance-possible-vp-role/ar-BB1qDpAP).)
 
-The thing is, the Appalachian region has an official definition defined by the [Appalachian Regional Commission](https://www.arc.gov/about-the-appalachian-regional-commission/), which names 423 counties across 13 states as part of the region.
+One thing about the book as a whole bugs me -- Vance isn't from Appalachia. From what I can tell, he only ever spent a year living anywhere that's considered part of the region (when he was a law clerk for the Eastern district of Kentucky).
 
+The thing is, the Appalachian region has an official definition defined by the [Appalachian Regional Commission](https://www.arc.gov/about-the-appalachian-regional-commission/), which names 423 counties across 13 states as part of the region. About 1/3 of Ohio's counties are part of ARC's classification.
+
+The *eastern* third.
+
+Officially, not even Cincinnati (or its Kentucky-side counterpart) is part of it, let alone Middleton, which is a fair distance north and *very much* in corn plains country. Not only does that matter, but it also makes it abundantly clear to Appalachians that he's...well...not.
