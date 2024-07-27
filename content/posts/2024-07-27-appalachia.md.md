@@ -6,6 +6,8 @@ draft: true
 
 JD Vance's ascension to VP pick in this year's presidential race has brought a great deal of attention back to his book, *Hillbilly Elegy*, and with it, the response both of people from the region, and...well...just about everyone else. The stark difference in response is...shall we say... entertaining.
 
+(And let me say this up front -- Vance's personal story is compelling in its own right, assuming it's true. Getting to where he is after starting out in an unstable, impoverished home is an accomplishment to be proud of. But he diminishes it by painting the region to be like his family members.)
+
 ## Who am I to write about this? 
 
 Because of the content, I feel the need to establish where I'm coming from. You see, much of Appalachian culture (particularly the rural one he tries to portray) takes great pride in one's roots. I hope to get to the reasons why in later sections.
@@ -29,3 +31,5 @@ The thing is, the Appalachian region has an official definition defined by the [
 The *eastern* third.
 
 Officially, not even Cincinnati (or its Kentucky-side counterpart) is part of it, let alone Middleton, which is a fair distance north and *very much* in corn plains country. Not only does that matter, but it also makes it abundantly clear to Appalachians that he's...well...not.
+
+And though it is definitely the crossroads of the state in every sense of the word, Columbus very much isn't, either. And in fact, there's a marked difference between Columbus and its immediate exurbs, and the barely an hour away line where Appalachia officially starts.
