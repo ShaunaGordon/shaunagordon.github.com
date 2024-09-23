@@ -13,7 +13,7 @@
       <link>http://shaunagordon.com/2017/08/24/shopify-hmac-verification/</link>
       <pubDate>Thu, 24 Aug 2017 01:30:00 -0500</pubDate>
       <guid>http://shaunagordon.com/2017/08/24/shopify-hmac-verification/</guid>
-      <description>I get the pleasure of writing integration after integration to Shopify at my day job. As a result, I have become quite familiar with their documentation and its gaps. The HMAC verification piece of the OAuth/embedded app installation process is a particularly glaring gap. So let&amp;rsquo;s close it.&#xA;What&amp;rsquo;s Wrong With The Docs? If you&amp;rsquo;re a Ruby developer, probably not much. Shopify&amp;rsquo;s got a nice little Ruby gem that does a great deal of the work for you.</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;[!IMPORTANT]&#xA;If the date doesn&amp;rsquo;t make it evident, this is an old post. In the intervening years, Shopify has made a lot of changes, including a recent heavy overhaul. I&amp;rsquo;m leaving this up for posterity, but I don&amp;rsquo;t know or guarantee that it still works in light of those changes.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;I get the pleasure of writing integration after integration to Shopify at my day job. As a result, I have become quite familiar with their documentation and its gaps. The HMAC verification piece of the OAuth/embedded app installation process is a particularly glaring gap. So let&amp;rsquo;s close it.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
