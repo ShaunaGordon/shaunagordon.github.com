@@ -7,3 +7,4 @@ cache
 public
 
 *.work*
+node_modules

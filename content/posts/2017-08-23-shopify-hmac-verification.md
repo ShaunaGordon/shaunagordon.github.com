@@ -12,6 +12,9 @@ aliases:
 - "/blog/2017/08/24/shopify-hmac-verification"
 ---
 
+> [!IMPORTANT]
+> If the date doesn't make it evident, this is an old post. In the intervening years, Shopify has made a lot of changes, including a recent heavy overhaul. I'm leaving this up for posterity, but I don't know or guarantee that it still works in light of those changes.
+
 I get the pleasure of writing integration after integration to Shopify at my day job. As a result, I have become quite familiar with their documentation and its gaps. The HMAC verification piece of the OAuth/embedded app installation process is a particularly glaring gap. So let's close it.
 
 # What's Wrong With The Docs?
