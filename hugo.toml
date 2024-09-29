@@ -2,12 +2,13 @@ baseURL = "http://shaunagordon.com/"
 languageCode = "en-us"
 title = "I Make Things"
 
-pygmentsCodeFences = true
-pygmentsUseClasses = true
+# pygmentsCodeFences = true
+# pygmentsUseClasses = true
 
 enableEmoji=true
 
-paginate = 10
+[pagination]
+  paperSize = 10
 
 [module]
   [[module.imports]]
@@ -66,6 +67,23 @@ paginate = 10
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
+
+  [markup.highlight]
+    anchorLineNos = true
+    codeFences = true
+    guessSyntax = true
+    # hl_inline = false
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = true
+    noHl = false
+    style = 'vulcan'
+    tabWidth = 4
 
 [taxonomies]
   category = "categories"
