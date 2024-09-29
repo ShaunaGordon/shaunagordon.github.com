@@ -6,8 +6,15 @@
     <description>Recent content in Tech on I Make Things</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 May 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Sep 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://shaunagordon.com/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adventures in Modernizing React</title>
+      <link>http://shaunagordon.com/2024/09/08/adventures-in-modernizing-react/</link>
+      <pubDate>Sun, 08 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://shaunagordon.com/2024/09/08/adventures-in-modernizing-react/</guid>
+      <description>&lt;p&gt;I spent the better part of my first year at Custom Ink upgrading an Electron and React application. That was an adventure unto itself, let me tell you. It also resulted in a list of &amp;ldquo;things I need to do when my priority isn&amp;rsquo;t just get this thing working again to unblock the other team.&amp;rdquo; Among that list was updating the code to modern standards &amp;ndash; something I got to make a bunch of headway on in the second half of my second year.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Open 3D Engine</title>
       <link>http://shaunagordon.com/2024/05/13/open-3d-engine/</link>
@@ -55,7 +62,7 @@
       <link>http://shaunagordon.com/2017/08/24/shopify-hmac-verification/</link>
       <pubDate>Thu, 24 Aug 2017 01:30:00 -0500</pubDate>
       <guid>http://shaunagordon.com/2017/08/24/shopify-hmac-verification/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;[!IMPORTANT]&#xA;If the date doesn&amp;rsquo;t make it evident, this is an old post. In the intervening years, Shopify has made a lot of changes, including a recent heavy overhaul. I&amp;rsquo;m leaving this up for posterity, but I don&amp;rsquo;t know or guarantee that it still works in light of those changes.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;I get the pleasure of writing integration after integration to Shopify at my day job. As a result, I have become quite familiar with their documentation and its gaps. The HMAC verification piece of the OAuth/embedded app installation process is a particularly glaring gap. So let&amp;rsquo;s close it.&lt;/p&gt;</description>
+      <description>&lt;blockquote class=&#34;alert alert-important&#34;&gt;&#xA;      &lt;p class=&#34;alert-heading&#34;&gt;&#xA;        &lt;strong&gt;&#xA;        ℹ️&#xA;        &#xA;          Important&#xA;        &#xA;        &lt;/strong&gt;&#xA;      &lt;/p&gt;&#xA;      &lt;p&gt;If the date doesn&amp;rsquo;t make it evident, this is an old post. In the intervening years, Shopify has made a lot of changes, including a recent heavy overhaul. I&amp;rsquo;m leaving this up for posterity, but I don&amp;rsquo;t know or guarantee that it still works in light of those changes.&lt;/p&gt;&#xA;&#xA;    &lt;/blockquote&gt;&#xA;  &lt;p&gt;I get the pleasure of writing integration after integration to Shopify at my day job. As a result, I have become quite familiar with their documentation and its gaps. The HMAC verification piece of the OAuth/embedded app installation process is a particularly glaring gap. So let&amp;rsquo;s close it.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Pelican, Travis, and Github</title>

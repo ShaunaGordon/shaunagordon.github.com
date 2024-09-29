@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Legacy Code on I Make Things</title>
+    <link>http://shaunagordon.com/tags/legacy-code/</link>
+    <description>Recent content in Legacy Code on I Make Things</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 08 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://shaunagordon.com/tags/legacy-code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adventures in Modernizing React</title>
+      <link>http://shaunagordon.com/2024/09/08/adventures-in-modernizing-react/</link>
+      <pubDate>Sun, 08 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://shaunagordon.com/2024/09/08/adventures-in-modernizing-react/</guid>
+      <description>&lt;p&gt;I spent the better part of my first year at Custom Ink upgrading an Electron and React application. That was an adventure unto itself, let me tell you. It also resulted in a list of &amp;ldquo;things I need to do when my priority isn&amp;rsquo;t just get this thing working again to unblock the other team.&amp;rdquo; Among that list was updating the code to modern standards &amp;ndash; something I got to make a bunch of headway on in the second half of my second year.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

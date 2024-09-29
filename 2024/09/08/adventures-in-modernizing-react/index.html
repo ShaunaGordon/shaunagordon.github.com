@@ -1,0 +1,1734 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<title>
+	Adventures in Modernizing React -- 
+</title>
+		<style>
+	body, body.pushable {
+		background-repeat: no-repeat;
+	  	background-attachment: fixed;
+	  	background-size: cover !important;
+	}
+</style>
+
+		<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="color-scheme" content="dark light">
+
+
+	
+	
+	
+	<meta name="author" content="Shauna Gordon" />
+	<meta name="description" content="Something, something, new paradigms" />
+
+
+
+<meta name="generator" content="Hugo 0.135.0">
+
+
+<link rel="shortcut icon" href="/img/defaultFav.ico">
+
+
+
+
+		
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+
+
+
+<link rel="stylesheet" type="text/css" href="/css/site.css">
+
+
+
+
+
+
+
+
+<style>
+	body.pushable {
+		display: block;
+		
+			background-image: var(--bgImage) !important;
+		 ;
+	}
+</style>
+
+
+
+<script>
+	
+	var isMobile = ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) )
+	console.log("The client device is a "+(isMobile?"mobile":"PC")+".")
+</script>
+
+	</head>
+
+	<body>
+		<script>
+var prevBgIndex = 0;
+var bodyBgSwitchIndex = 0;
+
+
+
+
+
+
+
+    
+        var gradients = [[], ...[["#3e5151","#decba4"],["#333333","#dddddd"],["#555B6E","#326F85","#D5BBB1","#440D0F"],["#1C3E4A","#B0B5B3","#F15855","#2F0A28"]] ];
+        var color = gradients[1];
+        if(gradients.length > 1) {
+            color = gradients[getRandomInt(0, gradients.length)].join(", ");
+        }
+        var backgroundProperty = 'linear-gradient(to right, ' + color + ')';
+        document.body.style.background = backgroundProperty;
+    
+
+
+function getRandomInt(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  var random;
+  while (1) {
+    random = Math.floor(Math.random() * (max - min)) + min;
+    if (random !== prevBgIndex) {
+      prevBgIndex = random;
+      break;
+    }
+  }
+  return random;
+}
+</script>
+
+		<div id="sidebar" class="ui sidebar inverted vertical menu">
+	
+	<section id="author" class="ui top attached center aligned inverted segment">
+		
+<div class="ui small circular image">
+	
+		<img src="/images/avatar.png">
+	
+</div>
+
+
+<h3 class="ui header">
+	Shauna Gordon
+	<div class="sub header">I Make Things</div>
+</h3>
+
+	</section>
+
+	
+	
+		<section class="ui attached center aligned inverted segment sidebar-dream-tags">
+			
+			
+			
+			
+
+
+
+
+	
+	
+		
+			
+			<a class="ui label blue " href="/tags/culture" title="culture">culture</a>
+		
+			
+			<a class="ui label red " href="/tags/tips" title="tips">tips</a>
+		
+			
+			<a class="ui label red " href="/tags/community-contribution" title="community contribution">community contribution</a>
+		
+			
+			<a class="ui label purple " href="/tags/debt" title="debt">debt</a>
+		
+			
+			<a class="ui label olive " href="/tags/hackthestigma" title="hackthestigma">hackthestigma</a>
+		
+			
+			<a class="ui label pink " href="/tags/diversity" title="diversity">diversity</a>
+		
+			
+			<a class="ui label red " href="/tags/personal-growth" title="personal growth">personal growth</a>
+		
+			
+			<a class="ui label blue " href="/tags/shipt" title="shipt">shipt</a>
+		
+	
+
+
+		</section>
+	
+
+	
+	
+		<section class="ui attached inverted segment sidebar-dream-categories both flexbox">
+			<div class="ui inverted accordion">
+				
+	
+	<div class="title">
+		<i class="dropdown icon"></i>
+		<a class="link" href="/categories/business">Business</a>
+	</div>
+
+	
+	<div class="content">
+		
+			<a class="item" href="http://shaunagordon.com/2024/01/27/companies-are-not-family/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>Companies are not family</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2021/02/10/a-look-back-at-shipt/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>A Look Back At Shipt</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2020/05/03/adventures-in-a-remote-world/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>Adventures In A Remote World</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2020/03/16/the-pandemic-work-from-home-survival-guide/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>The Pandemic Work From Home Survival Guide</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2016/04/18/being-a-shiptster-three-months-in/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>Being A Shiptster, Three Months In</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2016/01/13/a-week-of-shipt/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>A Week Of Shipt</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2016/01/06/strengthsfinding/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>Finding One&#39;s Strengths</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2016/01/06/from-developer-to-shipt-shopper/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>From Developer to Shipt Shopper</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2015/06/15/when-culture-trumps-everything/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>When Culture Trumps Everything</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2015/06/08/an-exchange-with-amazon-on-workplace-culture/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>An Exchange With Amazon On Workplace Culture</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2015/05/15/in-defense-of-remote-friendly-work-environments/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>In Defense Of Remote Friendly Work Environments</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2014/10/15/dear-recruiters/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>An Open Letter To Recruiters</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2014/08/19/youre-not-alone/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>You&#39;re Not Alone</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2010/05/16/review-why-work-sucks-and-how-to-fix-it/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>Review: Why Work Sucks (And How to Fix It)</p>
+				</div>
+			</a>
+		
+	</div>
+
+	
+	<div class="title">
+		<i class="dropdown icon"></i>
+		<a class="link" href="/categories/community">Community</a>
+	</div>
+
+	
+	<div class="content">
+		
+			<a class="item" href="http://shaunagordon.com/2021/02/11/that-one-where-i-talk-for-an-hour/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>That One Where I Talk For An Hour</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2020/09/04/on-rejection-and-mental-health/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>On Rejection and Mental Health</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2020/07/02/what-we-owe-to-each-other/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>What We Owe To Each Other</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2020/06/11/a-riot-is-the-language-of-the-unheard/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>A Riot Is the Language of the Unheard</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2018/04/01/autism-awareness-and-the-blue-ranger/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>Autism Awareness And The Blue Ranger</p>
+				</div>
+			</a>
+		
+	</div>
+
+	
+	<div class="title">
+		<i class="dropdown icon"></i>
+		<a class="link" href="/categories/finance">Finance</a>
+	</div>
+
+	
+	<div class="content">
+		
+			<a class="item" href="http://shaunagordon.com/2024/01/02/2023-year-in-review/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>2023 Year In Review</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2018/11/13/personal-finance-q4-2018-update/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>Personal Finance, Q4 2018 Update</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2017/08/23/personal-finance-part-3/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>Personal Finance, Part 3</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2016/12/16/personal-finance-part-2/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>Personal Finance, Part 2</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2016/04/04/getting-started-with-personal-finance/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>Getting Started With Personal Finance</p>
+				</div>
+			</a>
+		
+	</div>
+
+	
+	<div class="title">
+		<i class="dropdown icon"></i>
+		<a class="link" href="/categories/personal-development">Personal development</a>
+	</div>
+
+	
+	<div class="content">
+		
+			<a class="item" href="http://shaunagordon.com/2018/03/08/personal-core-values/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>Personal Core Values</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2016/06/29/on-public-speaking-and-self-esteem/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>On Public Speaking And Self Esteem</p>
+				</div>
+			</a>
+		
+	</div>
+
+	
+	<div class="title">
+		<i class="dropdown icon"></i>
+		<a class="link" href="/categories/remote-work">Remote work</a>
+	</div>
+
+	
+	<div class="content">
+		
+			<a class="item" href="http://shaunagordon.com/2020/05/03/adventures-in-a-remote-world/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>Adventures In A Remote World</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2020/03/16/the-pandemic-work-from-home-survival-guide/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>The Pandemic Work From Home Survival Guide</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2015/05/15/in-defense-of-remote-friendly-work-environments/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>In Defense Of Remote Friendly Work Environments</p>
+				</div>
+			</a>
+		
+	</div>
+
+	
+	<div class="title">
+		<i class="dropdown icon"></i>
+		<a class="link" href="/categories/teaching">Teaching</a>
+	</div>
+
+	
+	<div class="content">
+		
+			<a class="item" href="http://shaunagordon.com/2020/10/21/on-problem-solving/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>On Problem Solving</p>
+				</div>
+			</a>
+		
+	</div>
+
+	
+	<div class="title">
+		<i class="dropdown icon"></i>
+		<a class="link" href="/categories/tech">Tech</a>
+	</div>
+
+	
+	<div class="content">
+		
+			<a class="item" href="http://shaunagordon.com/2024/09/08/adventures-in-modernizing-react/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>Adventures in Modernizing React</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2024/05/13/open-3d-engine/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>Open 3D Engine</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2023/11/17/fixing-the-google-sheets-view-only-bug/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>Fixing The Google Sheets View Only Bug</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2021/02/11/that-one-where-i-talk-for-an-hour/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>That One Where I Talk For An Hour</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2020/10/21/on-problem-solving/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>On Problem Solving</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2020/07/02/what-we-owe-to-each-other/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>What We Owe To Each Other</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2017/09/01/pelican-travis-and-github-part-2/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>Pelican, Travis, and Github, Part 2</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2017/08/24/shopify-hmac-verification/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>Shopify HMAC Verification</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2016/01/13/pelican-travis-and-github/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>Pelican, Travis, and Github</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2014/10/15/dear-recruiters/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>An Open Letter To Recruiters</p>
+				</div>
+			</a>
+		
+	</div>
+
+
+			</div>
+		</section>
+	
+
+	
+	<section id="footer" class="ui bottom attached center aligned inverted segment">
+		
+
+	<p>© 2024 I Make Things</p>
+
+
+<p>Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a> with <a href="https://github.com/ShaunaGordon/hugo-lucid-dream" target="_blank">Lucid Dream</a> theme.</p>
+
+	</section>
+</div>
+
+
+		<div class="pusher">
+			<div class="flipper">
+				<div class="front">
+					
+	<nav class="ui top secondary menu bar">
+	
+	<div class="item">
+		<i class="inverted big link bullseye icon dream-flip-toggle" title="About Me"></i>
+	</div>
+
+	
+	
+		<div class="item">
+			<a href="/">
+				<i class="inverted big link home icon" title="Home"></i>
+			</a>
+		</div>
+	
+
+	
+	
+
+	
+	
+		<div class="item">
+			<a href="/tags">
+				<i class="inverted big link tags icon" title="Tags"></i>
+			</a>
+		</div>
+	
+
+	
+	
+		<div class="item">
+			<a href="/categories">
+				<i class="inverted big link cubes icon" title="Categories"></i>
+			</a>
+    	</div>
+	
+
+	
+	
+		<div class="item">
+			<a href="/series">
+				<i class="inverted big link newspaper outline icon" title="Series"></i>
+			</a>
+    	</div>
+	
+
+	
+	
+
+	
+	
+		<div class="ui container tablet computer only grid">
+			<div class="item" onClick="$('.ui.sidebar').sidebar('setting', 'transition', 'overlay').sidebar('toggle');">
+				<i class="inverted big link sidebar icon" title="Show Sidebar"></i>
+			</div>
+		</div>
+	
+
+
+	<div class="item right">
+		
+		
+			<div class="searchHint"
+			id="searchHint">
+				<span id="searchMod"></span>+/ <i class="inverted search icon"></i>
+			</div>
+		
+
+		
+		
+			<a class="item" href="/posts/index.xml">
+				<i class="inverted big link rss icon" title="RSS Feed"></i>
+			</a>
+		
+	</div>
+</nav>
+
+
+	<div class="ui centered grid">
+		
+		<div class="sixteen wide mobile only column">
+				<div class="ui inverted accordion">
+	<div id="header" class="ui inverted segment column box">
+		
+		<header id="author" class="ui top attached center aligned inverted segment">
+			
+<div class="ui small circular image">
+	
+		<img src="/images/avatar.png">
+	
+</div>
+
+
+<h3 class="ui header">
+	Shauna Gordon
+	<div class="sub header">I Make Things</div>
+</h3>
+
+		</header>
+
+		
+		<div class=" title header-title">
+			
+				<div id="tag-category-pop" class="ui red right corner label">
+					<i class="hand point icon down" title="Show/hide tags and categories"></i>
+				</div>
+			
+		</div>
+
+		
+		<div id="tag-category" class=" content">
+			
+				<section class="ui attached center aligned inverted segment dream-tags none flexbox">
+					
+					
+					
+
+
+
+
+	
+	
+		
+			
+			<a class="ui label olive " href="/tags/culture" title="culture">culture</a>
+		
+			
+			<a class="ui label yellow " href="/tags/tips" title="tips">tips</a>
+		
+			
+			<a class="ui label olive " href="/tags/community-contribution" title="community contribution">community contribution</a>
+		
+			
+			<a class="ui label purple " href="/tags/debt" title="debt">debt</a>
+		
+			
+			<a class="ui label blue " href="/tags/hackthestigma" title="hackthestigma">hackthestigma</a>
+		
+			
+			<a class="ui label yellow " href="/tags/diversity" title="diversity">diversity</a>
+		
+			
+			<a class="ui label red " href="/tags/personal-growth" title="personal growth">personal growth</a>
+		
+			
+			<a class="ui label blue " href="/tags/shipt" title="shipt">shipt</a>
+		
+	
+
+
+				</section>
+			
+
+			
+				<section class="ui attached inverted segment dream-categories both flexbox">
+					<div class="inverted accordion">
+						
+	
+	<div class="title">
+		<i class="dropdown icon"></i>
+		<a class="link" href="/categories/business">Business</a>
+	</div>
+
+	
+	<div class="content">
+		
+			<a class="item" href="http://shaunagordon.com/2024/01/27/companies-are-not-family/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>Companies are not family</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2021/02/10/a-look-back-at-shipt/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>A Look Back At Shipt</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2020/05/03/adventures-in-a-remote-world/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>Adventures In A Remote World</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2020/03/16/the-pandemic-work-from-home-survival-guide/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>The Pandemic Work From Home Survival Guide</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2016/04/18/being-a-shiptster-three-months-in/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>Being A Shiptster, Three Months In</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2016/01/13/a-week-of-shipt/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>A Week Of Shipt</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2016/01/06/strengthsfinding/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>Finding One&#39;s Strengths</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2016/01/06/from-developer-to-shipt-shopper/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>From Developer to Shipt Shopper</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2015/06/15/when-culture-trumps-everything/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>When Culture Trumps Everything</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2015/06/08/an-exchange-with-amazon-on-workplace-culture/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>An Exchange With Amazon On Workplace Culture</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2015/05/15/in-defense-of-remote-friendly-work-environments/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>In Defense Of Remote Friendly Work Environments</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2014/10/15/dear-recruiters/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>An Open Letter To Recruiters</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2014/08/19/youre-not-alone/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>You&#39;re Not Alone</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2010/05/16/review-why-work-sucks-and-how-to-fix-it/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>Review: Why Work Sucks (And How to Fix It)</p>
+				</div>
+			</a>
+		
+	</div>
+
+	
+	<div class="title">
+		<i class="dropdown icon"></i>
+		<a class="link" href="/categories/community">Community</a>
+	</div>
+
+	
+	<div class="content">
+		
+			<a class="item" href="http://shaunagordon.com/2021/02/11/that-one-where-i-talk-for-an-hour/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>That One Where I Talk For An Hour</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2020/09/04/on-rejection-and-mental-health/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>On Rejection and Mental Health</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2020/07/02/what-we-owe-to-each-other/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>What We Owe To Each Other</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2020/06/11/a-riot-is-the-language-of-the-unheard/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>A Riot Is the Language of the Unheard</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2018/04/01/autism-awareness-and-the-blue-ranger/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>Autism Awareness And The Blue Ranger</p>
+				</div>
+			</a>
+		
+	</div>
+
+	
+	<div class="title">
+		<i class="dropdown icon"></i>
+		<a class="link" href="/categories/finance">Finance</a>
+	</div>
+
+	
+	<div class="content">
+		
+			<a class="item" href="http://shaunagordon.com/2024/01/02/2023-year-in-review/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>2023 Year In Review</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2018/11/13/personal-finance-q4-2018-update/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>Personal Finance, Q4 2018 Update</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2017/08/23/personal-finance-part-3/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>Personal Finance, Part 3</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2016/12/16/personal-finance-part-2/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>Personal Finance, Part 2</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2016/04/04/getting-started-with-personal-finance/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>Getting Started With Personal Finance</p>
+				</div>
+			</a>
+		
+	</div>
+
+	
+	<div class="title">
+		<i class="dropdown icon"></i>
+		<a class="link" href="/categories/personal-development">Personal development</a>
+	</div>
+
+	
+	<div class="content">
+		
+			<a class="item" href="http://shaunagordon.com/2018/03/08/personal-core-values/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>Personal Core Values</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2016/06/29/on-public-speaking-and-self-esteem/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>On Public Speaking And Self Esteem</p>
+				</div>
+			</a>
+		
+	</div>
+
+	
+	<div class="title">
+		<i class="dropdown icon"></i>
+		<a class="link" href="/categories/remote-work">Remote work</a>
+	</div>
+
+	
+	<div class="content">
+		
+			<a class="item" href="http://shaunagordon.com/2020/05/03/adventures-in-a-remote-world/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>Adventures In A Remote World</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2020/03/16/the-pandemic-work-from-home-survival-guide/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>The Pandemic Work From Home Survival Guide</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2015/05/15/in-defense-of-remote-friendly-work-environments/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>In Defense Of Remote Friendly Work Environments</p>
+				</div>
+			</a>
+		
+	</div>
+
+	
+	<div class="title">
+		<i class="dropdown icon"></i>
+		<a class="link" href="/categories/teaching">Teaching</a>
+	</div>
+
+	
+	<div class="content">
+		
+			<a class="item" href="http://shaunagordon.com/2020/10/21/on-problem-solving/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>On Problem Solving</p>
+				</div>
+			</a>
+		
+	</div>
+
+	
+	<div class="title">
+		<i class="dropdown icon"></i>
+		<a class="link" href="/categories/tech">Tech</a>
+	</div>
+
+	
+	<div class="content">
+		
+			<a class="item" href="http://shaunagordon.com/2024/09/08/adventures-in-modernizing-react/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>Adventures in Modernizing React</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2024/05/13/open-3d-engine/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>Open 3D Engine</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2023/11/17/fixing-the-google-sheets-view-only-bug/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>Fixing The Google Sheets View Only Bug</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2021/02/11/that-one-where-i-talk-for-an-hour/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>That One Where I Talk For An Hour</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2020/10/21/on-problem-solving/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>On Problem Solving</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2020/07/02/what-we-owe-to-each-other/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>What We Owe To Each Other</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2017/09/01/pelican-travis-and-github-part-2/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>Pelican, Travis, and Github, Part 2</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2017/08/24/shopify-hmac-verification/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>Shopify HMAC Verification</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2016/01/13/pelican-travis-and-github/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>Pelican, Travis, and Github</p>
+				</div>
+			</a>
+		
+			<a class="item" href="http://shaunagordon.com/2014/10/15/dear-recruiters/">
+				<div>
+					<i class="cocktail icon"></i>
+					<p>An Open Letter To Recruiters</p>
+				</div>
+			</a>
+		
+	</div>
+
+
+					</div>
+				</section>
+			
+		</div>
+
+		
+		<footer class="ui bottom attached center aligned inverted segment">
+			
+
+	<p>© 2024 I Make Things</p>
+
+
+<p>Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a> with <a href="https://github.com/ShaunaGordon/hugo-lucid-dream" target="_blank">Lucid Dream</a> theme.</p>
+
+		</footer>
+	</div>
+</div>
+
+		</div>
+
+		<div class="sixteen wide mobile fifteen wide tablet twelve wide computer column post-list">
+			
+			<section class="ui secondary top attached black segment post-head">
+				<h1 class="post-title">
+					Adventures in Modernizing React <span class="sub header"></span>
+					<div class="sub header">
+						Something, something, new paradigms
+					</div>
+				</h1>
+
+				<div class="sub header">
+					<div><span><i class="calendar outline icon"></i>Sep 8, 2024</span></div>
+					
+					<div><span><i class="clock outline icon"></i>8 min read</span></div>
+					<div><span><i class="angle double up icon"></i>Last updated on Sep 8, 2024</span></div>
+				</div>
+				<hr>
+
+				
+					<div class="toc">
+						<nav id="TableOfContents">
+  <ul>
+    <li><a href="#convert-the-class-to-a-function">Convert The Class To A Function</a></li>
+    <li><a href="#return-the-template">Return the Template</a></li>
+    <li><a href="#convert-the-inner-members">Convert The Inner Members</a>
+      <ul>
+        <li><a href="#reactive-members-to-hooks">Reactive Members to Hooks</a></li>
+        <li><a href="#functions-to-arrow-function-constants">Functions To Arrow Function Constants</a></li>
+        <li><a href="#convert-or-remove-variables-and-properties">Convert or Remove Variables and Properties</a></li>
+      </ul>
+    </li>
+    <li><a href="#split-out-other-components">Split Out Other Components</a>
+      <ul>
+        <li><a href="#leverage-usestate-and-properties">Leverage useState and Properties</a></li>
+      </ul>
+    </li>
+    <li><a href="#delete-any-now-defunct-things">Delete Any Now-Defunct Things</a></li>
+    <li><a href="#sit-back-with-a-cold-one">Sit Back With A Cold One</a></li>
+  </ul>
+</nav>
+					</div>
+				
+
+				<article class="post-content twemoji">
+					<p>I spent the better part of my first year at Custom Ink upgrading an Electron and React application. That was an adventure unto itself, let me tell you. It also resulted in a list of &ldquo;things I need to do when my priority isn&rsquo;t just get this thing working again to unblock the other team.&rdquo; Among that list was updating the code to modern standards &ndash; something I got to make a bunch of headway on in the second half of my second year.</p>
+<p>I got really good at converting class-based React components to functional ones. And now, I want to document how I did it, because there are always legacy apps to update.</p>
+<h2 id="convert-the-class-to-a-function">Convert The Class To A Function&nbsp;<a class="anchor" href="#convert-the-class-to-a-function"><i class="small linkify icon"></i></a> </h2>
+<p>It sounds a bit like a tautology, but the first step in converting a class based component to a functional one is, indeed, to make the conversion.</p>
+<p>Where we have</p>
+<div class="highlight"><div style="color:#c9c9c9;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#c9c9c9;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-1">1</a>
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#c9c9c9;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#7fbaf5">class</span> Foo <span style="color:#7fbaf5">extends</span> React<span style="color:#56b6c2">.</span>Component <span style="color:#56b6c2">{</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>we need to make it</p>
+<div class="highlight"><div style="color:#c9c9c9;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#c9c9c9;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-1">1</a>
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#c9c9c9;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#7fbaf5">const</span> Foo <span style="color:#bc74c4">=</span> <span style="color:#56b6c2">()</span> <span style="color:#56b6c2">=&gt;</span> <span style="color:#56b6c2">{</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>This, of course, will promptly throw a bunch of IDE syntax errors. That&rsquo;s okay, we&rsquo;ll fix those in the following steps. Just make sure the function is wrapping properly.</p>
+<h2 id="return-the-template">Return the Template&nbsp;<a class="anchor" href="#return-the-template"><i class="small linkify icon"></i></a> </h2>
+<p>The next most straightforward change to make is uwrapping the <code>render() {}</code> function to just a <code>return ()</code> statement.</p>
+<p>So what starts as this:</p>
+<div class="highlight"><div style="color:#c9c9c9;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#c9c9c9;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-1">1</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-2">2</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-3">3</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-4">4</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-5">5</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-6"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-6">6</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-7"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-7">7</a>
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#c9c9c9;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span>render<span style="color:#56b6c2">()</span> <span style="color:#56b6c2">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#7fbaf5">return</span> <span style="color:#56b6c2">(</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#bc74c4">&lt;</span>Foo<span style="color:#bc74c4">&gt;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#56b6c2">{{</span> <span style="color:#7fbaf5">this</span><span style="color:#56b6c2">.</span>text <span style="color:#56b6c2">}}</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#bc74c4">&lt;</span><span style="color:#cf5967">/Foo&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#56b6c2">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#56b6c2">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>becomes this:</p>
+<div class="highlight"><div style="color:#c9c9c9;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#c9c9c9;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-1">1</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-2">2</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-3">3</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-4">4</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-5">5</a>
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#c9c9c9;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#7fbaf5">return</span> <span style="color:#56b6c2">(</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#bc74c4">&lt;</span>Foo<span style="color:#bc74c4">&gt;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#56b6c2">{{</span> text <span style="color:#56b6c2">}}</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#bc74c4">&lt;</span><span style="color:#cf5967">/Foo&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#56b6c2">)</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="convert-the-inner-members">Convert The Inner Members&nbsp;<a class="anchor" href="#convert-the-inner-members"><i class="small linkify icon"></i></a> </h2>
+<p>Now that we&rsquo;ve done the easy part, the next step is to convert all the functions to either hooks or constants. This is where it gets a bit time consuming, because it requires more understanding of the code than simply a syntax conversion.</p>
+<h3 id="reactive-members-to-hooks">Reactive Members to Hooks&nbsp;<a class="anchor" href="#reactive-members-to-hooks"><i class="small linkify icon"></i></a> </h3>
+<p>I&rsquo;ve found it easiest to start with picking out the variables and functions that are used for reactivity, because these are the things that will go into one or more <code>useEffect()</code> functions. This includes legacy lifecycle hooks like <code>componentDidMount()</code>, which have been deprecated.</p>
+<p>For a simple example, let&rsquo;s say we have something like this:</p>
+<div class="highlight"><div style="color:#c9c9c9;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#c9c9c9;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-1"> 1</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-2"> 2</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-3"> 3</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-4"> 4</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-5"> 5</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-6"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-6"> 6</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-7"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-7"> 7</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-8"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-8"> 8</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-9"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-9"> 9</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-10"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-10">10</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-11"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-11">11</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-12"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-12">12</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-13"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-13">13</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-14"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-14">14</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-15"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-15">15</a>
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#c9c9c9;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span>componentDidMount<span style="color:#56b6c2">()</span> <span style="color:#56b6c2">{</span>
+</span></span><span style="display:flex;"><span>    widgets <span style="color:#bc74c4">=</span> fetchWidgets<span style="color:#56b6c2">();</span>
+</span></span><span style="display:flex;"><span><span style="color:#56b6c2">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>onSelectedUpdateCountWidgets<span style="color:#56b6c2">(</span>widgets<span style="color:#56b6c2">)</span> <span style="color:#56b6c2">{</span>
+</span></span><span style="display:flex;"><span>    setCounter<span style="color:#56b6c2">(</span>seletectedWidgets<span style="color:#56b6c2">.</span>length<span style="color:#56b6c2">);</span>
+</span></span><span style="display:flex;"><span><span style="color:#56b6c2">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>handleSelectClick<span style="color:#56b6c2">(</span>event<span style="color:#56b6c2">)</span> <span style="color:#56b6c2">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#7fbaf5">if</span><span style="color:#56b6c2">(</span>event<span style="color:#56b6c2">.</span>target<span style="color:#56b6c2">.</span>value <span style="color:#bc74c4">==</span> falise<span style="color:#56b6c2">)</span> <span style="color:#56b6c2">{</span>
+</span></span><span style="display:flex;"><span>        selectedWidgets<span style="color:#56b6c2">.</span>find<span style="color:#56b6c2">(</span>event<span style="color:#56b6c2">.</span>target<span style="color:#56b6c2">).</span>remove<span style="color:#56b6c2">()</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#56b6c2">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    selectedWidgets<span style="color:#56b6c2">.</span>push<span style="color:#56b6c2">(</span>event<span style="color:#56b6c2">.</span>target<span style="color:#56b6c2">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#56b6c2">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>That might become:</p>
+<div class="highlight"><div style="color:#c9c9c9;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#c9c9c9;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-1"> 1</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-2"> 2</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-3"> 3</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-4"> 4</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-5"> 5</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-6"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-6"> 6</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-7"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-7"> 7</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-8"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-8"> 8</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-9"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-9"> 9</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-10"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-10">10</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-11"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-11">11</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-12"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-12">12</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-13"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-13">13</a>
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#c9c9c9;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#7fbaf5">const</span> <span style="color:#56b6c2">[</span>widgets<span style="color:#56b6c2">,</span> setWidgets<span style="color:#56b6c2">]</span> <span style="color:#bc74c4">=</span> useState<span style="color:#56b6c2">({});</span>
+</span></span><span style="display:flex;"><span><span style="color:#7fbaf5">const</span> <span style="color:#56b6c2">[</span>widgetCount<span style="color:#56b6c2">,</span> setWidgetCount<span style="color:#56b6c2">]</span> <span style="color:#bc74c4">=</span> useState<span style="color:#56b6c2">(</span><span style="color:#56b6c2">0</span><span style="color:#56b6c2">);</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#3e4460">// Passing an empty array as the second parameter runs the body on load
+</span></span></span><span style="display:flex;"><span><span style="color:#3e4460">// You don&#39;t want to set them in useState, because that&#39;s run on every repaint
+</span></span></span><span style="display:flex;"><span><span style="color:#3e4460"></span>useEffect<span style="color:#56b6c2">(()</span> <span style="color:#56b6c2">=&gt;</span> <span style="color:#56b6c2">{</span>
+</span></span><span style="display:flex;"><span>    setWidgets <span style="color:#bc74c4">=</span> fetchWidgets<span style="color:#56b6c2">();</span>
+</span></span><span style="display:flex;"><span><span style="color:#56b6c2">},</span> <span style="color:#56b6c2">[]);</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>useEffect<span style="color:#56b6c2">(()</span> <span style="color:#56b6c2">=&gt;</span> <span style="color:#56b6c2">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#7fbaf5">const</span> count <span style="color:#bc74c4">=</span> widgets<span style="color:#56b6c2">.</span>items<span style="color:#56b6c2">().</span>filter<span style="color:#56b6c2">(</span>widget <span style="color:#56b6c2">=&gt;</span> widget<span style="color:#56b6c2">.</span>selected<span style="color:#56b6c2">).</span>length<span style="color:#56b6c2">;</span>
+</span></span><span style="display:flex;"><span>    setWidgetCount<span style="color:#56b6c2">(</span>count<span style="color:#56b6c2">);</span>
+</span></span><span style="display:flex;"><span><span style="color:#56b6c2">},</span> <span style="color:#56b6c2">[</span>widgets<span style="color:#56b6c2">]);</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>How <code>useEffect</code> and some of the other newer hooks work can take a little getting used to, but as you can see, it greatly cleans up the code, overall, thanks both to optimizing some parts of code (which might include updating code to leverage newer language features), and to switching to <code>useEvent()</code> hooks.</p>
+<p>This is a very simple example, so the gains aren&rsquo;t as prominent, but I&rsquo;ve reduced the size of some large components by as much as 60%, almost solely from this step. More importantly, though, is that I&rsquo;ve greatly reduced the <em>complexity</em> of those components.</p>
+<h3 id="functions-to-arrow-function-constants">Functions To Arrow Function Constants&nbsp;<a class="anchor" href="#functions-to-arrow-function-constants"><i class="small linkify icon"></i></a> </h3>
+<p>While there are some cases where the old function syntax is still needed, and this part isn&rsquo;t <em>strictuly</em> necessary, the vast majority of them can be converted to arrow functions.</p>
+<p>So this:</p>
+<div class="highlight"><div style="color:#c9c9c9;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#c9c9c9;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-1">1</a>
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#c9c9c9;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span>foo<span style="color:#56b6c2">()</span> <span style="color:#56b6c2">{}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>becomes:</p>
+<div class="highlight"><div style="color:#c9c9c9;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#c9c9c9;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-1">1</a>
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#c9c9c9;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#7fbaf5">const</span> foo <span style="color:#bc74c4">=</span> <span style="color:#56b6c2">()</span> <span style="color:#56b6c2">=&gt;</span> <span style="color:#56b6c2">{}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Switching the standalone functions to arrow function constants, in my opinion, helps keep function declarations uniform (since anonymous functions used both in the component declaration and in places like hooks are usually written this way), which in turn makes it easier to scan a source file. It also better leverages <code>const</code> versus <code>let</code> context, and gives the functions access to all of a component&rsquo;s variables, without having to pass them (and more crucially, <code>this</code>) around all the time.</p>
+<p>Yeah, yeah, developers coming from languages like Java or Elixir are probably cringing at the above paragraph, but trust me, it&rsquo;s okay. I&rsquo;ll explain more in the next section (and possibly in a lot more detail in another post).</p>
+<h3 id="convert-or-remove-variables-and-properties">Convert or Remove Variables and Properties&nbsp;<a class="anchor" href="#convert-or-remove-variables-and-properties"><i class="small linkify icon"></i></a> </h3>
+<p>Class-based components often use a lot of <code>this</code> and <code>this.props</code> type references when referencing class variables. These are no longer needed, because of how function based components work. The context usually communicated with <code>this</code> is inferred using standard Javascript context blocking, and using arrow functions for function declarations retains the component&rsquo;s context and bindings, eliminating the need to pass <code>this</code> around.</p>
+<p>This conversion takes us from this:</p>
+<div class="highlight"><div style="color:#c9c9c9;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#c9c9c9;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-1">1</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-2">2</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-3">3</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-4">4</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-5">5</a>
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#c9c9c9;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#7fbaf5">class</span> Foo <span style="color:#7fbaf5">extends</span> React<span style="color:#56b6c2">.</span>Component <span style="color:#56b6c2">{</span>
+</span></span><span style="display:flex;"><span>    constructor<span style="color:#56b6c2">(</span>props<span style="color:#56b6c2">)</span> <span style="color:#56b6c2">{</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#7fbaf5">super</span><span style="color:#56b6c2">(</span>props<span style="color:#56b6c2">);</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#56b6c2">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#56b6c2">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>to this:</p>
+<div class="highlight"><div style="color:#c9c9c9;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#c9c9c9;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-1">1</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-2">2</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-3">3</a>
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#c9c9c9;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#7fbaf5">const</span> Foo <span style="color:#bc74c4">=</span> <span style="color:#56b6c2">(</span>props<span style="color:#56b6c2">)</span> <span style="color:#56b6c2">=&gt;</span> <span style="color:#56b6c2">{</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#56b6c2">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Much cleaner, right? In Javascript land, right.</p>
+<p>While we&rsquo;re leveraging modern Javascript techniques, we can even take this a step further, making it easy to have required properties, in addition to ones this component doesn&rsquo;t care about, but a child component might, and do this:</p>
+<div class="highlight"><div style="color:#c9c9c9;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#c9c9c9;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-1">1</a>
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#c9c9c9;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#7fbaf5">const</span> Foo <span style="color:#bc74c4">=</span> <span style="color:#56b6c2">(</span>bar<span style="color:#56b6c2">,</span> baz<span style="color:#56b6c2">,</span> <span style="color:#56b6c2">...</span>props<span style="color:#56b6c2">)</span> <span style="color:#56b6c2">=&gt;</span> <span style="color:#56b6c2">{}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>This allows us to explicitly require the ones this component cares about &ndash; <code>bar</code> and <code>baz</code> &ndash; then dump everything else into <code>props</code>, which we can later pass through to a child component.</p>
+
+  
+  
+    <blockquote class="alert alert-note">
+      <p class="alert-heading">
+        <strong>
+        ℹ️
+        
+          On Prop Drilling
+        
+        </strong>
+      </p>
+      <p>We do have to be mindful that passing through <code>props</code> like this can make it very easy to end up prop drilling &ndash; passing properties through several components to reach a deeply nested component, where the prop is actually needed. While it&rsquo;s recommended to avoid any prop drilling in theory, in practice the alternatives can sometimes be more complex or harder to understand than simply drilling through one parent for a given use-case, especially if the &ldquo;best&rdquo; alternative isn&rsquo;t yet implemented in the project (I&rsquo;m looking at you, Context API). Alternatively, some temporary prop drilling might be an intermediary step when converting from legacy to modern syntax.</p>
+<p>In short, just use your brain about it.</p>
+
+    </blockquote>
+  <h2 id="split-out-other-components">Split Out Other Components&nbsp;<a class="anchor" href="#split-out-other-components"><i class="small linkify icon"></i></a> </h2>
+<p>I can&rsquo;t tell you the number of times I&rsquo;ve found a component in a legacy database that was housing <em>at least</em> one other component, if not two or three, and in some rare occasions, as many as half a dozen (and in a lot of cases, it&rsquo;s reusable components like dialog boxes). Even though the result is necessarily more files, the resulting components are usually so much simpler that it&rsquo;s more than worth the extra bit of mental overhead of having multiple files open. This is another place where I often greatly reduce the file size of any given component.</p>
+<p>As a general rule of thumb, any time you see something like this (for anything but the most basic snippets):</p>
+<div class="highlight"><div style="color:#c9c9c9;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#c9c9c9;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-11-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-11-1">1</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-11-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-11-2">2</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-11-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-11-3">3</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-11-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-11-4">4</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-11-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-11-5">5</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-11-6"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-11-6">6</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-11-7"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-11-7">7</a>
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#c9c9c9;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span>templateBlock<span style="color:#56b6c2">()</span> <span style="color:#56b6c2">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#7fbaf5">return</span> <span style="color:#56b6c2">(</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#bc74c4">&lt;</span>div<span style="color:#bc74c4">&gt;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#bc74c4">&lt;</span>p<span style="color:#bc74c4">&gt;</span>Some stuff<span style="color:#bc74c4">&lt;</span><span style="color:#cf5967">/p&gt;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#bc74c4">&lt;</span><span style="color:#cf5967">/div&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#56b6c2">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#56b6c2">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>you can usually extract it out. Don&rsquo;t forget to pass in whatever properties you need, and take the members that actually belong to this new child component.</p>
+<h3 id="leverage-usestate-and-properties">Leverage useState and Properties&nbsp;<a class="anchor" href="#leverage-usestate-and-properties"><i class="small linkify icon"></i></a> </h3>
+<p>Is your code scattered with a bunch of <code>onChange</code> style event handlers that really only detect if a child component has changed in some way? Well, now you can clean that up, too, with the help of <code>useState</code>.</p>
+<p>One of the cool things about React is that you can pass the state setter function to the child components. This allows them to handle their own change logic. So you go from something like this:</p>
+<div class="highlight"><div style="color:#c9c9c9;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#c9c9c9;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-12-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-12-1"> 1</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-12-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-12-2"> 2</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-12-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-12-3"> 3</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-12-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-12-4"> 4</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-12-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-12-5"> 5</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-12-6"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-12-6"> 6</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-12-7"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-12-7"> 7</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-12-8"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-12-8"> 8</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-12-9"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-12-9"> 9</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-12-10"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-12-10">10</a>
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#c9c9c9;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span>onPropOneChange<span style="color:#56b6c2">(</span>data<span style="color:#56b6c2">)</span> <span style="color:#56b6c2">{</span>
+</span></span><span style="display:flex;"><span>    someValue <span style="color:#bc74c4">+=</span> data<span style="color:#56b6c2">;</span>
+</span></span><span style="display:flex;"><span><span style="color:#56b6c2">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>onPropTwoChange<span style="color:#56b6c2">(</span>data<span style="color:#56b6c2">)</span> <span style="color:#56b6c2">{</span>
+</span></span><span style="display:flex;"><span>    someOtherValue <span style="color:#bc74c4">+=</span> data<span style="color:#56b6c2">;</span>
+</span></span><span style="display:flex;"><span><span style="color:#56b6c2">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#bc74c4">&lt;</span>ChildComponent onPropOneChange<span style="color:#bc74c4">=</span><span style="color:#56b6c2">{</span><span style="color:#7fbaf5">this</span><span style="color:#56b6c2">.</span>handlePropOneChange<span style="color:#56b6c2">}</span> onPropTwoChange<span style="color:#bc74c4">=</span><span style="color:#56b6c2">{</span><span style="color:#7fbaf5">this</span><span style="color:#56b6c2">.</span>handlePropTwoChange<span style="color:#56b6c2">}</span> <span style="color:#bc74c4">/&gt;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>to doing something like this:</p>
+<div class="highlight"><div style="color:#c9c9c9;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#c9c9c9;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-13-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-13-1">1</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-13-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-13-2">2</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-13-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-13-3">3</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-13-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-13-4">4</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-13-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-13-5">5</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-13-6"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-13-6">6</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-13-7"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-13-7">7</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-13-8"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-13-8">8</a>
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#c9c9c9;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#7fbaf5">const</span> <span style="color:#56b6c2">[</span>propOne<span style="color:#56b6c2">,</span> setPropOne<span style="color:#56b6c2">]</span> <span style="color:#bc74c4">=</span> useState<span style="color:#56b6c2">(</span><span style="color:#56b6c2">0</span><span style="color:#56b6c2">);</span>
+</span></span><span style="display:flex;"><span><span style="color:#7fbaf5">const</span> <span style="color:#56b6c2">[</span>propTwo<span style="color:#56b6c2">,</span> setPropTwo<span style="color:#56b6c2">]</span> <span style="color:#bc74c4">=</span> useState<span style="color:#56b6c2">(</span><span style="color:#82cc6a">&#39;&#39;</span><span style="color:#56b6c2">);</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#bc74c4">&lt;</span>ChildComponent setPropOne<span style="color:#bc74c4">=</span><span style="color:#56b6c2">{</span>setPropOne<span style="color:#56b6c2">}</span> setPropTwo<span style="color:#bc74c4">=</span><span style="color:#56b6c2">{</span>setPropTwo<span style="color:#56b6c2">}</span> <span style="color:#bc74c4">/&gt;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#3e4460">// Or, if the child needs to know the current state of the prop
+</span></span></span><span style="display:flex;"><span><span style="color:#3e4460"></span>
+</span></span><span style="display:flex;"><span><span style="color:#bc74c4">&lt;</span>ChildComponent propOne<span style="color:#bc74c4">=</span><span style="color:#56b6c2">{</span>propOne<span style="color:#56b6c2">}</span> setPropOne<span style="color:#bc74c4">=</span><span style="color:#56b6c2">{</span>setPropOne<span style="color:#56b6c2">}</span> propTwo<span style="color:#bc74c4">=</span><span style="color:#56b6c2">{</span>propTwo<span style="color:#56b6c2">}</span> setPropTwo<span style="color:#bc74c4">=</span><span style="color:#56b6c2">{</span>setPropTwo<span style="color:#56b6c2">}</span> <span style="color:#bc74c4">/&gt;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>The nice thing about this is that changes made even deep in the component tree, automatically propagate back up to where the state objects are created.</p>
+<h2 id="delete-any-now-defunct-things">Delete Any Now-Defunct Things&nbsp;<a class="anchor" href="#delete-any-now-defunct-things"><i class="small linkify icon"></i></a> </h2>
+<p>By now, you should have converted your entire component, or very nearly so.</p>
+<p>&hellip;But what about all these other functions and variables that are still hanging out?</p>
+<p>Over the course of the conversion, you might end up with orphan functions, or imports that are no longer used, or any number of leftover code. A code editor that changes the color of an unused function, variable, or import name can really come in handy here, because it makes them very easy to see, and thus remove. This brings us back to a simple step &ndash; just delete those things! If you&rsquo;re concerned about &ldquo;losing&rdquo; code you might one day need, do a commit in your version control, before you go through and clean up the orphaned code. That way, you have a commit that is dedicated to code removal that you can go back to in the future. (Hint: you probably won&rsquo;t, to be honest.)</p>
+<h2 id="sit-back-with-a-cold-one">Sit Back With A Cold One&nbsp;<a class="anchor" href="#sit-back-with-a-cold-one"><i class="small linkify icon"></i></a> </h2>
+<p>And&hellip;you&rsquo;re done! Or should be <em>really</em> close to it. There might still be some little quirks that need worked out in the upgrade.</p>
+
+				</article>
+			</section>
+
+			
+			<section class="ui secondary attached segment dream-tags">
+				
+					
+
+
+
+
+	
+		<a class="ui label pink " href="/tags/react" title="react">react</a>
+	
+		<a class="ui label olive " href="/tags/legacy-code" title="legacy code">legacy code</a>
+	
+
+
+				
+			</section>
+
+			
+			
+
+			
+			
+			
+
+			
+			
+		</div>
+	</div>
+
+				</div>
+				<div class="back">
+					
+<nav class="ui top secondary menu bar">
+	<div class="item">
+		<i class="inverted big link bullseye icon dream-flip-toggle" title="About Me"></i>
+	</div>
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+
+	
+	
+	
+	
+
+	
+	
+		
+		
+	
+		
+		
+	
+		
+		
+	
+		
+		
+	
+		
+		
+	
+		
+		
+	
+		
+		
+	
+		
+		
+	
+		
+		
+	
+		
+		
+	
+		
+		
+	
+		
+		
+	
+		
+		
+	
+</nav>
+
+
+
+<div class="ui centered grid about">
+	<div class="sixteen wide mobile fifteen wide tablet twelve wide computer column about">
+        
+            <section class="ui stacked segments">
+                <div class="ui inverted segment">
+                    <article class="twemoji">
+                        <h1 id="about-me">About Me</h1>
+<p>I make stuff.</p>
+<p>My profession is problem solving. My chosen tool by which to do that has been developing software. I&rsquo;ve written shell scripts, maintained systems in .Net, built APIs in PHP, and implemented interfaces with HTML, CSS, and JavaScript. I&rsquo;ve maintained legacy systems and built cutting-edge, life-changing applications, as well as created little tools to support other people in getting their work done.</p>
+<p>Writing software isn&rsquo;t all I do, though. I like to write English words, too, and my writing is about as eclectic as my coding. While my blog started (ages ago) as a &ldquo;tech and work blog,&rdquo; it soon expanded out to other aspects of life, including personal finance and the broader culture. Maybe I&rsquo;ll spin some topics off to their own blogs, eventually.</p>
+<p>Professionally, I&rsquo;ve been a software developer for over a decade, with particular focus in full stack, PHP-based (and more recently, Python-based) web development. I&rsquo;ve also picked up professional teaching over the past year or so. For more details about my experience, <a href="http://resume.shaunagordon.com/">visit my resume</a>.</p>
+<p>Over the past couple of years, I&rsquo;ve embraced what seems to be my fate as an independent consultant and I run my own software development shop, World Tree Limited, through which I provide various development services and plan to release my own software products.</p>
+<p>Culture means a great deal to me, so it should come as no surprise that I hold it above all else when working with organizations and I have a fair number of words to say about the current broader culture here in the US, and they go hand-in-hand. I&rsquo;m a staunch advocate of equitable culture, both inside and outside the (proverbial or literal) office, and I&rsquo;m not afraid to lose &ldquo;opportunities&rdquo; (though I&rsquo;d argue such things are not my kind of opportunities) because of it.</p>
+<p>Maybe that makes me <a href="https://unemployable.com/podcast/intro/">&ldquo;unemployable&rdquo;</a>?</p>
+<p>Or perhaps it&rsquo;s a criticism of conventional workplaces and I&rsquo;ve just been <a href="https://www.gorowe.com/">ahead of the curve</a>?</p>
+<p>&#x1f937;&zwj;&#x2640;&#xfe0f;</p>
+<p>Regardless, it gives my mind the never-ending puzzle of finding better ways of supporting my family.</p>
+
+                    </article>
+                </div>
+            </section>
+        
+            <section class="ui stacked segments">
+                <div class="ui inverted segment">
+                    <article class="twemoji">
+                        <h1 id="buy-me-coffee">Buy Me Coffee</h1>
+<p>(Ways I Make Money From This Site)</p>
+<h2 id="i-hate-ads">I <em>Hate</em> Ads&hellip;</h2>
+<p>I do, with a passion. The first extension I install on any browser is AdBlock. That&rsquo;s how much I hate them. I also hate when blogs write a &ldquo;review&rdquo; or other article for the sole purpose of selling that product. You know the kind I&rsquo;m talking about. They read like a commercial and are full of keywords and buzzwords about the product. I can usually spot them a mile away and they annoy the crap out of me.</p>
+<h2 id="and-paywalls">&hellip;And Paywalls&hellip;</h2>
+<p>I also hate when content is stuck behind a paywall for no good reason. The primary purpose of my blog is to share my knowledge with my audience. While I have no problem with the &ldquo;freemium&rdquo; (or even just premium) model for applications, I&rsquo;m not keen on them for article-based sites &ndash; at least not for mine. I think information is best shared freely, especially when it comes to some of the topics I cover.</p>
+<h2 id="but-running-blogs-cost-resources">&hellip;But Running Blogs Cost Resources</h2>
+<p>It does, however, take time, money, brainpower, equipment, etc. (ie - resources) to write my posts and maintain this and my other sites. The holy grail of arguably any hobby is for it to pay for itself. Now, obviously, brainpower (mental energy) isn&rsquo;t a currency society can deal in (how cool would that be, though? And I&rsquo;m still waiting for the tech that would allow me to just download my stream of consciousness to my computer), but hosting and keeping my domain name do require monetary resources. As a result, I offer (and may, in the future offer more) various ways to help defray these costs.</p>
+<h2 id="how-i-make-money">How I Make Money</h2>
+<p>Since I don&rsquo;t do ads, and I don&rsquo;t do paywalls, I need to implement other avenues from which to bring in money. Those methods are detailed below.</p>
+<p>All methods are completely optional and you are under no obligation to use any of them or give me anything. The hope, though, is that the content of my site (or maybe some other interaction you&rsquo;ve had with me) has provided you with such value that you <em>want</em> to give back somehow, and in those situations, I want to make it easy for you to do so.</p>
+<p>Oh, and <strong>10% of my income goes to a charity or project each month.</strong> More about that later.</p>
+<h3 id="donations">Donations</h3>
+<p>An easy way to give back is simply giving money. You&rsquo;re free to donate whatever amount you wish. You can do that via <a href="https://ko-fi.com/shaunagordon">my Ko-fi page</a> for one-time payments, or via <a href="https://liberapay.com/Dreamwalker-Collective/">my Liberapay</a> page for recurring payments.</p>
+<p>Alternatively, you can <a href="https://github.com/sponsors/ShaunaGordon">sponsor me through Github</a>, either one-time or on a recurring basis.</p>
+<h3 id="selling-my-own-things-directly">Selling My Own Things, Directly</h3>
+<p>I sell some of my own things, as well, since I have a couple other hobbies. The funds from those things help pay for my sites, as well (as well as meatspace supplies as needed).</p>
+<ul>
+<li><a href="https://leanpub.com/u/ShaunaGordon">Leanpub</a></li>
+</ul>
+<p><strong>(And Indirectly)</strong></p>
+<p>I&rsquo;m also a gamer and like to tinker with <em>World of Warcraft</em> addons, in particular, but I technically can&rsquo;t make money from them directly (ie - I can&rsquo;t sell them), hence the name on the Liberapay account. <a href="https://dreamwalker-collective.github.io/">You can find those projects here.</a></p>
+<h2 id="giving-back">Giving Back</h2>
+<p>As I mentioned previously, 10% of my income is donated each month.</p>
+<p>To whom I choose to donate in a given month is somewhat random (it&rsquo;s who I decide to donate to that month), and whether it&rsquo;s an official non-profit organization isn&rsquo;t of particular concern, because I&rsquo;m not doing it for the tax write-off. Instead, I do it for the sake of giving back. I work with a lot of open source software, and am part of a number of communities that would benefit from a little financial backing. So, I do what I can to show my thanks and help support them.</p>
+<p>What projects/organizations do I donate to? Here are a few:</p>
+<ul>
+<li>GIMP (GNU Image Manipulation Program)</li>
+<li>Apache Foundation</li>
+<li>Ansible</li>
+<li>Vagrant</li>
+<li>American Foundation for Suicide Prevention</li>
+<li>Trevor Project</li>
+<li>SAGE</li>
+<li>Autism Self Advocacy Network</li>
+<li>GoFundMe campaigns (usually for someone facing a hardship)</li>
+<li>PCOS Foundation</li>
+<li>Do Yoga With Me</li>
+<li>Octoprint</li>
+<li>Kickstarter projects, including:
+<ul>
+<li><a href="https://www.kickstarter.com/projects/1035100786/truenorth-php-woolly-mammoth-plush-toy">True North PHP</a></li>
+<li><a href="https://www.kickstarter.com/projects/2022042435/bula-batiki-coconut-oil-non-profit-from-the-fiji-i">The community of Bula Batiki, Fiji</a>, who are building sustainable income through the export of coconut oil</li>
+<li><a href="https://www.kickstarter.com/projects/1593368264/blessed-designs-ethically-made-t-shirts">Blessed Designs</a>, a trio of women of color starting a sustainably- and ethically-made (and comfy!) clothing company</li>
+<li><a href="https://www.kickstarter.com/projects/ankacoop/empowering-syrian-refugees-with-handcrafted-heirlo">Anka Cooperative</a>, empowering Syrian refugees by employing and training them to make hand-woven rugs</li>
+<li><a href="https://www.kickstarter.com/projects/radian/the-perfect-everyday-jeans">Radian Jeans</a>, because pockets!</li>
+</ul>
+</li>
+<li>&hellip;and many others</li>
+</ul>
+<p>So, by helping me fund my projects, you&rsquo;ll also be helping me fund many other projects. :)</p>
+
+                    </article>
+                </div>
+            </section>
+        
+            <section class="ui stacked segments">
+                <div class="ui inverted segment">
+                    <article class="twemoji">
+                        <h1 id="hiring-me">Hiring Me</h1>
+<p>Looking to work with me? Cool! Let&rsquo;s start with the type of relationship.</p>
+<h2 id="what-type">What Type?</h2>
+<h3 id="conventional-employment">Conventional Employment</h3>
+<p>So you read through that &#x261d;&#xfe0f; and still want to hire me as a conventional employee? Well&hellip;it didn&rsquo;t scare you away, so that&rsquo;s a start.</p>
+<p>For my sake and yours, I have a high bar for conventional employment in particular. Let&rsquo;s put it this way: I&rsquo;ve turned down Amazon roughly half a dozen times at this point.</p>
+<p>So, you&rsquo;ll want to start by reading the posts in <a href="/tags/culture/">the &ldquo;culture&rdquo; tag</a>. Ideally, you&rsquo;ll want to read most of my blog, though the <a href="/categories/business/">business category</a> might be most relevant to you (ostensibly a recruiter or businessperson of some sort).</p>
+<p>I also expect to get paid what I&rsquo;m worth. Don&rsquo;t bother sending me leads unless the base compensation is six figures.</p>
+<p>Oh, and location-independent. I&rsquo;m not interested in relocating (so please don&rsquo;t ask), and while I don&rsquo;t mind going into the office periodically (after this whole Covid thing gets worked out; and what &ldquo;periodically&rdquo; means will depend on where &ldquo;the office&rdquo; is), I do best working where I&rsquo;m most productive.</p>
+<p>I also have this snazzy office of my own, and I&rsquo;d hate for it to go to waste. &#x1f609;</p>
+<h3 id="independent-consulting">Independent Consulting</h3>
+<p>You&rsquo;ve got some work that needs done, but don&rsquo;t need a full time employee for it? Awesome! Let&rsquo;s see if we&rsquo;re a fit!</p>
+<p>First of all, let me make it clear: <strong>I run a business,</strong> I am <em>not</em> a &ldquo;contractor,&rdquo; especially when that means &ldquo;employee in all but name&rdquo; (aka &ldquo;defacto employee,&rdquo; which is questionably legal, by the way). The relationship is a business-to-business one. I may be one person, but the arrangement is like that of an agency. I control my time, location, and equipment (though I am flexible on where code lives for compliance purposes and whatnot, and of course meetings are part of the relationship).</p>
+<p>Still with me? Cool. Let&rsquo;s talk business.</p>
+<p>Because I generally do large projects where scopes are subject to changing, I typically bill by the hour. The logistics are flexible, though, and I generally do one of two ways:</p>
+<ul>
+<li>Purchase set number of hours &ndash; this is useful for knocking out a backlog or other shorter-term situation</li>
+<li>A time-boxed contract without set hours &ndash; this is typically the best for large projects where either I supply the team or I&rsquo;m embedded in your team</li>
+</ul>
+<p>Both contracts are renewable/extendable (subject to availability), because expectations inevitably change over time, and pricing is determined by the services required and the nature of the relationship.</p>
+<p>I&rsquo;m also open to the &ldquo;purchase hours&rdquo; part on a retainer basis.</p>
+<h2 id="still-works-for-you-lets-talk">Still Works For You? Let&rsquo;s Talk</h2>
+<p>The best way to get in touch is via one of the communication options at the top of the page.</p>
+<p>To save us both time, please be sure to include the important information about the work you need &ndash; things like tech stack, scope of work, and timeline requirements are super helpful in gauging whether we&rsquo;ll be a technical fit.</p>
+<p>For conventional employement, please include pay range and benefit information.</p>
+<p>In all cases, down-in-the-weeds details aren&rsquo;t required, just that 10,000-foot view will be sufficient to start.</p>
+<p>I look forward to hearing from you!</p>
+<p>&#x1f44b;</p>
+
+                    </article>
+                </div>
+            </section>
+        
+	</div>
+</div>
+
+				</div>
+			</div>
+		</div>
+		
+	
+	
+
+		
+<script>
+	const lastmod ="2024-09-08T00:00:00Z"</script>
+
+
+<script src="/js/site.js"></script>
+
+
+
+	<script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+
+
+
+	
+
+<search id="fastSearch" class="glass">
+  <input id="searchInput" tabindex="0" type="search" aria-label="Site search" placeholder="Search the site...">
+  <ul id="searchResults">
+  </ul>
+</search>
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.basic.min.js"></script>
+<script src="/js/fastsearch.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<script data-goatcounter='https://gordondev.goatcounter.com/count'
+        async src="//gc.zgo.at/count.js"></script>
+
+
+		
+
+	<script>
+		(function () {
+		  console.log("Twemoji up and making stuff colourful!");
+		  for (var b = document.getElementsByClassName("twemoji"), a = 0; a < b.length; a++) {
+			twemoji.parse(b[a]);
+		  }
+		})();
+	</script>
+
+
+	</body>
+</html>

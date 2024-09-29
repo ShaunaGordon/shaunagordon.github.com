@@ -6,7 +6,7 @@
     <description>Recent content on I Make Things</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 May 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Sep 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://shaunagordon.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
@@ -28,6 +28,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://shaunagordon.com/about/hire-me/</guid>
       <description>&lt;h1 id=&#34;hiring-me&#34;&gt;Hiring Me&lt;/h1&gt;&#xA;&lt;p&gt;Looking to work with me? Cool! Let&amp;rsquo;s start with the type of relationship.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-type&#34;&gt;What Type?&lt;/h2&gt;&#xA;&lt;h3 id=&#34;conventional-employment&#34;&gt;Conventional Employment&lt;/h3&gt;&#xA;&lt;p&gt;So you read through that &amp;#x261d;&amp;#xfe0f; and still want to hire me as a conventional employee? Well&amp;hellip;it didn&amp;rsquo;t scare you away, so that&amp;rsquo;s a start.&lt;/p&gt;&#xA;&lt;p&gt;For my sake and yours, I have a high bar for conventional employment in particular. Let&amp;rsquo;s put it this way: I&amp;rsquo;ve turned down Amazon roughly half a dozen times at this point.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Adventures in Modernizing React</title>
+      <link>http://shaunagordon.com/2024/09/08/adventures-in-modernizing-react/</link>
+      <pubDate>Sun, 08 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://shaunagordon.com/2024/09/08/adventures-in-modernizing-react/</guid>
+      <description>&lt;p&gt;I spent the better part of my first year at Custom Ink upgrading an Electron and React application. That was an adventure unto itself, let me tell you. It also resulted in a list of &amp;ldquo;things I need to do when my priority isn&amp;rsquo;t just get this thing working again to unblock the other team.&amp;rdquo; Among that list was updating the code to modern standards &amp;ndash; something I got to make a bunch of headway on in the second half of my second year.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Open 3D Engine</title>
@@ -153,7 +160,7 @@
       <link>http://shaunagordon.com/2017/08/24/shopify-hmac-verification/</link>
       <pubDate>Thu, 24 Aug 2017 01:30:00 -0500</pubDate>
       <guid>http://shaunagordon.com/2017/08/24/shopify-hmac-verification/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;[!IMPORTANT]&#xA;If the date doesn&amp;rsquo;t make it evident, this is an old post. In the intervening years, Shopify has made a lot of changes, including a recent heavy overhaul. I&amp;rsquo;m leaving this up for posterity, but I don&amp;rsquo;t know or guarantee that it still works in light of those changes.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;I get the pleasure of writing integration after integration to Shopify at my day job. As a result, I have become quite familiar with their documentation and its gaps. The HMAC verification piece of the OAuth/embedded app installation process is a particularly glaring gap. So let&amp;rsquo;s close it.&lt;/p&gt;</description>
+      <description>&lt;blockquote class=&#34;alert alert-important&#34;&gt;&#xA;      &lt;p class=&#34;alert-heading&#34;&gt;&#xA;        &lt;strong&gt;&#xA;        ℹ️&#xA;        &#xA;          Important&#xA;        &#xA;        &lt;/strong&gt;&#xA;      &lt;/p&gt;&#xA;      &lt;p&gt;If the date doesn&amp;rsquo;t make it evident, this is an old post. In the intervening years, Shopify has made a lot of changes, including a recent heavy overhaul. I&amp;rsquo;m leaving this up for posterity, but I don&amp;rsquo;t know or guarantee that it still works in light of those changes.&lt;/p&gt;&#xA;&#xA;    &lt;/blockquote&gt;&#xA;  &lt;p&gt;I get the pleasure of writing integration after integration to Shopify at my day job. As a result, I have become quite familiar with their documentation and its gaps. The HMAC verification piece of the OAuth/embedded app installation process is a particularly glaring gap. So let&amp;rsquo;s close it.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Personal Finance, Part 3</title>
@@ -230,7 +237,7 @@
       <link>http://shaunagordon.com/2015/06/08/an-exchange-with-amazon-on-workplace-culture/</link>
       <pubDate>Mon, 08 Jun 2015 00:00:00 +0000</pubDate>
       <guid>http://shaunagordon.com/2015/06/08/an-exchange-with-amazon-on-workplace-culture/</guid>
-      <description>&lt;p&gt;A couple of months ago, I got an invitation to an Amazon recruiting event:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Hi Shauna-&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;I came across your information in our system and your background is impressive! We are currently looking to hire Sr. Software Development Engineers (SDEs) to join the Amazon Retail team and are hosting an “Invitation Only” recruiting event for the Amazon Media and International Expansion (ISE) organizations specifically the week of February 16th.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;If you’re interested in being considered for this opportunity, please reply with your updated resume to [Recruiter&amp;rsquo;s email] if you’d like to be considered. Once we receive your response, we will evaluate your candidacy for consideration for the event.&lt;/p&gt;</description>
+      <description>&lt;p&gt;A couple of months ago, I got an invitation to an Amazon recruiting event:&lt;/p&gt;&#xA;&#xA;  &#xA;  &#xA;    &lt;blockquote&gt;&#xA;      &lt;p&gt;Hi Shauna-&lt;/p&gt;&#xA;&#xA;    &lt;/blockquote&gt;&#xA;  &#xA;  &#xA;  &#xA;    &lt;blockquote&gt;&#xA;      &lt;p&gt;I came across your information in our system and your background is impressive! We are currently looking to hire Sr. Software Development Engineers (SDEs) to join the Amazon Retail team and are hosting an “Invitation Only” recruiting event for the Amazon Media and International Expansion (ISE) organizations specifically the week of February 16th.&lt;/p&gt;&#xA;&#xA;    &lt;/blockquote&gt;&#xA;  &#xA;  &#xA;  &#xA;    &lt;blockquote&gt;&#xA;      &lt;p&gt;If you’re interested in being considered for this opportunity, please reply with your updated resume to [Recruiter&amp;rsquo;s email] if you’d like to be considered. Once we receive your response, we will evaluate your candidacy for consideration for the event.&lt;/p&gt;</description>
     </item>
     <item>
       <title>In Defense Of Remote Friendly Work Environments</title>
