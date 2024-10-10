@@ -1,7 +1,7 @@
 ---
 title: "Adventures in Modernizing React"
 description: "Something, something, new paradigms"
-date: 2024-09-08
+date: 2024-09-28
 categories: [tech]
 tags: [react, legacy code]
 ---
