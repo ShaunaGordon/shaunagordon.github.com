@@ -3,7 +3,7 @@ title: "Companies are not family"
 description: "But they can be teams"
 date: 2024-01-27
 categories: [business]
-tags: [culture, civil rights]
+tags: [culture, civil-rights]
 ---
 
 "We're a family here!"

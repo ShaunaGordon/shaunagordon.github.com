@@ -4,7 +4,7 @@ subtitle: "Exploring and Codifying Guiding Principles"
 description: "I see core values communicated most often at the organization level, but I believe we have them at a personal level, too. We just don't (usually) codify them."
 date: 2018-03-08T19:00:00-05:00
 categories: [personal development]
-tags: [culture, personal growth]
+tags: [culture, personal-growth]
 aliases:
 - "/blog/2018/03/08/personal-core-values"
 ---

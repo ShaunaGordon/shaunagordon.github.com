@@ -2,7 +2,7 @@
 title: "You're Not Alone"
 date: 2014-08-19
 categories: [business]
-tags: [community contribution, HackTheStigma]
+tags: [community-contribution, hack-the-stigma]
 slug: youre-not-alone
 ---
 

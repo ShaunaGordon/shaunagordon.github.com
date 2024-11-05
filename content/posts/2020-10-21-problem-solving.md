@@ -4,7 +4,7 @@ subtitle: "(And Effectively Asking For Help)"
 description: "With ducks!"
 date: 2020-10-21
 categories: [teaching, tech]
-tags: ["personal growth", tips]
+tags: [personal-growth, tips]
 ---
 
 The most important skill in tech isn't the technology. It's problem-solving. Whether you get into cyber security, system administration, or programming, the heart of all of it is really the ability to take a problem, break it apart, and work out a solution -- very often coming up with solutions that didn't previously exist at all. Even on the more everyday scale, you'll be constantly faced with error messages, odd software behavior, broken tests, and more that you'll be expected to triage and if not fix yourself, hand off detailed information about the problem to those who can fix it.

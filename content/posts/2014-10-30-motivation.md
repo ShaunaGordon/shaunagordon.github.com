@@ -3,7 +3,7 @@ title: "Ways To Keep Going"
 subtitle: "When You're Going Through Hell"
 date: 2014-10-30
 category: tech
-tags: ["community contribution", "mental health", HackTheStigma]
+tags: [community-contribution, mental-health, hack-the-stigma]
 slug: motivation
 ---
 

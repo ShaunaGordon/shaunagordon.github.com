@@ -3,7 +3,7 @@ title: "On Rejection and Mental Health"
 description: "Rejection Sensitive Dysphoria. Yeah, it's a thing."
 date: 2020-09-04
 categories: [community]
-tags: ["community contribution", "mental health", HackTheStigma]
+tags: [community-contribution, mental-health, hack-the-stigma]
 ---
 
 I was turned down for a job today.

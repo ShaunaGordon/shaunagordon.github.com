@@ -4,7 +4,7 @@ description: "Or...two years, I guess"
 date: 2024-01-02
 series: "financial independence"
 categories: [finance]
-tags: [debt, "community contribution", "mental health", HackTheStigma, "personal growth"]
+tags: [debt, community-contribution, mental-health, hack-the-stigma, personal-growth]
 ---
 
 _Looks at dates on blog posts._ Oh...other than my Google Sheets thing, it's been...almost three years since I last posted...

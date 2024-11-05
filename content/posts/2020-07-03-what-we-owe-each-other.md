@@ -5,7 +5,7 @@ description: "Little changes really can have a big impact, and we really don't h
 date: 2020-07-02
 categories: [community, tech]
 tags: [diversity, culture, civil rights]
-series: ["Black Lives Matter"]
+series: [black-lives-matter]
 ---
 
 

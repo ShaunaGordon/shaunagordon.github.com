@@ -3,7 +3,7 @@ title: A Week Of Shipt
 subtitle: (What It's Like To Be A Shiptster)
 date: 2016-01-13
 categories: [business]
-tags: ["something different", shipt]
+tags: [something-different, shipt]
 aliases:
 - "/blog/2016/01/13/a-week-of-shipt"
 ---

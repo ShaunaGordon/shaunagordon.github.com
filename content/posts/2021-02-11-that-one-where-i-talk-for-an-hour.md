@@ -3,7 +3,7 @@ title: "That One Where I Talk For An Hour"
 description: "...I can't believe I actually did it..."
 date: 2021-02-11
 categories: [community, tech]
-tags: [community contribution, events]
+tags: [community-contribution, events]
 ---
 
 Holy shit, I *actually* just did a talk..."in front of" a few hundred people...for over an hour... :scream:

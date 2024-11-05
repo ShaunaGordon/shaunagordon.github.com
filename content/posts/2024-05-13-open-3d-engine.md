@@ -3,7 +3,7 @@ title: "Open 3D Engine"
 description: "First Impressions, Thoughts, and Diving Into The Deep End"
 date: 2024-05-13
 categories: [tech]
-tags: [o3de, dev dive, gaming, game dev]
+tags: [o3de, dev-dive, gaming, game-dev]
 series: "Open 3D Engine"
 ---
 

@@ -3,7 +3,7 @@ title: "Adventures in Modernizing React"
 description: "Something, something, new paradigms"
 date: 2024-09-28
 categories: [tech]
-tags: [react, legacy code]
+tags: [react, legacy-code, javascript]
 ---
 
 I spent the better part of my first year at Custom Ink upgrading an Electron and React application. That was an adventure unto itself, let me tell you. It also resulted in a list of "things I need to do when my priority isn't just get this thing working again to unblock the other team." Among that list was updating the code to modern standards -- something I got to make a bunch of headway on in the second half of my second year.
