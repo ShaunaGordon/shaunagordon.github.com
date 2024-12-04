@@ -24,6 +24,7 @@ enableEmoji=true
   enableToc = true
   enableTags = true
 	enableCategories = true
+  math = true
   goatcounter = "gordondev"
 
   [params.author]
@@ -70,6 +71,12 @@ enableEmoji=true
     [markup.goldmark.parser]
       [markup.goldmark.parser.attribute]
         block = true
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
 
   [markup.highlight]
     anchorLineNos = true
