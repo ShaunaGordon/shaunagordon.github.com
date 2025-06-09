@@ -60,7 +60,7 @@ Now that we've done the easy part, the next step is to convert all the functions
 
 ### Reactive Members to Hooks
 
-I've found it easiest to start with picking out the variables and functions that are used for reactivity, because these are the things that will go into one or more `useEffect()` functions. This includes legacy lifecycle hooks like `componentDidMount()`, which have been deprecated.
+I've found it easiest to start with picking out the variables and functions that are used for reactivity, because these are the things that will go into one or more `useEffect()` (or `useMemo` or `useState`, or...) functions. This includes legacy lifecycle hooks like `componentDidMount()`, which have been deprecated.
 
 For a simple example, let's say we have something like this:
 
@@ -88,13 +88,20 @@ That might become:
 const [widgets, setWidgets] = useState({});
 const [widgetCount, setWidgetCount] = useState(0);
 
-// Passing an empty array as the second parameter runs the body on load
-// You don't want to set them in useState, because that's run on every repaint
+// Passing an empty array as the second parameter runs the body on load.
+// You don't want to set them in useState, because that's run on every repaint.
+// Since we're loading external data, this is how it's supposed to be done.
 useEffect(() => {
     setWidgets = fetchWidgets();
 }, []);
 
 useEffect(() => {
+    // This is technically frowned upon, but I found this to misbehave on repaint 
+    // at the time that I did this refactor when doing it the recommended way and 
+    // only worked properly when done this way.
+    // Additionally, when we refactor a legacy system, we might not know where else
+    // "widgets" gets changed. Once we go through and identify those change points,
+    // we can come back and refactor further.
     const count = widgets.items().filter(widget => widget.selected).length;
     setWidgetCount(count);
 }, [widgets]);
@@ -104,9 +111,12 @@ How `useEffect` and some of the other newer hooks work can take a little getting
 
 This is a very simple example, so the gains aren't as prominent, but I've reduced the size of some large components by as much as 60%, almost solely from this step. More importantly, though, is that I've greatly reduced the *complexity* of those components.
 
+> [!important]
+> [The React docs](https://react.dev/learn/you-might-not-need-an-effect) have an in-depth post on when to use `useEffect`, specifically, and when to use other techniques. It's worth the read to gain some understanding. I've found when doing these refactorings, however, that sometimes `useEffect` is needed more often for an interim period to maintain the original behavior (due to how the old lifecycle hooks map to the new structure), until a larger refactor of the underlying behavior as a whole is done. It's definitely a good idea to make note when you find yourself needing `useEffect` in a less than ideal way, so you can revisit it later. Remember - we're not looking for perfection of the gate here, user experience stability reins supreme.
+
 ### Functions To Arrow Function Constants
 
- While there are some cases where the old function syntax is still needed, and this part isn't *strictuly* necessary, the vast majority of them can be converted to arrow functions.
+ While there are some cases where the old function syntax is still needed, and this part isn't *strictly* necessary, the vast majority of them can be converted to arrow functions.
 
  So this:
 
