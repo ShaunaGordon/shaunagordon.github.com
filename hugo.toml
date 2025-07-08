@@ -7,6 +7,8 @@ title = "I Make Things"
 
 enableEmoji=true
 
+disableHugoGeneratorInject = true
+
 [pagination]
   paperSize = 10
 
