@@ -10,7 +10,6 @@ slug: motivation
 When in the throes of a depressive episode (or on the edge of an anxiety attack or any other such motivation killer), it can be hard to maintain motivation and productivity. This can be detrimental when other people rely on you, or when you have a job to hold down.
 
 Over the years, I've found a number of things that have helped keep me motivated through low times, and have decided to share them. Unlike other articles giving advice on "cheering up," the items here may or may not actually lift your mood. That's not the point of them, and anyone who's dealt with depression will tell you that most of the time, things designed to "cheer you up" don't really work. If it does lift your mood, then that's a positive side effect, but as Winston Churchill put it, "when you're going through hell, keep going." These items are intended to do *that* -- help you keep going.
-<!-- more -->
 
 ## Eat...
 

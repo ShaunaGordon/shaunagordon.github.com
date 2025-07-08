@@ -16,7 +16,6 @@ Due to the high volume of contact requests I’ve received, I have decided to wr
 The Greater Columbus Area is home to a very large number of third party recruiting companies. This means **you have a lot of competition**. Competition should mean improved quality. Unfortunately, what I generally see is rather disappointing.
 
 We tech folks are generally a merit-based people. We’ll respect you if we have reason to do so. You can earn that respect by demonstrating that you respect us and what we do (and no, saying that you do doesn’t cut it; show, don’t tell). Here are some ways to do that.
-<!-- more -->
 
 ## Have some fundamental understanding of the technology
 
@@ -118,7 +117,7 @@ I may consider a position that allows it on a regular part time basis. *This doe
 
 ## Results-only work environment
 
-If you don’t know what this is, [here’s some required reading for you](http://www.businessweek.com/stories/2006-12-10/smashing-the-clock), and when you’re done with that [pick up *Why Work Sucks And How To Fix It* and read it](http://www.amazon.com/gp/product/1591842921/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1591842921&linkCode=as2&tag=graywolfweb-20&linkId=PBMFRAJ3BFUSYUQ6) . I’ll wait.
+If you don’t know what this is, [here’s some required reading for you](http://www.businessweek.com/stories/2006-12-10/smashing-the-clock), and when you’re done with that [pick up *Why Work Sucks And How To Fix It* and read it](https://www.penguinrandomhouse.com/books/302027/why-work-sucks-and-how-to-fix-it-by-cali-ressler-and-jody-thompson/) . I’ll wait.
 
 Done with your homework? Good, because this one’s come to be a deal-breaker for me.
 

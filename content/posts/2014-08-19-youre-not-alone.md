@@ -15,7 +15,6 @@ Greg is a developer evangelist (devangelist) for [Twilio](http://www.twilio.com/
 If you ever have the opportunity, attend this man’s talk. Even if you’ve seen the videos of it.
 
 He’s the driving force behind this entry. Until now, I’ve kept my professional image away from my more personal parts. I’ve compartmentalized my identity, basically. Tech and business here, mental and physical health over there, homesteading over there (insert gestures to different directions here). But the truth is, my having Autism and Depression are part of what shapes me as a person and affects my professional life, whether I want them to or not. And just like I have started looking up to Greg as a role model for someone who has seen success with his ADHD and Bipolar out in the open, the others out there need more people to look up to, as well. We all need people to understand us and our differences, so that they can see us as strengths to be embraced, instead of liabilities to be feared. And, as Robin Williams’ death has shown so vividly, we need to be able to talk about these things openly and not be ashamed of them.
-<!-- more -->
 
 ## I Am Autistic
 
