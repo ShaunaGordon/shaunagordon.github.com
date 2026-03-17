@@ -1,3 +1,13 @@
+---
+title: "Spec-Driven Development"
+# subtitle: ""
+description: "Guiding the amnesiac intern"
+date: 2026-03-16
+categories: [tech]
+tags: [ai]
+draft: false
+---
+
 I've recently (well..."recently," as in, three months ago at this point, but whatever) encountered Microsoft/Github's new AI development toolkit, [Spec Kit](https://speckit.org/), and the associated "Spec-Driven Development." When I first read about it, it struck me as very Waterfall-esque. Frankly, it still seems heavily so. I guess that's to be expected of something coming out of an "old guard" software company like Microsoft, really.
 
 *However*, in this age of AI-based workflows, I think it has potential. If we're stuck with these things anyway, might as well make the best of them, right? And something I've noticed, too, is that many of these emerging "best practices" for getting beyond vibe coding toy projects...tend to be the very things many of us have been fighting tooth and nail for, for years, because as it so happens, the things needed to give AI context on something *are the same things needed to give humans context on it.* Who'da thunk it?
