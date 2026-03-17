@@ -2,7 +2,7 @@
 title: "Spec-Driven Development"
 # subtitle: ""
 description: "Guiding the amnesiac intern"
-date: 2026-03-16
+date: 2026-03-17
 categories: [tech]
 tags: [ai]
 ---
