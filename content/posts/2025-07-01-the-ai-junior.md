@@ -5,7 +5,7 @@ description: "Hey bot, come up with a catchy title for me"
 date: 2025-06-29
 categories: [tech]
 tags: [ai]
-draft: false
+draft: true
 ---
 
 As a software engineer, I've basically been forced into the forefront of all this AI stuff, whether I like it or not. Naturally, I've had...uh...[quite a bit to say about it](/tags/ai/) already. Still, regardless of my opinions on the matter, the fact remains that I'm compelled to stay on top of this particular technology. And, to be honest, I do actually *want* to find that magic tool that does the stuff so many others tout it doing. So far, I've been...rather underwhelmed, but the recent addition of {{% abbrev MCP "Model Context Protocol" %}} and so-called "Agentic AI" have finally brought this stuff out of the chat window and into more practical use...in theory. I'm still unimpressed, but I've found, like some [others I've seen,](https://www.eric-fritz.com/articles/my-ai-junior-dev-still-needs-an-adult-in-the-room/) that it works best when I treat it like an amnesiac intern, fresh on the job, now that I've finally nailed down the models that work best for my purposes and goals (for now).
