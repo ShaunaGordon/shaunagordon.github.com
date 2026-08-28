@@ -1,5 +1,5 @@
 baseURL = "http://shaunagordon.com/"
-languageCode = "en-us"
+locale = "en-us"
 title = "I Make Things"
 
 # pygmentsCodeFences = true
@@ -82,7 +82,7 @@ disableHugoGeneratorInject = true
           inline = [['\(', '\)']]
     [markup.goldmark.renderHooks]
       [markup.goldmark.renderHooks.link]
-        enableDefault = true
+        useEmbedded = "fallback"
 
   [markup.highlight]
     anchorLineNos = true
