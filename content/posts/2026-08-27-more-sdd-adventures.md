@@ -4,7 +4,7 @@ title: "More Adventures In Spec-Driven Development"
 description: "Six Months Later"
 date: 2026-08-27
 categories: [tech]
-tags: [ai]
+tags: [ai, sdd]
 ---
 
 It's been six months since I last wrote about my foray into Spec Driven Development, and eight since I started doing a lot of agentic development. I've refined my own workflow. I've tried it on a number of projects. I've even created some tooling to help bootstrap it. I also went ahead and tried Spec Kit again.

@@ -4,7 +4,7 @@ title: "Spec-Driven Development"
 description: "Guiding the amnesiac intern"
 date: 2026-03-17
 categories: [tech]
-tags: [ai]
+tags: [ai, sdd]
 ---
 
 I've recently (well..."recently," as in, three months ago at this point, but whatever) encountered Microsoft/Github's new AI development toolkit, [Spec Kit](https://speckit.org/), and the associated "Spec-Driven Development." When I first read about it, it struck me as very Waterfall-esque. Frankly, it still seems heavily so. I guess that's to be expected of something coming out of an "old guard" software company like Microsoft, really.
