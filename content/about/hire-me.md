@@ -22,7 +22,7 @@ Given that, I'm open to in-office or hybrid arrangements in the other country, w
 
 You've got some work that needs done, but don't need a full time employee for it? Awesome! Let's see if we're a fit!
 
-First of all, let me make it clear: **I am a consultant,** I am _not_ a "contractor," especially when that means "employee in all but name" (aka "defacto employee," which is questionably legal, by the way). The relationship is a business-to-business one. I may be one person, but the arrangement is like that of an agency. I control my time, location, and equipment (though I am flexible on where code lives for compliance purposes and whatnot, and of course meetings are part of the relationship).
+First, let me make it clear: **I am a consultant,** I am _not_ a "contractor," especially when that means "employee in all but name" (aka "de facto employee," which is questionably legal, by the way). The relationship is a business-to-business one. I may be one person, but the arrangement is like that of an agency. I control my time, location, and equipment (though I am flexible on where code lives for compliance purposes and whatnot, and of course meetings are part of the relationship).
 
 Still with me? Cool. Let's talk business.
 
@@ -41,7 +41,7 @@ The best way to get in touch is via one of the communication options at the top 
 
 To save us both time, please be sure to include the important information about the work you need -- things like tech stack, scope of work, and timeline requirements are super helpful in gauging whether we'll be a technical fit.
 
-For conventional employement, please include pay range and benefit information.
+For conventional employment, please include pay range and benefit information.
 
 In all cases, down-in-the-weeds details aren't required, just that 10,000-foot view will be sufficient to start.
 
