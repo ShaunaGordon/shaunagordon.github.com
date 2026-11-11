@@ -10,23 +10,19 @@ Looking to work with me? Cool! Let's start with the type of relationship.
 
 ### Conventional Employment
 
-So you read through that :point_up: and still want to hire me as a conventional employee? Well...it didn't scare you away, so that's a start.
+So you read through that :point_up: and still want to hire me as a conventional employee?
 
-For my sake and yours, I have a high bar for conventional employment in particular. Let's put it this way: I've turned down Amazon roughly half a dozen times at this point.
+You'll want to start by reading the posts in [the "culture" tag](/tags/culture/). Ideally, you'll want to read most of my blog, though the [business category](/categories/business/) might be most relevant to you if you're a busy recruiter.
 
-So, you'll want to start by reading the posts in [the "culture" tag](/tags/culture/). Ideally, you'll want to read most of my blog, though the [business category](/categories/business/) might be most relevant to you (ostensibly a recruiter or businessperson of some sort).
+What about location? I am actively looking to relocate internationally, preferably to New Zealand, but I might consider other places for the right opportunity and with the right conditions (and visa assistance!). My goal is citizenship in another country, so I'm in it for the long haul. I'm not interested in relocating within the US, though. If I'm going to uproot everything, plan to make it count. :wink:
 
-I also expect to get paid what I'm worth. Don't bother sending me leads unless the base compensation is six figures.
-
-Oh, and location-independent. I'm not interested in relocating (so please don't ask), and while I don't mind going into the office periodically (after this whole Covid thing gets worked out; and what "periodically" means will depend on where "the office" is), I do best working where I'm most productive.
-
-I also have this snazzy office of my own, and I'd hate for it to go to waste. :wink:
+Given that, I'm open to in-office or hybrid arrangements in the other country, while I'd prefer fully remote arrangements for any work while I'm still in the US.
 
 ### Independent Consulting
 
 You've got some work that needs done, but don't need a full time employee for it? Awesome! Let's see if we're a fit!
 
-First of all, let me make it clear: **I run a business,** I am _not_ a "contractor," especially when that means "employee in all but name" (aka "defacto employee," which is questionably legal, by the way). The relationship is a business-to-business one. I may be one person, but the arrangement is like that of an agency. I control my time, location, and equipment (though I am flexible on where code lives for compliance purposes and whatnot, and of course meetings are part of the relationship).
+First of all, let me make it clear: **I am a consultant,** I am _not_ a "contractor," especially when that means "employee in all but name" (aka "defacto employee," which is questionably legal, by the way). The relationship is a business-to-business one. I may be one person, but the arrangement is like that of an agency. I control my time, location, and equipment (though I am flexible on where code lives for compliance purposes and whatnot, and of course meetings are part of the relationship).
 
 Still with me? Cool. Let's talk business.
 

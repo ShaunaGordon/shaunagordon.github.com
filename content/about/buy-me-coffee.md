@@ -7,7 +7,7 @@ weight: 2
 
 ## I *Hate* Ads...
 
-I do, with a passion. The first extension I install on any browser is AdBlock. That's how much I hate them. I also hate when blogs write a "review" or other article for the sole purpose of selling that product. You know the kind I'm talking about. They read like a commercial and are full of keywords and buzzwords about the product. I can usually spot them a mile away and they annoy the crap out of me.
+I do, with a passion. The first extension I install on any browser is uBlock Origin. That's how much I hate them. I also hate when blogs write a "review" or other article for the sole purpose of selling that product. You know the kind I'm talking about. They read like a commercial and are full of keywords and buzzwords about the product. I can usually spot them a mile away and they annoy the crap out of me.
 
 ## ...And Paywalls...
 
@@ -15,7 +15,7 @@ I also hate when content is stuck behind a paywall for no good reason. The prima
 
 ## ...But Running Blogs Cost Resources
 
-It does, however, take time, money, brainpower, equipment, etc. (ie - resources) to write my posts and maintain this and my other sites. The holy grail of arguably any hobby is for it to pay for itself. Now, obviously, brainpower (mental energy) isn't a currency society can deal in (how cool would that be, though? And I'm still waiting for the tech that would allow me to just download my stream of consciousness to my computer), but hosting and keeping my domain name do require monetary resources. As a result, I offer (and may, in the future offer more) various ways to help defray these costs.
+It does, however, take time, money, brainpower, equipment, etc. (ie - resources) to write my posts and maintain this and my other sites. I always find it nice when a hobby at least funds itself. Now, obviously, brainpower (mental energy) isn't a currency society can deal in (how cool would that be, though? And I'm still waiting for the tech that would allow me to just download my stream of consciousness to my computer), but hosting and keeping my domain name do require monetary resources. As a result, I offer (and may, in the future offer more) various ways to help defray these costs.
 
 ## How I Make Money
 
@@ -31,15 +31,11 @@ An easy way to give back is simply giving money. You're free to donate whatever 
 
 Alternatively, you can [sponsor me through Github](https://github.com/sponsors/ShaunaGordon), either one-time or on a recurring basis.
 
-### Selling My Own Things, Directly
+### Selling My Own Things
 
 I sell some of my own things, as well, since I have a couple other hobbies. The funds from those things help pay for my sites, as well (as well as meatspace supplies as needed).
 
 * [Leanpub](https://leanpub.com/u/ShaunaGordon)
-
-**(And Indirectly)**
-
-I'm also a gamer and like to tinker with _World of Warcraft_ addons, in particular, but I technically can't make money from them directly (ie - I can't sell them), hence the name on the Liberapay account. [You can find those projects here.](https://dreamwalker-collective.github.io/)
 
 ## Giving Back
 
@@ -49,17 +45,13 @@ To whom I choose to donate in a given month is somewhat random (it's who I decid
 
 What projects/organizations do I donate to? Here are a few:
 
-* GIMP (GNU Image Manipulation Program)
-* Apache Foundation
-* Ansible
-* Vagrant
+* Doctors Without Borders
 * American Foundation for Suicide Prevention
 * Trevor Project
 * SAGE
 * Autism Self Advocacy Network
 * GoFundMe campaigns (usually for someone facing a hardship)
 * PCOS Foundation
-* Do Yoga With Me
 * Octoprint
 * Kickstarter projects, including:
   * [True North PHP](https://www.kickstarter.com/projects/1035100786/truenorth-php-woolly-mammoth-plush-toy)
